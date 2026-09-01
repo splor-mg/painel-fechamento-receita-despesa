@@ -75,8 +75,10 @@ Página única, sem framework, carrega `data.json` via `fetch`.
   soma dos valores absolutos das divergências.
 - **Filtros**: dois campos de seleção (dropdown) dedicados — **UO** e **Fonte**
   — combináveis entre si (ex.: filtrar só por UO, só por Fonte, ou os dois ao
-  mesmo tempo), além de filtro por Órgão (derivado da UO), busca por texto
-  livre, e toggle "mostrar só divergências".
+  mesmo tempo), mais busca por texto livre e um toggle "mostrar só
+  divergências". (Filtro por Órgão fica fora de escopo desta versão: a
+  conferência é 100% baseada em UO, e Órgão só existe na planilha de Despesa,
+  o que deixaria o filtro incompleto para UOs vindas só de Receita/Repasse.)
 - **Tabela principal**, uma linha por UO+Fonte, colunas: UO (código + nome),
   Fonte (código + nome, se disponível), Valor Proposto Ano, Valor Repassado
   (saída), Valor LOA, Valor Recebido (entrada), Diferença, Status (badge
