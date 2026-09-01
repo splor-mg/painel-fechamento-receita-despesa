@@ -73,8 +73,10 @@ Página única, sem framework, carrega `data.json` via `fetch`.
 
 - **KPIs no topo**: nº de combinações UO+Fonte, nº/percentual OK vs Divergente,
   soma dos valores absolutos das divergências.
-- **Filtros**: por Órgão (derivado da UO), por UO, por Fonte, texto livre, e
-  toggle "mostrar só divergências".
+- **Filtros**: dois campos de seleção (dropdown) dedicados — **UO** e **Fonte**
+  — combináveis entre si (ex.: filtrar só por UO, só por Fonte, ou os dois ao
+  mesmo tempo), além de filtro por Órgão (derivado da UO), busca por texto
+  livre, e toggle "mostrar só divergências".
 - **Tabela principal**, uma linha por UO+Fonte, colunas: UO (código + nome),
   Fonte (código + nome, se disponível), Valor Proposto Ano, Valor Repassado
   (saída), Valor LOA, Valor Recebido (entrada), Diferença, Status (badge
