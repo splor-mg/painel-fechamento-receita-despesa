@@ -87,6 +87,16 @@ tbody td {
 
 tbody tr:hover { background: #fafbfc; }
 
+tfoot th, tfoot td {
+  padding: 0.6rem 0.75rem;
+  border-top: 2px solid #cbd2d9;
+  font-size: 0.88rem;
+  font-weight: 700;
+  white-space: nowrap;
+  background: #eef1f4;
+}
+tfoot th { text-align: left; }
+
 .status-badge {
   display: inline-block;
   padding: 0.15rem 0.55rem;

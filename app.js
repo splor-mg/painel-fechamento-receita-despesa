@@ -18,11 +18,18 @@ const els = {
   tabelaVazia: document.getElementById('tabela-vazia'),
   tabela: document.getElementById('tabela-reconciliacao'),
   erro: document.getElementById('erro-carregamento'),
+  totalLoa: document.getElementById('total-loa'),
+  totalEntrada: document.getElementById('total-entrada'),
+  totalDespesa: document.getElementById('total-despesa'),
+  totalSaida: document.getElementById('total-saida'),
+  totalDiferenca: document.getElementById('total-diferenca'),
 };
 
 const formatterBRL = new Intl.NumberFormat('pt-BR', {
   style: 'currency',
   currency: 'BRL',
+  minimumFractionDigits: 0,
+  maximumFractionDigits: 0,
 });
 
 function formatBRL(value) {
@@ -105,6 +112,18 @@ function getSorted(registros) {
   });
 }
 
+function sumBy(registros, key) {
+  return registros.reduce((total, r) => total + Number(r[key]), 0);
+}
+
+function renderTotais(filtrados) {
+  els.totalLoa.textContent = formatBRL(sumBy(filtrados, 'valor_loa'));
+  els.totalEntrada.textContent = formatBRL(sumBy(filtrados, 'valor_repassado_entrada'));
+  els.totalDespesa.textContent = formatBRL(sumBy(filtrados, 'valor_despesa'));
+  els.totalSaida.textContent = formatBRL(sumBy(filtrados, 'valor_repassado_saida'));
+  els.totalDiferenca.textContent = formatBRL(sumBy(filtrados, 'diferenca'));
+}
+
 function renderTabela() {
   const filtrados = getSorted(getFiltered());
   els.tabelaCorpo.innerHTML = '';
@@ -117,6 +136,7 @@ function renderTabela() {
 
   els.tabela.hidden = false;
   els.tabelaVazia.hidden = true;
+  renderTotais(filtrados);
 
   const frag = document.createDocumentFragment();
   for (const r of filtrados) {
