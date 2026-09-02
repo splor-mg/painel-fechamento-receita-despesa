@@ -17,6 +17,7 @@ const els = {
   tabelaCorpo: document.getElementById('tabela-corpo'),
   tabelaVazia: document.getElementById('tabela-vazia'),
   tabela: document.getElementById('tabela-reconciliacao'),
+  erro: document.getElementById('erro-carregamento'),
 };
 
 const formatterBRL = new Intl.NumberFormat('pt-BR', {
@@ -26,6 +27,12 @@ const formatterBRL = new Intl.NumberFormat('pt-BR', {
 
 function formatBRL(value) {
   return formatterBRL.format(Number(value));
+}
+
+function escapeHtml(value) {
+  const div = document.createElement('div');
+  div.textContent = String(value);
+  return div.innerHTML;
 }
 
 function uniqueSorted(values) {
@@ -114,15 +121,18 @@ function renderTabela() {
   const frag = document.createDocumentFragment();
   for (const r of filtrados) {
     const tr = document.createElement('tr');
+    const uoLabel = escapeHtml(r.uo) + (r.nome_uo ? ` - ${escapeHtml(r.nome_uo)}` : '');
+    const fonteLabel = escapeHtml(r.fonte) + (r.nome_fonte ? ` - ${escapeHtml(r.nome_fonte)}` : '');
+    const statusClass = r.status === 'OK' ? 'status-ok' : 'status-divergente';
     tr.innerHTML = `
-      <td>${r.uo}${r.nome_uo ? ` - ${r.nome_uo}` : ''}</td>
-      <td>${r.fonte}${r.nome_fonte ? ` - ${r.nome_fonte}` : ''}</td>
+      <td>${uoLabel}</td>
+      <td>${fonteLabel}</td>
       <td>${formatBRL(r.valor_despesa)}</td>
       <td>${formatBRL(r.valor_repassado_saida)}</td>
       <td>${formatBRL(r.valor_loa)}</td>
       <td>${formatBRL(r.valor_repassado_entrada)}</td>
       <td>${formatBRL(r.diferenca)}</td>
-      <td><span class="status-badge ${r.status === 'OK' ? 'status-ok' : 'status-divergente'}">${r.status}</span></td>
+      <td><span class="status-badge ${statusClass}">${escapeHtml(r.status)}</span></td>
     `;
     frag.appendChild(tr);
   }
@@ -151,13 +161,21 @@ function wireEvents() {
 }
 
 async function init() {
-  const response = await fetch('data.json');
-  const data = await response.json();
-  state.registros = data.registros;
-  renderKpis(data.metadata);
-  populateFiltros(state.registros);
-  wireEvents();
-  renderTabela();
+  try {
+    const response = await fetch('data.json');
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+    const data = await response.json();
+    state.registros = data.registros;
+    renderKpis(data.metadata);
+    populateFiltros(state.registros);
+    wireEvents();
+    renderTabela();
+  } catch (err) {
+    els.erro.textContent = `Não foi possível carregar os dados (data.json): ${err.message}`;
+    els.erro.hidden = false;
+  }
 }
 
 init();
