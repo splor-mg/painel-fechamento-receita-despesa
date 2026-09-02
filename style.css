@@ -12,9 +12,14 @@ header h1 { margin: 0 0 0.25rem; font-size: 1.5rem; }
 .subtitle { margin: 0 0 1.5rem; color: #616e7c; font-size: 0.85rem; }
 
 .tabs {
+  position: sticky;
+  top: 0;
+  z-index: 3;
   display: flex;
   gap: 0.25rem;
-  margin-bottom: 1.5rem;
+  margin: 0 -2rem 1.5rem;
+  padding: 0 2rem;
+  background: #f5f6f8;
   border-bottom: 1px solid #cbd2d9;
 }
 
@@ -98,7 +103,7 @@ tfoot tr:last-child td:last-child { border-bottom-right-radius: 8px; }
 
 thead th {
   position: sticky;
-  top: 0;
+  top: var(--tabs-height, 49px);
   z-index: 1;
   text-align: left;
   background: #eef1f4;

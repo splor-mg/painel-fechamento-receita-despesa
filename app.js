@@ -243,7 +243,17 @@ const intraPatronalController = createTabController({
   },
 });
 
+function updateTabsHeightVar() {
+  const tabsEl = document.querySelector('.tabs');
+  if (tabsEl) {
+    document.documentElement.style.setProperty('--tabs-height', `${tabsEl.offsetHeight}px`);
+  }
+}
+
 function wireTabs() {
+  updateTabsHeightVar();
+  window.addEventListener('resize', updateTabsHeightVar);
+
   const buttons = document.querySelectorAll('.tab-btn');
   buttons.forEach((btn) => {
     btn.addEventListener('click', () => {
