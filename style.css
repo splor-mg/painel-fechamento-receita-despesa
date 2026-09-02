@@ -148,7 +148,10 @@ tfoot th { text-align: left; }
 
 .tabela-vazia { text-align: center; color: #616e7c; padding: 2rem; }
 
-main { overflow-x: auto; overflow-y: visible; }
+/* No overflow set here on purpose: any overflow value other than the
+   default `visible` on an ancestor of the table breaks `position: sticky`
+   on thead th (it stops sticking to the page viewport). Wide tables
+   scroll the whole page horizontally instead. */
 
 .visually-hidden {
   position: absolute;
