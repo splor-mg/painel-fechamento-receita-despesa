@@ -88,12 +88,18 @@ table {
   width: 100%;
   border-collapse: collapse;
   background: #fff;
-  border-radius: 8px;
-  overflow: hidden;
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
+thead tr:first-child th:first-child { border-top-left-radius: 8px; }
+thead tr:first-child th:last-child { border-top-right-radius: 8px; }
+tfoot tr:last-child th:first-child { border-bottom-left-radius: 8px; }
+tfoot tr:last-child td:last-child { border-bottom-right-radius: 8px; }
+
 thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   text-align: left;
   background: #eef1f4;
   padding: 0.6rem 0.75rem;
@@ -103,6 +109,7 @@ thead th {
   color: #616e7c;
   cursor: pointer;
   white-space: nowrap;
+  box-shadow: inset 0 -1px 0 #cbd2d9;
 }
 
 tbody td {
@@ -136,7 +143,7 @@ tfoot th { text-align: left; }
 
 .tabela-vazia { text-align: center; color: #616e7c; padding: 2rem; }
 
-main { overflow-x: auto; }
+main { overflow-x: auto; overflow-y: visible; }
 
 .visually-hidden {
   position: absolute;
