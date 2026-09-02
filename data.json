@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-02T12:24:56.951880+00:00",
+    "gerado_em": "2026-09-02T12:34:20.324004+00:00",
     "total_combinacoes": 414,
     "total_ok": 176,
     "total_divergente": 238,
@@ -17,7 +17,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "2150092085.00",
+      "diferenca": "-2150092085.00",
       "status": "Divergente"
     },
     {
@@ -30,7 +30,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "120000000.00",
+      "diferenca": "-120000000.00",
       "status": "Divergente"
     },
     {
@@ -43,7 +43,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "129510000.00",
+      "diferenca": "-129510000.00",
       "status": "Divergente"
     },
     {
@@ -69,7 +69,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "91058250.00",
+      "diferenca": "-91058250.00",
       "status": "Divergente"
     },
     {
@@ -82,7 +82,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "58781073",
       "valor_repassado_entrada": "0",
-      "diferenca": "-58781073",
+      "diferenca": "58781073",
       "status": "Divergente"
     },
     {
@@ -95,7 +95,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "399038512",
       "valor_repassado_entrada": "0",
-      "diferenca": "-399038512",
+      "diferenca": "399038512",
       "status": "Divergente"
     },
     {
@@ -108,7 +108,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "175249301.00",
+      "diferenca": "-175249301.00",
       "status": "Divergente"
     },
     {
@@ -121,7 +121,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "11045990.00",
+      "diferenca": "-11045990.00",
       "status": "Divergente"
     },
     {
@@ -134,7 +134,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "8800648.00",
+      "diferenca": "-8800648.00",
       "status": "Divergente"
     },
     {
@@ -160,7 +160,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "39834000.00",
+      "diferenca": "-39834000.00",
       "status": "Divergente"
     },
     {
@@ -199,7 +199,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "1724961202.00",
+      "diferenca": "-1724961202.00",
       "status": "Divergente"
     },
     {
@@ -251,7 +251,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "1000.00",
+      "diferenca": "-1000.00",
       "status": "Divergente"
     },
     {
@@ -290,7 +290,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "67913000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-67913000",
+      "diferenca": "67913000",
       "status": "Divergente"
     },
     {
@@ -316,7 +316,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "22054314.00",
+      "diferenca": "-22054314.00",
       "status": "Divergente"
     },
     {
@@ -329,7 +329,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "425161166.00",
+      "diferenca": "-425161166.00",
       "status": "Divergente"
     },
     {
@@ -342,7 +342,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "1629148025.00",
+      "diferenca": "-1629148025.00",
       "status": "Divergente"
     },
     {
@@ -355,7 +355,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "19800000.00",
+      "diferenca": "-19800000.00",
       "status": "Divergente"
     },
     {
@@ -368,7 +368,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "28874808.00",
+      "diferenca": "-28874808.00",
       "status": "Divergente"
     },
     {
@@ -394,7 +394,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "1008000.00",
+      "diferenca": "-1008000.00",
       "status": "Divergente"
     },
     {
@@ -420,7 +420,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "50311061.00",
+      "diferenca": "-50311061.00",
       "status": "Divergente"
     },
     {
@@ -446,7 +446,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "10429362.00",
+      "diferenca": "-10429362.00",
       "status": "Divergente"
     },
     {
@@ -459,7 +459,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "22330731.00",
+      "diferenca": "-22330731.00",
       "status": "Divergente"
     },
     {
@@ -498,7 +498,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "41397147.00",
+      "diferenca": "-41397147.00",
       "status": "Divergente"
     },
     {
@@ -524,7 +524,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "5000000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-1475295.00",
+      "diferenca": "1475295.00",
       "status": "Divergente"
     },
     {
@@ -550,7 +550,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "30209488.00",
+      "diferenca": "-30209488.00",
       "status": "Divergente"
     },
     {
@@ -589,7 +589,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "19060612247.00",
+      "diferenca": "-19060612247.00",
       "status": "Divergente"
     },
     {
@@ -628,7 +628,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "128236192.00",
+      "diferenca": "-128236192.00",
       "status": "Divergente"
     },
     {
@@ -641,7 +641,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "204135476.00",
+      "diferenca": "-204135476.00",
       "status": "Divergente"
     },
     {
@@ -745,7 +745,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "622327137.00",
+      "diferenca": "-622327137.00",
       "status": "Divergente"
     },
     {
@@ -758,7 +758,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "1214845.00",
+      "diferenca": "-1214845.00",
       "status": "Divergente"
     },
     {
@@ -771,7 +771,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "17000000.00",
+      "diferenca": "-17000000.00",
       "status": "Divergente"
     },
     {
@@ -823,7 +823,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "5284708392.00",
+      "diferenca": "-5284708392.00",
       "status": "Divergente"
     },
     {
@@ -849,7 +849,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "123701965.00",
+      "diferenca": "-123701965.00",
       "status": "Divergente"
     },
     {
@@ -875,7 +875,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "13986505550",
       "valor_repassado_entrada": "0",
-      "diferenca": "22429768.00",
+      "diferenca": "-22429768.00",
       "status": "Divergente"
     },
     {
@@ -940,7 +940,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "156857862.00",
+      "diferenca": "-156857862.00",
       "status": "Divergente"
     },
     {
@@ -953,7 +953,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "117707817.00",
+      "diferenca": "-117707817.00",
       "status": "Divergente"
     },
     {
@@ -979,7 +979,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "76300845.00",
+      "diferenca": "-76300845.00",
       "status": "Divergente"
     },
     {
@@ -992,7 +992,7 @@
       "valor_repassado_saida": "130003000",
       "valor_loa": "3000",
       "valor_repassado_entrada": "0",
-      "diferenca": "130000000",
+      "diferenca": "-130000000",
       "status": "Divergente"
     },
     {
@@ -1031,7 +1031,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "290396858.00",
+      "diferenca": "-290396858.00",
       "status": "Divergente"
     },
     {
@@ -1057,7 +1057,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "2728583.00",
+      "diferenca": "-2728583.00",
       "status": "Divergente"
     },
     {
@@ -1070,7 +1070,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "44010672.00",
+      "diferenca": "-44010672.00",
       "status": "Divergente"
     },
     {
@@ -1148,7 +1148,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "549400.00",
+      "diferenca": "-549400.00",
       "status": "Divergente"
     },
     {
@@ -1161,7 +1161,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "23006127.00",
+      "diferenca": "-23006127.00",
       "status": "Divergente"
     },
     {
@@ -1187,7 +1187,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "150051712.00",
+      "diferenca": "-150051712.00",
       "status": "Divergente"
     },
     {
@@ -1200,7 +1200,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "14685491",
       "valor_repassado_entrada": "0",
-      "diferenca": "-11315891.00",
+      "diferenca": "11315891.00",
       "status": "Divergente"
     },
     {
@@ -1213,7 +1213,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "21100000.00",
+      "diferenca": "-21100000.00",
       "status": "Divergente"
     },
     {
@@ -1239,7 +1239,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "1588384.00",
+      "diferenca": "-1588384.00",
       "status": "Divergente"
     },
     {
@@ -1265,7 +1265,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "8591486",
       "valor_repassado_entrada": "0",
-      "diferenca": "2382749184.00",
+      "diferenca": "-2382749184.00",
       "status": "Divergente"
     },
     {
@@ -1304,7 +1304,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "1163508.00",
+      "diferenca": "-1163508.00",
       "status": "Divergente"
     },
     {
@@ -1317,7 +1317,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "11232623.00",
+      "diferenca": "-11232623.00",
       "status": "Divergente"
     },
     {
@@ -1382,7 +1382,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "15138090",
       "valor_repassado_entrada": "0",
-      "diferenca": "-15138090",
+      "diferenca": "15138090",
       "status": "Divergente"
     },
     {
@@ -1408,7 +1408,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "228137430",
       "valor_repassado_entrada": "0",
-      "diferenca": "4159665624.00",
+      "diferenca": "-4159665624.00",
       "status": "Divergente"
     },
     {
@@ -1447,7 +1447,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "1116144456.00",
+      "diferenca": "-1116144456.00",
       "status": "Divergente"
     },
     {
@@ -1460,7 +1460,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "2000",
       "valor_repassado_entrada": "0",
-      "diferenca": "1000000.00",
+      "diferenca": "-1000000.00",
       "status": "Divergente"
     },
     {
@@ -1538,7 +1538,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "597840",
       "valor_repassado_entrada": "0",
-      "diferenca": "-595840.00",
+      "diferenca": "595840.00",
       "status": "Divergente"
     },
     {
@@ -1551,7 +1551,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "63801997.00",
+      "diferenca": "-63801997.00",
       "status": "Divergente"
     },
     {
@@ -1616,7 +1616,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "134702835.00",
+      "diferenca": "-134702835.00",
       "status": "Divergente"
     },
     {
@@ -1629,7 +1629,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "2701181.00",
+      "diferenca": "-2701181.00",
       "status": "Divergente"
     },
     {
@@ -1655,7 +1655,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "112549404.00",
+      "diferenca": "-112549404.00",
       "status": "Divergente"
     },
     {
@@ -1668,7 +1668,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "636393318.00",
+      "diferenca": "-636393318.00",
       "status": "Divergente"
     },
     {
@@ -1681,7 +1681,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "4866720.00",
+      "diferenca": "-4866720.00",
       "status": "Divergente"
     },
     {
@@ -1733,7 +1733,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "8877861.00",
+      "diferenca": "-8877861.00",
       "status": "Divergente"
     },
     {
@@ -1759,7 +1759,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "5733340.00",
+      "diferenca": "-5733340.00",
       "status": "Divergente"
     },
     {
@@ -1772,7 +1772,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "750000.00",
+      "diferenca": "-750000.00",
       "status": "Divergente"
     },
     {
@@ -1798,7 +1798,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "2226391598.00",
+      "diferenca": "-2226391598.00",
       "status": "Divergente"
     },
     {
@@ -1811,7 +1811,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "1421510861.00",
+      "diferenca": "-1421510861.00",
       "status": "Divergente"
     },
     {
@@ -1837,7 +1837,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "19641768",
       "valor_repassado_entrada": "0",
-      "diferenca": "-4213999.00",
+      "diferenca": "4213999.00",
       "status": "Divergente"
     },
     {
@@ -1863,7 +1863,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "21000000.00",
+      "diferenca": "-21000000.00",
       "status": "Divergente"
     },
     {
@@ -1889,7 +1889,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "79693164.00",
+      "diferenca": "-79693164.00",
       "status": "Divergente"
     },
     {
@@ -1915,7 +1915,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "32920516",
       "valor_repassado_entrada": "0",
-      "diferenca": "-464385.00",
+      "diferenca": "464385.00",
       "status": "Divergente"
     },
     {
@@ -1928,7 +1928,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "16604347.00",
+      "diferenca": "-16604347.00",
       "status": "Divergente"
     },
     {
@@ -1941,7 +1941,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "187959958.00",
+      "diferenca": "-187959958.00",
       "status": "Divergente"
     },
     {
@@ -1954,7 +1954,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "2000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2000",
+      "diferenca": "2000",
       "status": "Divergente"
     },
     {
@@ -1967,7 +1967,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "10089156.00",
+      "diferenca": "-10089156.00",
       "status": "Divergente"
     },
     {
@@ -1980,7 +1980,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "987555711.00",
+      "diferenca": "-987555711.00",
       "status": "Divergente"
     },
     {
@@ -1993,7 +1993,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "881718.00",
+      "diferenca": "-881718.00",
       "status": "Divergente"
     },
     {
@@ -2006,7 +2006,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "8000.00",
+      "diferenca": "-8000.00",
       "status": "Divergente"
     },
     {
@@ -2032,7 +2032,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "206271600.00",
+      "diferenca": "-206271600.00",
       "status": "Divergente"
     },
     {
@@ -2058,7 +2058,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "67796414.00",
+      "diferenca": "-67796414.00",
       "status": "Divergente"
     },
     {
@@ -2071,7 +2071,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "21041398.00",
+      "diferenca": "-21041398.00",
       "status": "Divergente"
     },
     {
@@ -2084,7 +2084,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "4009139.00",
+      "diferenca": "-4009139.00",
       "status": "Divergente"
     },
     {
@@ -2097,7 +2097,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "156475428.00",
+      "diferenca": "-156475428.00",
       "status": "Divergente"
     },
     {
@@ -2175,7 +2175,7 @@
       "valor_repassado_saida": "2144582",
       "valor_loa": "18060450",
       "valor_repassado_entrada": "0",
-      "diferenca": "-10298470.00",
+      "diferenca": "10298470.00",
       "status": "Divergente"
     },
     {
@@ -2188,7 +2188,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "79489841.00",
+      "diferenca": "-79489841.00",
       "status": "Divergente"
     },
     {
@@ -2240,7 +2240,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "610390237.00",
+      "diferenca": "-610390237.00",
       "status": "Divergente"
     },
     {
@@ -2279,7 +2279,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "25081000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-25080000.00",
+      "diferenca": "25080000.00",
       "status": "Divergente"
     },
     {
@@ -2331,7 +2331,7 @@
       "valor_repassado_saida": "13650000",
       "valor_loa": "51152000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-27502000.00",
+      "diferenca": "27502000.00",
       "status": "Divergente"
     },
     {
@@ -2344,7 +2344,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "17200000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-17200000",
+      "diferenca": "17200000",
       "status": "Divergente"
     },
     {
@@ -2357,7 +2357,7 @@
       "valor_repassado_saida": "155090",
       "valor_loa": "22794000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2000.00",
+      "diferenca": "2000.00",
       "status": "Divergente"
     },
     {
@@ -2370,7 +2370,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "55069830.00",
+      "diferenca": "-55069830.00",
       "status": "Divergente"
     },
     {
@@ -2383,7 +2383,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "100000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-100000",
+      "diferenca": "100000",
       "status": "Divergente"
     },
     {
@@ -2396,7 +2396,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "1268785",
       "valor_repassado_entrada": "0",
-      "diferenca": "4733215.00",
+      "diferenca": "-4733215.00",
       "status": "Divergente"
     },
     {
@@ -2409,7 +2409,7 @@
       "valor_repassado_saida": "2177178",
       "valor_loa": "24750000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-22572822",
+      "diferenca": "22572822",
       "status": "Divergente"
     },
     {
@@ -2422,7 +2422,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "115202000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-115202000",
+      "diferenca": "115202000",
       "status": "Divergente"
     },
     {
@@ -2435,7 +2435,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "130000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-130000",
+      "diferenca": "130000",
       "status": "Divergente"
     },
     {
@@ -2448,7 +2448,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "4602000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-4602000",
+      "diferenca": "4602000",
       "status": "Divergente"
     },
     {
@@ -2461,7 +2461,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "20151000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-15648223.00",
+      "diferenca": "15648223.00",
       "status": "Divergente"
     },
     {
@@ -2474,7 +2474,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "60506000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-56381000.00",
+      "diferenca": "56381000.00",
       "status": "Divergente"
     },
     {
@@ -2487,7 +2487,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "2900",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2900",
+      "diferenca": "2900",
       "status": "Divergente"
     },
     {
@@ -2500,7 +2500,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "60100",
       "valor_repassado_entrada": "0",
-      "diferenca": "-60100",
+      "diferenca": "60100",
       "status": "Divergente"
     },
     {
@@ -2513,7 +2513,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "76485000.00",
+      "diferenca": "-76485000.00",
       "status": "Divergente"
     },
     {
@@ -2526,7 +2526,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "6100",
       "valor_repassado_entrada": "0",
-      "diferenca": "-6100",
+      "diferenca": "6100",
       "status": "Divergente"
     },
     {
@@ -2539,7 +2539,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "1300000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-1300000",
+      "diferenca": "1300000",
       "status": "Divergente"
     },
     {
@@ -2552,7 +2552,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "102000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-102000",
+      "diferenca": "102000",
       "status": "Divergente"
     },
     {
@@ -2565,7 +2565,7 @@
       "valor_repassado_saida": "3110043",
       "valor_loa": "23601000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-20490957",
+      "diferenca": "20490957",
       "status": "Divergente"
     },
     {
@@ -2591,7 +2591,7 @@
       "valor_repassado_saida": "156420005",
       "valor_loa": "2365081209",
       "valor_repassado_entrada": "0",
-      "diferenca": "-3000.00",
+      "diferenca": "3000.00",
       "status": "Divergente"
     },
     {
@@ -2604,7 +2604,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "1134218661",
       "valor_repassado_entrada": "0",
-      "diferenca": "-3000.00",
+      "diferenca": "3000.00",
       "status": "Divergente"
     },
     {
@@ -2617,7 +2617,7 @@
       "valor_repassado_saida": "1687444",
       "valor_loa": "260157990",
       "valor_repassado_entrada": "0",
-      "diferenca": "-12.00",
+      "diferenca": "12.00",
       "status": "Divergente"
     },
     {
@@ -2630,7 +2630,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "85481056.00",
+      "diferenca": "-85481056.00",
       "status": "Divergente"
     },
     {
@@ -2669,7 +2669,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "2544408.00",
+      "diferenca": "-2544408.00",
       "status": "Divergente"
     },
     {
@@ -2695,7 +2695,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "57525686.00",
+      "diferenca": "-57525686.00",
       "status": "Divergente"
     },
     {
@@ -2734,7 +2734,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "22853966.00",
+      "diferenca": "-22853966.00",
       "status": "Divergente"
     },
     {
@@ -2799,7 +2799,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "11884871.00",
+      "diferenca": "-11884871.00",
       "status": "Divergente"
     },
     {
@@ -2812,7 +2812,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "3800000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-3800000",
+      "diferenca": "3800000",
       "status": "Divergente"
     },
     {
@@ -2825,7 +2825,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "1300000",
       "valor_repassado_entrada": "0",
-      "diferenca": "3371000.00",
+      "diferenca": "-3371000.00",
       "status": "Divergente"
     },
     {
@@ -2864,7 +2864,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "1345000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-1345000",
+      "diferenca": "1345000",
       "status": "Divergente"
     },
     {
@@ -2890,7 +2890,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "48250741.00",
+      "diferenca": "-48250741.00",
       "status": "Divergente"
     },
     {
@@ -2929,7 +2929,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "16100000.00",
+      "diferenca": "-16100000.00",
       "status": "Divergente"
     },
     {
@@ -2942,7 +2942,7 @@
       "valor_repassado_saida": "1774713",
       "valor_loa": "13021000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-11030743.00",
+      "diferenca": "11030743.00",
       "status": "Divergente"
     },
     {
@@ -2955,7 +2955,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "2000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2000",
+      "diferenca": "2000",
       "status": "Divergente"
     },
     {
@@ -2968,7 +2968,7 @@
       "valor_repassado_saida": "4444845",
       "valor_loa": "113067490",
       "valor_repassado_entrada": "0",
-      "diferenca": "-64023713.00",
+      "diferenca": "64023713.00",
       "status": "Divergente"
     },
     {
@@ -2981,7 +2981,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "673588524",
       "valor_repassado_entrada": "0",
-      "diferenca": "-560317377.00",
+      "diferenca": "560317377.00",
       "status": "Divergente"
     },
     {
@@ -2994,7 +2994,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "8111890",
       "valor_repassado_entrada": "0",
-      "diferenca": "-8111890",
+      "diferenca": "8111890",
       "status": "Divergente"
     },
     {
@@ -3007,7 +3007,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "2000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2000",
+      "diferenca": "2000",
       "status": "Divergente"
     },
     {
@@ -3020,7 +3020,7 @@
       "valor_repassado_saida": "34739894",
       "valor_loa": "617296839",
       "valor_repassado_entrada": "0",
-      "diferenca": "-576664961.00",
+      "diferenca": "576664961.00",
       "status": "Divergente"
     },
     {
@@ -3033,7 +3033,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "2578250267",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2516559660.00",
+      "diferenca": "2516559660.00",
       "status": "Divergente"
     },
     {
@@ -3072,7 +3072,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "2000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2000",
+      "diferenca": "2000",
       "status": "Divergente"
     },
     {
@@ -3085,7 +3085,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "1148881",
       "valor_repassado_entrada": "0",
-      "diferenca": "-1148881",
+      "diferenca": "1148881",
       "status": "Divergente"
     },
     {
@@ -3124,7 +3124,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "8295799.00",
+      "diferenca": "-8295799.00",
       "status": "Divergente"
     },
     {
@@ -3150,7 +3150,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "640566680.00",
+      "diferenca": "-640566680.00",
       "status": "Divergente"
     },
     {
@@ -3163,7 +3163,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "10804861.00",
+      "diferenca": "-10804861.00",
       "status": "Divergente"
     },
     {
@@ -3176,7 +3176,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "338397858.00",
+      "diferenca": "-338397858.00",
       "status": "Divergente"
     },
     {
@@ -3189,7 +3189,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "32181539.00",
+      "diferenca": "-32181539.00",
       "status": "Divergente"
     },
     {
@@ -3202,7 +3202,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "1087506889.00",
+      "diferenca": "-1087506889.00",
       "status": "Divergente"
     },
     {
@@ -3215,7 +3215,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "87290065.00",
+      "diferenca": "-87290065.00",
       "status": "Divergente"
     },
     {
@@ -3267,7 +3267,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "136182023.00",
+      "diferenca": "-136182023.00",
       "status": "Divergente"
     },
     {
@@ -3280,7 +3280,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "222817234.00",
+      "diferenca": "-222817234.00",
       "status": "Divergente"
     },
     {
@@ -3319,7 +3319,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "2038",
       "valor_repassado_entrada": "0",
-      "diferenca": "564272978.00",
+      "diferenca": "-564272978.00",
       "status": "Divergente"
     },
     {
@@ -3345,7 +3345,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "2000",
       "valor_repassado_entrada": "0",
-      "diferenca": "1794000.00",
+      "diferenca": "-1794000.00",
       "status": "Divergente"
     },
     {
@@ -3397,7 +3397,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "430144099",
       "valor_repassado_entrada": "0",
-      "diferenca": "1765834.00",
+      "diferenca": "-1765834.00",
       "status": "Divergente"
     },
     {
@@ -3436,7 +3436,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "2000",
       "valor_repassado_entrada": "0",
-      "diferenca": "800000.00",
+      "diferenca": "-800000.00",
       "status": "Divergente"
     },
     {
@@ -3449,7 +3449,7 @@
       "valor_repassado_saida": "31836274",
       "valor_loa": "83873957",
       "valor_repassado_entrada": "0",
-      "diferenca": "-48709266.00",
+      "diferenca": "48709266.00",
       "status": "Divergente"
     },
     {
@@ -3462,7 +3462,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "250000.00",
+      "diferenca": "-250000.00",
       "status": "Divergente"
     },
     {
@@ -3488,7 +3488,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "2380400",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2380400",
+      "diferenca": "2380400",
       "status": "Divergente"
     },
     {
@@ -3501,7 +3501,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "472882664.00",
+      "diferenca": "-472882664.00",
       "status": "Divergente"
     },
     {
@@ -3514,7 +3514,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "2224000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2224000",
+      "diferenca": "2224000",
       "status": "Divergente"
     },
     {
@@ -3527,7 +3527,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "20000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-20000",
+      "diferenca": "20000",
       "status": "Divergente"
     },
     {
@@ -3540,7 +3540,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "10000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-10000",
+      "diferenca": "10000",
       "status": "Divergente"
     },
     {
@@ -3553,7 +3553,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "1331000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-1331000",
+      "diferenca": "1331000",
       "status": "Divergente"
     },
     {
@@ -3566,7 +3566,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "30400",
       "valor_repassado_entrada": "0",
-      "diferenca": "-30400",
+      "diferenca": "30400",
       "status": "Divergente"
     },
     {
@@ -3605,7 +3605,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "243042707.00",
+      "diferenca": "-243042707.00",
       "status": "Divergente"
     },
     {
@@ -3644,7 +3644,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "20802401",
       "valor_repassado_entrada": "0",
-      "diferenca": "-149161.00",
+      "diferenca": "149161.00",
       "status": "Divergente"
     },
     {
@@ -3657,7 +3657,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "8311374.00",
+      "diferenca": "-8311374.00",
       "status": "Divergente"
     },
     {
@@ -3696,7 +3696,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "1000.00",
+      "diferenca": "-1000.00",
       "status": "Divergente"
     },
     {
@@ -3722,7 +3722,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "30144904.00",
+      "diferenca": "-30144904.00",
       "status": "Divergente"
     },
     {
@@ -3735,7 +3735,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "7049710.00",
+      "diferenca": "-7049710.00",
       "status": "Divergente"
     },
     {
@@ -3761,7 +3761,7 @@
       "valor_repassado_saida": "1707737",
       "valor_loa": "68653812",
       "valor_repassado_entrada": "0",
-      "diferenca": "-41429198.00",
+      "diferenca": "41429198.00",
       "status": "Divergente"
     },
     {
@@ -3774,7 +3774,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "5867936.00",
+      "diferenca": "-5867936.00",
       "status": "Divergente"
     },
     {
@@ -3787,7 +3787,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "8000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-8000",
+      "diferenca": "8000",
       "status": "Divergente"
     },
     {
@@ -3800,7 +3800,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "3794482.00",
+      "diferenca": "-3794482.00",
       "status": "Divergente"
     },
     {
@@ -3826,7 +3826,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "42987965.00",
+      "diferenca": "-42987965.00",
       "status": "Divergente"
     },
     {
@@ -3852,7 +3852,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "79420031.00",
+      "diferenca": "-79420031.00",
       "status": "Divergente"
     },
     {
@@ -3865,7 +3865,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "267732675.00",
+      "diferenca": "-267732675.00",
       "status": "Divergente"
     },
     {
@@ -3878,7 +3878,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "31000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-31000",
+      "diferenca": "31000",
       "status": "Divergente"
     },
     {
@@ -3891,7 +3891,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "138647413.00",
+      "diferenca": "-138647413.00",
       "status": "Divergente"
     },
     {
@@ -3917,7 +3917,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "241256573.00",
+      "diferenca": "-241256573.00",
       "status": "Divergente"
     },
     {
@@ -3956,7 +3956,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "64002000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2000.00",
+      "diferenca": "2000.00",
       "status": "Divergente"
     },
     {
@@ -3969,7 +3969,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "110002000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2000.00",
+      "diferenca": "2000.00",
       "status": "Divergente"
     },
     {
@@ -3982,7 +3982,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "189081694.00",
+      "diferenca": "-189081694.00",
       "status": "Divergente"
     },
     {
@@ -4034,7 +4034,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "431315",
       "valor_repassado_entrada": "0",
-      "diferenca": "-287324.00",
+      "diferenca": "287324.00",
       "status": "Divergente"
     },
     {
@@ -4047,7 +4047,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "35576675.00",
+      "diferenca": "-35576675.00",
       "status": "Divergente"
     },
     {
@@ -4060,7 +4060,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "36.00",
+      "diferenca": "-36.00",
       "status": "Divergente"
     },
     {
@@ -4073,7 +4073,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "2500000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-819156.00",
+      "diferenca": "819156.00",
       "status": "Divergente"
     },
     {
@@ -4177,7 +4177,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "41571088",
       "valor_repassado_entrada": "0",
-      "diferenca": "-41571088",
+      "diferenca": "41571088",
       "status": "Divergente"
     },
     {
@@ -4190,7 +4190,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "726000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-723000.00",
+      "diferenca": "723000.00",
       "status": "Divergente"
     },
     {
@@ -4255,7 +4255,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "1000.00",
+      "diferenca": "-1000.00",
       "status": "Divergente"
     },
     {
@@ -4307,7 +4307,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "179139519.00",
+      "diferenca": "-179139519.00",
       "status": "Divergente"
     },
     {
@@ -4320,7 +4320,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "38583449.00",
+      "diferenca": "-38583449.00",
       "status": "Divergente"
     },
     {
@@ -4333,7 +4333,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "35000",
       "valor_repassado_entrada": "0",
-      "diferenca": "12155610474.00",
+      "diferenca": "-12155610474.00",
       "status": "Divergente"
     },
     {
@@ -4346,7 +4346,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "28128988.00",
+      "diferenca": "-28128988.00",
       "status": "Divergente"
     },
     {
@@ -4398,7 +4398,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "42000000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-16000000.00",
+      "diferenca": "16000000.00",
       "status": "Divergente"
     },
     {
@@ -4424,7 +4424,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "901000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-499000.00",
+      "diferenca": "499000.00",
       "status": "Divergente"
     },
     {
@@ -4463,7 +4463,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "75291774.00",
+      "diferenca": "-75291774.00",
       "status": "Divergente"
     },
     {
@@ -4476,7 +4476,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "14317500.00",
+      "diferenca": "-14317500.00",
       "status": "Divergente"
     },
     {
@@ -4528,7 +4528,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "1000.00",
+      "diferenca": "-1000.00",
       "status": "Divergente"
     },
     {
@@ -4541,7 +4541,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "1568459.00",
+      "diferenca": "-1568459.00",
       "status": "Divergente"
     },
     {
@@ -4554,7 +4554,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "3914680",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2346221.00",
+      "diferenca": "2346221.00",
       "status": "Divergente"
     },
     {
@@ -4567,7 +4567,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "42829904.00",
+      "diferenca": "-42829904.00",
       "status": "Divergente"
     },
     {
@@ -4580,7 +4580,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "253551",
       "valor_repassado_entrada": "0",
-      "diferenca": "-253551",
+      "diferenca": "253551",
       "status": "Divergente"
     },
     {
@@ -4593,7 +4593,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "6535553",
       "valor_repassado_entrada": "0",
-      "diferenca": "-113.00",
+      "diferenca": "113.00",
       "status": "Divergente"
     },
     {
@@ -4606,7 +4606,7 @@
       "valor_repassado_saida": "23744220",
       "valor_loa": "49378529",
       "valor_repassado_entrada": "0",
-      "diferenca": "-25634309",
+      "diferenca": "25634309",
       "status": "Divergente"
     },
     {
@@ -4619,7 +4619,7 @@
       "valor_repassado_saida": "15000000",
       "valor_loa": "208054027",
       "valor_repassado_entrada": "0",
-      "diferenca": "-1008000.00",
+      "diferenca": "1008000.00",
       "status": "Divergente"
     },
     {
@@ -4671,7 +4671,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "130000000",
       "valor_repassado_entrada": "130003000",
-      "diferenca": "-130000000.00",
+      "diferenca": "130000000.00",
       "status": "Divergente"
     },
     {
@@ -4697,7 +4697,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "27423572",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2091.00",
+      "diferenca": "2091.00",
       "status": "Divergente"
     },
     {
@@ -4710,7 +4710,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "44477455.00",
+      "diferenca": "-44477455.00",
       "status": "Divergente"
     },
     {
@@ -4749,7 +4749,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "14245944",
       "valor_repassado_entrada": "0",
-      "diferenca": "-14245944",
+      "diferenca": "14245944",
       "status": "Divergente"
     },
     {
@@ -4775,7 +4775,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "1038",
       "valor_repassado_entrada": "0",
-      "diferenca": "675626416.00",
+      "diferenca": "-675626416.00",
       "status": "Divergente"
     },
     {
@@ -4801,7 +4801,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "322000000.00",
+      "diferenca": "-322000000.00",
       "status": "Divergente"
     },
     {
@@ -4814,7 +4814,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "1000.00",
+      "diferenca": "-1000.00",
       "status": "Divergente"
     },
     {
@@ -4827,7 +4827,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "1000.00",
+      "diferenca": "-1000.00",
       "status": "Divergente"
     },
     {
@@ -4840,7 +4840,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "1000.00",
+      "diferenca": "-1000.00",
       "status": "Divergente"
     },
     {
@@ -4879,7 +4879,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "1000",
       "valor_repassado_entrada": "0",
-      "diferenca": "10496252370.00",
+      "diferenca": "-10496252370.00",
       "status": "Divergente"
     },
     {
@@ -4892,7 +4892,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "1000",
       "valor_repassado_entrada": "0",
-      "diferenca": "2097087741.00",
+      "diferenca": "-2097087741.00",
       "status": "Divergente"
     },
     {
@@ -4905,7 +4905,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "7723365884",
       "valor_repassado_entrada": "0",
-      "diferenca": "-1872997217.00",
+      "diferenca": "1872997217.00",
       "status": "Divergente"
     },
     {
@@ -4918,7 +4918,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "4118375087",
       "valor_repassado_entrada": "0",
-      "diferenca": "-1479941832.00",
+      "diferenca": "1479941832.00",
       "status": "Divergente"
     },
     {
@@ -4944,7 +4944,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "330736",
       "valor_repassado_entrada": "72862103",
-      "diferenca": "-304410.00",
+      "diferenca": "304410.00",
       "status": "Divergente"
     },
     {
@@ -4983,7 +4983,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "106189000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-106189000",
+      "diferenca": "106189000",
       "status": "Divergente"
     },
     {
@@ -4996,7 +4996,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "7000503",
       "valor_repassado_entrada": "0",
-      "diferenca": "-7000503",
+      "diferenca": "7000503",
       "status": "Divergente"
     },
     {
@@ -5009,7 +5009,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "17000000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-5000000.00",
+      "diferenca": "5000000.00",
       "status": "Divergente"
     },
     {
@@ -5022,7 +5022,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "419485689.00",
+      "diferenca": "-419485689.00",
       "status": "Divergente"
     },
     {
@@ -5035,7 +5035,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "51257532.00",
+      "diferenca": "-51257532.00",
       "status": "Divergente"
     },
     {
@@ -5048,7 +5048,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "82677918370",
       "valor_repassado_entrada": "0",
-      "diferenca": "-82677918370",
+      "diferenca": "82677918370",
       "status": "Divergente"
     },
     {
@@ -5061,7 +5061,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "1671510861",
       "valor_repassado_entrada": "0",
-      "diferenca": "-1671510861",
+      "diferenca": "1671510861",
       "status": "Divergente"
     },
     {
@@ -5074,7 +5074,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "1000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-1000",
+      "diferenca": "1000",
       "status": "Divergente"
     },
     {
@@ -5087,7 +5087,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "4501588976",
       "valor_repassado_entrada": "0",
-      "diferenca": "-4501588976",
+      "diferenca": "4501588976",
       "status": "Divergente"
     },
     {
@@ -5100,7 +5100,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "-2",
       "valor_repassado_entrada": "0",
-      "diferenca": "2",
+      "diferenca": "-2",
       "status": "Divergente"
     },
     {
@@ -5113,7 +5113,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "22429767",
       "valor_repassado_entrada": "0",
-      "diferenca": "-22429767",
+      "diferenca": "22429767",
       "status": "Divergente"
     },
     {
@@ -5126,7 +5126,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "19563672",
       "valor_repassado_entrada": "0",
-      "diferenca": "-19563672",
+      "diferenca": "19563672",
       "status": "Divergente"
     },
     {
@@ -5139,7 +5139,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "1275413271",
       "valor_repassado_entrada": "0",
-      "diferenca": "-1275413271",
+      "diferenca": "1275413271",
       "status": "Divergente"
     },
     {
@@ -5152,7 +5152,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "29424208",
       "valor_repassado_entrada": "0",
-      "diferenca": "-29424208",
+      "diferenca": "29424208",
       "status": "Divergente"
     },
     {
@@ -5165,7 +5165,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "204135476",
       "valor_repassado_entrada": "0",
-      "diferenca": "-204135476",
+      "diferenca": "204135476",
       "status": "Divergente"
     },
     {
@@ -5178,7 +5178,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "87761794",
       "valor_repassado_entrada": "0",
-      "diferenca": "-87761794",
+      "diferenca": "87761794",
       "status": "Divergente"
     },
     {
@@ -5191,7 +5191,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "396632374",
       "valor_repassado_entrada": "0",
-      "diferenca": "-396632374",
+      "diferenca": "396632374",
       "status": "Divergente"
     },
     {
@@ -5204,7 +5204,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "43343915",
       "valor_repassado_entrada": "0",
-      "diferenca": "-43343915",
+      "diferenca": "43343915",
       "status": "Divergente"
     },
     {
@@ -5217,7 +5217,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "203859",
       "valor_repassado_entrada": "0",
-      "diferenca": "-203859",
+      "diferenca": "203859",
       "status": "Divergente"
     },
     {
@@ -5230,7 +5230,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "2901",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2901",
+      "diferenca": "2901",
       "status": "Divergente"
     },
     {
@@ -5243,7 +5243,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "27327763",
       "valor_repassado_entrada": "0",
-      "diferenca": "-27327763",
+      "diferenca": "27327763",
       "status": "Divergente"
     },
     {
@@ -5256,7 +5256,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "88171783",
       "valor_repassado_entrada": "0",
-      "diferenca": "-88171783",
+      "diferenca": "88171783",
       "status": "Divergente"
     },
     {
@@ -5269,7 +5269,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "2000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2000",
+      "diferenca": "2000",
       "status": "Divergente"
     },
     {
@@ -5282,7 +5282,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "627431448",
       "valor_repassado_entrada": "0",
-      "diferenca": "-627431448",
+      "diferenca": "627431448",
       "status": "Divergente"
     },
     {
@@ -5295,7 +5295,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "470959523",
       "valor_repassado_entrada": "0",
-      "diferenca": "-470959523",
+      "diferenca": "470959523",
       "status": "Divergente"
     },
     {
@@ -5308,7 +5308,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "622327137",
       "valor_repassado_entrada": "0",
-      "diferenca": "-622327137",
+      "diferenca": "622327137",
       "status": "Divergente"
     },
     {
@@ -5321,7 +5321,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "778721696",
       "valor_repassado_entrada": "0",
-      "diferenca": "-778721696",
+      "diferenca": "778721696",
       "status": "Divergente"
     },
     {
@@ -5334,7 +5334,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "155647413",
       "valor_repassado_entrada": "0",
-      "diferenca": "-155647413",
+      "diferenca": "155647413",
       "status": "Divergente"
     },
     {
@@ -5347,7 +5347,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "392359389",
       "valor_repassado_entrada": "0",
-      "diferenca": "-392359389",
+      "diferenca": "392359389",
       "status": "Divergente"
     },
     {
@@ -5360,7 +5360,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "10873232",
       "valor_repassado_entrada": "0",
-      "diferenca": "-10873232",
+      "diferenca": "10873232",
       "status": "Divergente"
     },
     {
@@ -5373,7 +5373,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "750000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-750000",
+      "diferenca": "750000",
       "status": "Divergente"
     },
     {
@@ -5386,7 +5386,7 @@
       "valor_repassado_saida": "0",
       "valor_loa": "4009139",
       "valor_repassado_entrada": "0",
-      "diferenca": "-4009139",
+      "diferenca": "4009139",
       "status": "Divergente"
     }
   ]

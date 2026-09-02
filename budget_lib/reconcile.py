@@ -62,9 +62,9 @@ def reconcile(
         valor_loa = receita_totals.get((uo, fonte), zero)
         valor_repassado_saida = repasse_saida.get((uo, fonte), zero)
         valor_repassado_entrada = repasse_entrada.get((uo, fonte), zero)
-        lado_despesa = valor_despesa + valor_repassado_saida
-        lado_receita = valor_loa + valor_repassado_entrada
-        diferenca = lado_despesa - lado_receita
+        lado_saida = valor_despesa + valor_repassado_saida
+        lado_entrada = valor_loa + valor_repassado_entrada
+        diferenca = lado_entrada - lado_saida
         records.append({
             'uo': uo,
             'nome_uo': uo_names.get(uo, ''),

@@ -91,8 +91,9 @@ class TestReconcile(unittest.TestCase):
         saida = {('1011', '60'): Decimal('30')}
         records = reconcile(despesa, receita, saida, {}, {}, {}, {})
         r = records[0]
-        # lado_despesa = 100 + 30 = 130; lado_receita = 100 + 0 = 100
-        self.assertEqual(r['diferenca'], Decimal('30'))
+        # lado_saida = 100 + 30 = 130; lado_entrada = 100 + 0 = 100
+        # diferenca = entrada - saida = 100 - 130 = -30 (saida > entrada => negativo)
+        self.assertEqual(r['diferenca'], Decimal('-30'))
         self.assertEqual(r['status'], 'Divergente')
 
     def test_status_ok_with_repasse_entrada_balancing(self):
@@ -112,7 +113,20 @@ class TestReconcile(unittest.TestCase):
         self.assertEqual(len(records), 1)
         r = records[0]
         self.assertEqual(r['valor_loa'], Decimal('0'))
-        self.assertEqual(r['diferenca'], Decimal('100'))
+        # entrada = 0; saida = 100 => diferenca = 0 - 100 = -100
+        self.assertEqual(r['diferenca'], Decimal('-100'))
+
+    def test_diferenca_is_negative_when_saida_exceeds_entrada(self):
+        despesa = {('1011', '60'): Decimal('150')}
+        receita = {('1011', '60'): Decimal('100')}
+        records = reconcile(despesa, receita, {}, {}, {}, {}, {})
+        self.assertEqual(records[0]['diferenca'], Decimal('-50'))
+
+    def test_diferenca_is_positive_when_entrada_exceeds_saida(self):
+        despesa = {('1011', '60'): Decimal('100')}
+        receita = {('1011', '60'): Decimal('150')}
+        records = reconcile(despesa, receita, {}, {}, {}, {}, {})
+        self.assertEqual(records[0]['diferenca'], Decimal('50'))
 
     def test_results_sorted_by_uo_then_fonte(self):
         despesa = {('2000', '10'): Decimal('1'), ('1000', '20'): Decimal('1'), ('1000', '10'): Decimal('1')}

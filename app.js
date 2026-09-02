@@ -127,10 +127,10 @@ function renderTabela() {
     tr.innerHTML = `
       <td>${uoLabel}</td>
       <td>${fonteLabel}</td>
-      <td>${formatBRL(r.valor_despesa)}</td>
-      <td>${formatBRL(r.valor_repassado_saida)}</td>
       <td>${formatBRL(r.valor_loa)}</td>
       <td>${formatBRL(r.valor_repassado_entrada)}</td>
+      <td>${formatBRL(r.valor_despesa)}</td>
+      <td>${formatBRL(r.valor_repassado_saida)}</td>
       <td>${formatBRL(r.diferenca)}</td>
       <td><span class="status-badge ${statusClass}">${escapeHtml(r.status)}</span></td>
     `;
