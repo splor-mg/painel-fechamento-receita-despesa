@@ -51,16 +51,17 @@
 
 <main>
   <table id="tabela-reconciliacao">
+    <caption class="visually-hidden">Conferência de valores de despesa, receita e repasses por Unidade Orçamentária e Fonte</caption>
     <thead>
       <tr>
-        <th data-sort="uo">UO</th>
-        <th data-sort="fonte">Fonte</th>
-        <th data-sort="valor_despesa">Valor Proposto Ano</th>
-        <th data-sort="valor_repassado_saida">Repassado (saída)</th>
-        <th data-sort="valor_loa">Valor LOA</th>
-        <th data-sort="valor_repassado_entrada">Repassado (entrada)</th>
-        <th data-sort="diferenca">Diferença</th>
-        <th data-sort="status">Status</th>
+        <th data-sort="uo" scope="col">UO</th>
+        <th data-sort="fonte" scope="col">Fonte</th>
+        <th data-sort="valor_despesa" scope="col">Valor Proposto Ano</th>
+        <th data-sort="valor_repassado_saida" scope="col">Repassado (saída)</th>
+        <th data-sort="valor_loa" scope="col">Valor LOA</th>
+        <th data-sort="valor_repassado_entrada" scope="col">Recebido (entrada)</th>
+        <th data-sort="diferenca" scope="col">Diferença</th>
+        <th data-sort="status" scope="col">Status</th>
       </tr>
     </thead>
     <tbody id="tabela-corpo"></tbody>
