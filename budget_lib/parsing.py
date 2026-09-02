@@ -24,6 +24,7 @@ def read_despesa(path: Path) -> list[dict]:
     return [{
         'uo': row['Unidade Orçamentária'].strip(),
         'nome_uo': row['Nome da UO'].strip(),
+        'sigla_uo': row['Sigla da UO'].strip(),
         'fonte': row['Fonte de Recursos'].strip(),
         'valor': parse_valor_despesa(row['Valor Proposto Ano']),
     } for row in rows]
@@ -34,8 +35,17 @@ def read_receita(path: Path) -> list[dict]:
     return [{
         'uo': row['Unidade Orçamentária'].strip(),
         'nome_uo': row['Nome da UO'].strip(),
+        'sigla_uo': row['Sigla UO'].strip(),
         'fonte': row['Fonte'].strip(),
         'valor': parse_valor_plain(row['Valor LOA']),
+    } for row in rows]
+
+
+def read_fonte_desc(path: Path) -> list[dict]:
+    rows = _read_csv_rows(path)
+    return [{
+        'fonte': row['Fonte'].strip(),
+        'nome_fonte': row['Nome da Fonte'].strip(),
     } for row in rows]
 
 

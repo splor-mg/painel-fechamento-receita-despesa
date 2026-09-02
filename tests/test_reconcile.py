@@ -40,7 +40,7 @@ class TestAggregateRepasse(unittest.TestCase):
         self.assertEqual(entrada, {('4711', '60'): Decimal('100'), ('9999', '60'): Decimal('30')})
 
 
-from budget_lib.reconcile import build_uo_names, build_fonte_names, reconcile
+from budget_lib.reconcile import build_uo_names, build_uo_siglas, build_fonte_names, reconcile
 
 
 class TestBuildUoNames(unittest.TestCase):
@@ -51,10 +51,25 @@ class TestBuildUoNames(unittest.TestCase):
         self.assertEqual(names, {'1011': 'ALMG', '2001': 'OUTRA'})
 
 
+class TestBuildUoSiglas(unittest.TestCase):
+    def test_merges_despesa_and_receita_first_seen_wins(self):
+        despesa_rows = [{'uo': '1251', 'sigla_uo': 'PMMG'}]
+        receita_rows = [{'uo': '1251', 'sigla_uo': 'PMMG DUP'}, {'uo': '1011', 'sigla_uo': 'ALMG'}]
+        siglas = build_uo_siglas(despesa_rows, receita_rows)
+        self.assertEqual(siglas, {'1251': 'PMMG', '1011': 'ALMG'})
+
+
 class TestBuildFonteNames(unittest.TestCase):
-    def test_builds_from_repasse_rows(self):
+    def test_prefers_fonte_desc_over_repasse(self):
+        fonte_desc_rows = [{'fonte': '60', 'nome_fonte': 'RECURSOS DIRETAMENTE ARRECADADOS'}]
         repasse_rows = [{'fonte': '60', 'nome_fonte': 'RECURSOS PROPRIOS'}]
-        names = build_fonte_names(repasse_rows)
+        names = build_fonte_names(fonte_desc_rows, repasse_rows)
+        self.assertEqual(names, {'60': 'RECURSOS DIRETAMENTE ARRECADADOS'})
+
+    def test_falls_back_to_repasse_when_missing_from_fonte_desc(self):
+        fonte_desc_rows = []
+        repasse_rows = [{'fonte': '60', 'nome_fonte': 'RECURSOS PROPRIOS'}]
+        names = build_fonte_names(fonte_desc_rows, repasse_rows)
         self.assertEqual(names, {'60': 'RECURSOS PROPRIOS'})
 
 
@@ -62,7 +77,7 @@ class TestReconcile(unittest.TestCase):
     def test_status_ok_when_equal(self):
         despesa = {('1011', '60'): Decimal('100')}
         receita = {('1011', '60'): Decimal('100')}
-        records = reconcile(despesa, receita, {}, {}, {'1011': 'ALMG'}, {})
+        records = reconcile(despesa, receita, {}, {}, {'1011': 'ALMG'}, {}, {})
         self.assertEqual(len(records), 1)
         r = records[0]
         self.assertEqual(r['uo'], '1011')
@@ -74,7 +89,7 @@ class TestReconcile(unittest.TestCase):
         despesa = {('1011', '60'): Decimal('100')}
         receita = {('1011', '60'): Decimal('100')}
         saida = {('1011', '60'): Decimal('30')}
-        records = reconcile(despesa, receita, saida, {}, {}, {})
+        records = reconcile(despesa, receita, saida, {}, {}, {}, {})
         r = records[0]
         # lado_despesa = 100 + 30 = 130; lado_receita = 100 + 0 = 100
         self.assertEqual(r['diferenca'], Decimal('30'))
@@ -85,7 +100,7 @@ class TestReconcile(unittest.TestCase):
         receita = {}
         entrada = {('4711', '60'): Decimal('50')}
         despesa2 = {('4711', '60'): Decimal('50')}
-        records = reconcile(despesa2, receita, {}, entrada, {}, {})
+        records = reconcile(despesa2, receita, {}, entrada, {}, {}, {})
         r = records[0]
         # lado_despesa = 50 + 0 = 50; lado_receita = 0 + 50 = 50
         self.assertEqual(r['diferenca'], Decimal('0'))
@@ -93,7 +108,7 @@ class TestReconcile(unittest.TestCase):
 
     def test_union_of_keys_missing_treated_as_zero(self):
         despesa = {('1011', '60'): Decimal('100')}
-        records = reconcile(despesa, {}, {}, {}, {}, {})
+        records = reconcile(despesa, {}, {}, {}, {}, {}, {})
         self.assertEqual(len(records), 1)
         r = records[0]
         self.assertEqual(r['valor_loa'], Decimal('0'))
@@ -101,9 +116,14 @@ class TestReconcile(unittest.TestCase):
 
     def test_results_sorted_by_uo_then_fonte(self):
         despesa = {('2000', '10'): Decimal('1'), ('1000', '20'): Decimal('1'), ('1000', '10'): Decimal('1')}
-        records = reconcile(despesa, {}, {}, {}, {}, {})
+        records = reconcile(despesa, {}, {}, {}, {}, {}, {})
         keys = [(r['uo'], r['fonte']) for r in records]
         self.assertEqual(keys, [('1000', '10'), ('1000', '20'), ('2000', '10')])
+
+    def test_includes_sigla_uo_from_lookup(self):
+        despesa = {('1251', '60'): Decimal('100')}
+        records = reconcile(despesa, {}, {}, {}, {}, {}, {'1251': 'PMMG'})
+        self.assertEqual(records[0]['sigla_uo'], 'PMMG')
 
 
 if __name__ == '__main__':

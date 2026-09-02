@@ -44,10 +44,10 @@ function populateFiltros(registros) {
   const fontes = uniqueSorted(registros.map((r) => r.fonte));
 
   for (const uo of uos) {
-    const nome = registros.find((r) => r.uo === uo)?.nome_uo || '';
+    const sigla = registros.find((r) => r.uo === uo)?.sigla_uo || '';
     const option = document.createElement('option');
     option.value = uo;
-    option.textContent = nome ? `${uo} - ${nome}` : uo;
+    option.textContent = sigla ? `${uo} - ${sigla}` : uo;
     els.filtroUo.appendChild(option);
   }
 
@@ -81,7 +81,7 @@ function getFiltered() {
     if (fonte && r.fonte !== fonte) return false;
     if (soDivergentes && r.status !== 'Divergente') return false;
     if (busca) {
-      const haystack = `${r.uo} ${r.nome_uo} ${r.fonte} ${r.nome_fonte}`.toLowerCase();
+      const haystack = `${r.uo} ${r.nome_uo} ${r.sigla_uo} ${r.fonte} ${r.nome_fonte}`.toLowerCase();
       if (!haystack.includes(busca)) return false;
     }
     return true;
@@ -121,7 +121,7 @@ function renderTabela() {
   const frag = document.createDocumentFragment();
   for (const r of filtrados) {
     const tr = document.createElement('tr');
-    const uoLabel = escapeHtml(r.uo) + (r.nome_uo ? ` - ${escapeHtml(r.nome_uo)}` : '');
+    const uoLabel = escapeHtml(r.uo) + (r.sigla_uo ? ` - ${escapeHtml(r.sigla_uo)}` : '');
     const fonteLabel = escapeHtml(r.fonte) + (r.nome_fonte ? ` - ${escapeHtml(r.nome_fonte)}` : '');
     const statusClass = r.status === 'OK' ? 'status-ok' : 'status-divergente';
     tr.innerHTML = `

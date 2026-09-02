@@ -27,8 +27,19 @@ def build_uo_names(despesa_rows: list[dict], receita_rows: list[dict]) -> dict:
     return names
 
 
-def build_fonte_names(repasse_rows: list[dict]) -> dict:
+def build_uo_siglas(despesa_rows: list[dict], receita_rows: list[dict]) -> dict:
+    siglas = {}
+    for row in despesa_rows:
+        siglas.setdefault(row['uo'], row['sigla_uo'])
+    for row in receita_rows:
+        siglas.setdefault(row['uo'], row['sigla_uo'])
+    return siglas
+
+
+def build_fonte_names(fonte_desc_rows: list[dict], repasse_rows: list[dict]) -> dict:
     names = {}
+    for row in fonte_desc_rows:
+        names.setdefault(row['fonte'], row['nome_fonte'])
     for row in repasse_rows:
         names.setdefault(row['fonte'], row['nome_fonte'])
     return names
@@ -41,6 +52,7 @@ def reconcile(
     repasse_entrada: dict,
     uo_names: dict,
     fonte_names: dict,
+    uo_siglas: dict,
 ) -> list[dict]:
     zero = Decimal('0')
     keys = set(despesa_totals) | set(receita_totals) | set(repasse_saida) | set(repasse_entrada)
@@ -56,6 +68,7 @@ def reconcile(
         records.append({
             'uo': uo,
             'nome_uo': uo_names.get(uo, ''),
+            'sigla_uo': uo_siglas.get(uo, ''),
             'fonte': fonte,
             'nome_fonte': fonte_names.get(fonte, ''),
             'valor_despesa': valor_despesa,

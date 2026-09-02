@@ -3,7 +3,14 @@ import unittest
 from decimal import Decimal
 from pathlib import Path
 
-from budget_lib.parsing import parse_valor_despesa, parse_valor_plain, read_despesa, read_receita, read_repasse
+from budget_lib.parsing import (
+    parse_valor_despesa,
+    parse_valor_plain,
+    read_despesa,
+    read_fonte_desc,
+    read_receita,
+    read_repasse,
+)
 
 
 class TestParseValorDespesa(unittest.TestCase):
@@ -39,15 +46,16 @@ class TestReadDespesa(unittest.TestCase):
         self.assertEqual(rows, [{
             'uo': '1011',
             'nome_uo': 'UO TESTE',
+            'sigla_uo': 'UOT',
             'fonte': '10',
             'valor': Decimal('1500.00'),
         }])
 
     def test_sums_nothing_but_reads_multiple_rows(self):
         content = (
-            'Unidade Orçamentária;Nome da UO;Fonte de Recursos;Valor Proposto Ano\n'
-            '1011;UO A;10;"100,00"\n'
-            '1011;UO A;10;"50,00"\n'
+            'Unidade Orçamentária;Nome da UO;Sigla da UO;Fonte de Recursos;Valor Proposto Ano\n'
+            '1011;UO A;UOA;10;"100,00"\n'
+            '1011;UO A;UOA;10;"50,00"\n'
         )
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / 'despesa.csv'
@@ -69,6 +77,7 @@ class TestReadReceita(unittest.TestCase):
         self.assertEqual(rows, [{
             'uo': '1011',
             'nome_uo': 'UO TESTE',
+            'sigla_uo': 'UOT',
             'fonte': '60',
             'valor': Decimal('23500000'),
         }])
@@ -94,6 +103,23 @@ class TestReadRepasse(unittest.TestCase):
             'nome_fonte': 'RECURSOS PROPRIOS',
             'valor': Decimal('34739894'),
         }])
+
+
+class TestReadFonteDesc(unittest.TestCase):
+    def test_reads_relevant_columns(self):
+        content = (
+            'Fonte;Nome da Fonte\n'
+            '60;RECURSOS DIRETAMENTE ARRECADADOS\n'
+            '10;RECURSOS ORDINARIOS\n'
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'fonte_desc.csv'
+            path.write_text(content, encoding='utf-8-sig')
+            rows = read_fonte_desc(path)
+        self.assertEqual(rows, [
+            {'fonte': '60', 'nome_fonte': 'RECURSOS DIRETAMENTE ARRECADADOS'},
+            {'fonte': '10', 'nome_fonte': 'RECURSOS ORDINARIOS'},
+        ])
 
 
 if __name__ == '__main__':
