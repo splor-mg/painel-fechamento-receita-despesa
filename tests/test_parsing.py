@@ -8,6 +8,7 @@ from budget_lib.parsing import (
     parse_valor_plain,
     read_despesa,
     read_fonte_desc,
+    read_intra_orcamentaria,
     read_receita,
     read_repasse,
 )
@@ -120,6 +121,29 @@ class TestReadFonteDesc(unittest.TestCase):
             {'fonte': '60', 'nome_fonte': 'RECURSOS DIRETAMENTE ARRECADADOS'},
             {'fonte': '10', 'nome_fonte': 'RECURSOS ORDINARIOS'},
         ])
+
+
+class TestReadIntraOrcamentaria(unittest.TestCase):
+    def test_reads_relevant_columns(self):
+        content = (
+            'Ano;Unidade Orçamentária Beneficiada;Nome da Ação;Programa de Trabalho;'
+            'Natureza da Despesa;Código do Item;Nome do Elemento Item;Valor Distribuído;'
+            'Data da Inclusão;Unidade Orçamentária Repassadora;Sigla Repassadora;'
+            'Sigla Beneficiada;Valor Detalhado (R$)\n'
+            '2027;2011;ACAO TESTE;2.15.1;3.1.91.13;21;ELEMENTO TESTE;"3258,00";'
+            '27/08/2026;2151;FHA;IPSEMG;"9999,00"\n'
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'intra.csv'
+            path.write_text(content, encoding='utf-8-sig')
+            rows = read_intra_orcamentaria(path)
+        self.assertEqual(rows, [{
+            'uo_repassadora': '2151',
+            'sigla_repassadora': 'FHA',
+            'uo_beneficiada': '2011',
+            'sigla_beneficiada': 'IPSEMG',
+            'valor': Decimal('3258.00'),
+        }])
 
 
 if __name__ == '__main__':

@@ -11,6 +11,33 @@ body {
 header h1 { margin: 0 0 0.25rem; font-size: 1.5rem; }
 .subtitle { margin: 0 0 1.5rem; color: #616e7c; font-size: 0.85rem; }
 
+.tabs {
+  display: flex;
+  gap: 0.25rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #cbd2d9;
+}
+
+.tab-btn {
+  appearance: none;
+  border: none;
+  background: transparent;
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #616e7c;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+
+.tab-btn:hover { color: #1f2933; }
+
+.tab-btn.active {
+  color: #1f2933;
+  border-bottom-color: #2f6fed;
+}
+
 .kpi-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));

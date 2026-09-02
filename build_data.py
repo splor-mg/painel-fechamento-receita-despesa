@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from budget_lib.parsing import read_despesa, read_fonte_desc, read_receita, read_repasse
+from budget_lib.parsing import read_despesa, read_fonte_desc, read_intra_orcamentaria, read_receita, read_repasse
 from budget_lib.reconcile import (
     aggregate_by_uo_fonte,
     aggregate_repasse,
@@ -9,6 +9,7 @@ from budget_lib.reconcile import (
     build_uo_siglas,
     reconcile,
 )
+from budget_lib.intra_patronal import aggregate_intra_orcamentaria, read_projetado, reconcile_intra_patronal
 from budget_lib.output import build_metadata, write_json
 
 BASE_DIR = Path(__file__).parent
@@ -16,7 +17,10 @@ DESPESA_CSV = BASE_DIR / 'Despesa_Orcamentaria_Fiscal_2027.csv'
 RECEITA_CSV = BASE_DIR / 'Orcamento_Receita.csv'
 REPASSE_CSV = BASE_DIR / 'repasse-recurso.csv'
 FONTE_DESC_CSV = BASE_DIR / 'fonte_desc.csv'
+PROJETADO_CSV = BASE_DIR / 'pessoal_intra_credor_patronal.csv'
+INTRA_ORCAMENTARIA_CSV = BASE_DIR / 'Despesa_Intraorcamentaria_2027.csv'
 OUTPUT_JSON = BASE_DIR / 'data.json'
+OUTPUT_INTRA_JSON = BASE_DIR / 'data_intra_patronal.json'
 
 
 def main() -> None:
@@ -42,6 +46,18 @@ def main() -> None:
     print(
         f"Gerado {OUTPUT_JSON} com {metadata['total_combinacoes']} combinacoes UO+Fonte "
         f"({metadata['total_ok']} OK, {metadata['total_divergente']} divergentes)."
+    )
+
+    projetado_rows = read_projetado(PROJETADO_CSV)
+    intra_orcamentaria_rows = read_intra_orcamentaria(INTRA_ORCAMENTARIA_CSV)
+    distribuido_totais = aggregate_intra_orcamentaria(intra_orcamentaria_rows)
+    intra_records = reconcile_intra_patronal(projetado_rows, distribuido_totais)
+    intra_metadata = build_metadata(intra_records)
+
+    write_json(intra_records, intra_metadata, OUTPUT_INTRA_JSON)
+    print(
+        f"Gerado {OUTPUT_INTRA_JSON} com {intra_metadata['total_combinacoes']} combinacoes UO+Credor "
+        f"({intra_metadata['total_ok']} OK, {intra_metadata['total_divergente']} divergentes)."
     )
 
 

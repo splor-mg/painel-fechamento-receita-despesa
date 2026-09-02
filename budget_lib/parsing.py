@@ -13,14 +13,14 @@ def parse_valor_plain(raw: str) -> Decimal:
     return Decimal(raw.strip())
 
 
-def _read_csv_rows(path: Path) -> list[dict]:
+def read_csv_rows(path: Path) -> list[dict]:
     with open(path, encoding='utf-8-sig', newline='') as f:
         reader = csv.DictReader(f, delimiter=';')
         return list(reader)
 
 
 def read_despesa(path: Path) -> list[dict]:
-    rows = _read_csv_rows(path)
+    rows = read_csv_rows(path)
     return [{
         'uo': row['Unidade Orçamentária'].strip(),
         'nome_uo': row['Nome da UO'].strip(),
@@ -31,7 +31,7 @@ def read_despesa(path: Path) -> list[dict]:
 
 
 def read_receita(path: Path) -> list[dict]:
-    rows = _read_csv_rows(path)
+    rows = read_csv_rows(path)
     return [{
         'uo': row['Unidade Orçamentária'].strip(),
         'nome_uo': row['Nome da UO'].strip(),
@@ -42,7 +42,7 @@ def read_receita(path: Path) -> list[dict]:
 
 
 def read_fonte_desc(path: Path) -> list[dict]:
-    rows = _read_csv_rows(path)
+    rows = read_csv_rows(path)
     return [{
         'fonte': row['Fonte'].strip(),
         'nome_fonte': row['Nome da Fonte'].strip(),
@@ -50,7 +50,7 @@ def read_fonte_desc(path: Path) -> list[dict]:
 
 
 def read_repasse(path: Path) -> list[dict]:
-    rows = _read_csv_rows(path)
+    rows = read_csv_rows(path)
     return [{
         'uo_cedente': row['U.O. Cedente'].strip(),
         'nome_uo_cedente': row['Nome da U.O. Cedente'].strip(),
@@ -59,4 +59,15 @@ def read_repasse(path: Path) -> list[dict]:
         'fonte': row['Fonte'].strip(),
         'nome_fonte': row['Nome da Fonte'].strip(),
         'valor': parse_valor_plain(row['Valor Repassado']),
+    } for row in rows]
+
+
+def read_intra_orcamentaria(path: Path) -> list[dict]:
+    rows = read_csv_rows(path)
+    return [{
+        'uo_repassadora': row['Unidade Orçamentária Repassadora'].strip(),
+        'sigla_repassadora': row['Sigla Repassadora'].strip(),
+        'uo_beneficiada': row['Unidade Orçamentária Beneficiada'].strip(),
+        'sigla_beneficiada': row['Sigla Beneficiada'].strip(),
+        'valor': parse_valor_despesa(row['Valor Distribuído']),
     } for row in rows]

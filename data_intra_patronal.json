@@ -1,0 +1,1191 @@
+{
+  "metadata": {
+    "gerado_em": "2026-09-02T16:45:41.862660+00:00",
+    "total_combinacoes": 118,
+    "total_ok": 73,
+    "total_divergente": 45,
+    "soma_divergencias_abs": "1438087816.00"
+  },
+  "registros": [
+    {
+      "uo": "1011",
+      "sigla_uo": "ALMG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "0",
+      "valor_repassado": "120000000.00",
+      "diferenca": "-120000000.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1011",
+      "sigla_uo": "ALMG",
+      "credor": "IPLEMG",
+      "uo_credor": "2361",
+      "valor_projetado": "0",
+      "valor_repassado": "15037000.00",
+      "diferenca": "-15037000.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1011",
+      "sigla_uo": "ALMG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "0",
+      "valor_repassado": "285000.00",
+      "diferenca": "-285000.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1051",
+      "sigla_uo": "TJMMG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "0",
+      "valor_repassado": "11045990.00",
+      "diferenca": "-11045990.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1051",
+      "sigla_uo": "TJMMG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "0",
+      "valor_repassado": "53182.00",
+      "diferenca": "-53182.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1051",
+      "sigla_uo": "TJMMG",
+      "credor": "IPSM",
+      "uo_credor": "2121",
+      "valor_projetado": "0",
+      "valor_repassado": "612865.00",
+      "diferenca": "-612865.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1071",
+      "sigla_uo": "GABINETE MILITAR",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "431713",
+      "valor_repassado": "431713.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1071",
+      "sigla_uo": "GABINETE MILITAR",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "65518",
+      "valor_repassado": "65518.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1081",
+      "sigla_uo": "AGE",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "111467598",
+      "valor_repassado": "111467598.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1081",
+      "sigla_uo": "AGE",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "310220",
+      "valor_repassado": "310220.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1081",
+      "sigla_uo": "AGE",
+      "credor": "IPSM",
+      "uo_credor": "2121",
+      "valor_projetado": "236956",
+      "valor_repassado": "236956.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1101",
+      "sigla_uo": "OGE",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "4174074",
+      "valor_repassado": "4174074.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1101",
+      "sigla_uo": "OGE",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "82528",
+      "valor_repassado": "0",
+      "diferenca": "82528",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1191",
+      "sigla_uo": "SEF",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "429383800",
+      "valor_repassado": "429383800.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1191",
+      "sigla_uo": "SEF",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "2483345",
+      "valor_repassado": "2483345.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1221",
+      "sigla_uo": "SEDE",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "2998277",
+      "valor_repassado": "2998277.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1221",
+      "sigla_uo": "SEDE",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "175330",
+      "valor_repassado": "175330.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1231",
+      "sigla_uo": "SEAPA",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "3883588",
+      "valor_repassado": "3883587.00",
+      "diferenca": "1.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1231",
+      "sigla_uo": "SEAPA",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "188425",
+      "valor_repassado": "188425.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1251",
+      "sigla_uo": "PMMG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "24906628",
+      "valor_repassado": "24906628.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1251",
+      "sigla_uo": "PMMG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "3551729",
+      "valor_repassado": "3551729.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1251",
+      "sigla_uo": "PMMG",
+      "credor": "IPSM",
+      "uo_credor": "2121",
+      "valor_projetado": "2310592704",
+      "valor_repassado": "2886494681.00",
+      "diferenca": "-575901977.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1261",
+      "sigla_uo": "SEE",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "2342001762",
+      "valor_repassado": "2342001762.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1261",
+      "sigla_uo": "SEE",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "202563041",
+      "valor_repassado": "202563041.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1271",
+      "sigla_uo": "SECULT",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "5319677",
+      "valor_repassado": "5361505.00",
+      "diferenca": "-41828.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1271",
+      "sigla_uo": "SECULT",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "272259",
+      "valor_repassado": "230431.00",
+      "diferenca": "41828.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1301",
+      "sigla_uo": "SEINFRA",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "8634359",
+      "valor_repassado": "8634359.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1301",
+      "sigla_uo": "SEINFRA",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "272954",
+      "valor_repassado": "272954.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1371",
+      "sigla_uo": "SEMAD",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "33058551",
+      "valor_repassado": "33058551.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1371",
+      "sigla_uo": "SEMAD",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "618067",
+      "valor_repassado": "618067.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1401",
+      "sigla_uo": "CBMMG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "39535",
+      "valor_repassado": "45728.00",
+      "diferenca": "-6193.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1401",
+      "sigla_uo": "CBMMG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "12512",
+      "valor_repassado": "11893.00",
+      "diferenca": "619.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1401",
+      "sigla_uo": "CBMMG",
+      "credor": "IPSM",
+      "uo_credor": "2121",
+      "valor_projetado": "295001047",
+      "valor_repassado": "290341331.00",
+      "diferenca": "4659716.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1451",
+      "sigla_uo": "SEJUSP",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "1007806689",
+      "valor_repassado": "1012278008.00",
+      "diferenca": "-4471319.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1451",
+      "sigla_uo": "SEJUSP",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "30840757",
+      "valor_repassado": "26369438.00",
+      "diferenca": "4471319.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1481",
+      "sigla_uo": "SEDESE",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "12414932",
+      "valor_repassado": "17065826.00",
+      "diferenca": "-4650894.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1481",
+      "sigla_uo": "SEDESE",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "676595",
+      "valor_repassado": "936100.00",
+      "diferenca": "-259505.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1491",
+      "sigla_uo": "SEGOV",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "7815424",
+      "valor_repassado": "7815424.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1491",
+      "sigla_uo": "SEGOV",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "265319",
+      "valor_repassado": "265319.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1501",
+      "sigla_uo": "SEPLAG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "52899322",
+      "valor_repassado": "52899322.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1501",
+      "sigla_uo": "SEPLAG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "906708",
+      "valor_repassado": "906708.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1511",
+      "sigla_uo": "PCMG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "892245386",
+      "valor_repassado": "899496044.00",
+      "diferenca": "-7250658.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1511",
+      "sigla_uo": "PCMG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "15823525",
+      "valor_repassado": "11556557.00",
+      "diferenca": "4266968.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1521",
+      "sigla_uo": "CGE",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "19939108",
+      "valor_repassado": "19939108.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1521",
+      "sigla_uo": "CGE",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "158145",
+      "valor_repassado": "158145.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1541",
+      "sigla_uo": "ESP MG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "4937904",
+      "valor_repassado": "4937904.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1541",
+      "sigla_uo": "ESP MG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "42466",
+      "valor_repassado": "42466.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1631",
+      "sigla_uo": "SEC. GERAL",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "1049828",
+      "valor_repassado": "1049828.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1631",
+      "sigla_uo": "SEC. GERAL",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "33457",
+      "valor_repassado": "33457.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1711",
+      "sigla_uo": "SECOM",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "1035771",
+      "valor_repassado": "1035771.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1711",
+      "sigla_uo": "SECOM",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "72433",
+      "valor_repassado": "72433.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1721",
+      "sigla_uo": "SCC",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "989496",
+      "valor_repassado": "989496.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1721",
+      "sigla_uo": "SCC",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "25502",
+      "valor_repassado": "25502.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "1941",
+      "sigla_uo": "EGE-SEPLAG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "1692472",
+      "valor_repassado": "1692472.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2011",
+      "sigla_uo": "IPSEMG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "81615008",
+      "valor_repassado": "81615008.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2011",
+      "sigla_uo": "IPSEMG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "3430594",
+      "valor_repassado": "3430594.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2041",
+      "sigla_uo": "LEMG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "503275",
+      "valor_repassado": "503275.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2041",
+      "sigla_uo": "LEMG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "27831",
+      "valor_repassado": "27831.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2061",
+      "sigla_uo": "FJP",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "15176185",
+      "valor_repassado": "15176185.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2061",
+      "sigla_uo": "FJP",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "249704",
+      "valor_repassado": "249704.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2071",
+      "sigla_uo": "FAPEMIG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "2419908",
+      "valor_repassado": "2419908.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2071",
+      "sigla_uo": "FAPEMIG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "49265",
+      "valor_repassado": "49265.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2091",
+      "sigla_uo": "FEAM",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "14177403",
+      "valor_repassado": "14179993.00",
+      "diferenca": "-2590.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2091",
+      "sigla_uo": "FEAM",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "262508",
+      "valor_repassado": "259918.00",
+      "diferenca": "2590.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2101",
+      "sigla_uo": "IEF",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "36284740",
+      "valor_repassado": "0",
+      "diferenca": "36284740",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2101",
+      "sigla_uo": "IEF",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "1094930",
+      "valor_repassado": "0",
+      "diferenca": "1094930",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2121",
+      "sigla_uo": "IPSM",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "2926161",
+      "valor_repassado": "0",
+      "diferenca": "2926161",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2121",
+      "sigla_uo": "IPSM",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "91011",
+      "valor_repassado": "0",
+      "diferenca": "91011",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2151",
+      "sigla_uo": "FHA",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "4074898",
+      "valor_repassado": "4074898.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2151",
+      "sigla_uo": "FHA",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "469016",
+      "valor_repassado": "469016.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2161",
+      "sigla_uo": "FUCAM",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "688876",
+      "valor_repassado": "0",
+      "diferenca": "688876",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2161",
+      "sigla_uo": "FUCAM",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "31100",
+      "valor_repassado": "0",
+      "diferenca": "31100",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2171",
+      "sigla_uo": "FAOP",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "465296",
+      "valor_repassado": "0",
+      "diferenca": "465296",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2171",
+      "sigla_uo": "FAOP",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "20549",
+      "valor_repassado": "0",
+      "diferenca": "20549",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2181",
+      "sigla_uo": "FCS",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "4964277",
+      "valor_repassado": "4964277.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2181",
+      "sigla_uo": "FCS",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "411378",
+      "valor_repassado": "411378.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2201",
+      "sigla_uo": "IEPHA",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "2515380",
+      "valor_repassado": "2515380.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2201",
+      "sigla_uo": "IEPHA",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "82330",
+      "valor_repassado": "82330.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2211",
+      "sigla_uo": "TV MINAS",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "2147611",
+      "valor_repassado": "1760260.00",
+      "diferenca": "387351.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2211",
+      "sigla_uo": "TV MINAS",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "93390",
+      "valor_repassado": "74251.00",
+      "diferenca": "19139.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2241",
+      "sigla_uo": "IGAM",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "7959093",
+      "valor_repassado": "7959093.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2241",
+      "sigla_uo": "IGAM",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "155758",
+      "valor_repassado": "155758.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2251",
+      "sigla_uo": "JUCEMG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "4070331",
+      "valor_repassado": "4070331.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2251",
+      "sigla_uo": "JUCEMG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "135450",
+      "valor_repassado": "135450.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2261",
+      "sigla_uo": "FUNED",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "26472554",
+      "valor_repassado": "26472554.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2261",
+      "sigla_uo": "FUNED",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "781763",
+      "valor_repassado": "781763.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2271",
+      "sigla_uo": "FHEMIG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "378338978",
+      "valor_repassado": "0",
+      "diferenca": "378338978",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2271",
+      "sigla_uo": "FHEMIG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "12138171",
+      "valor_repassado": "0",
+      "diferenca": "12138171",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2281",
+      "sigla_uo": "UTRAMIG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "381340",
+      "valor_repassado": "381340.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2281",
+      "sigla_uo": "UTRAMIG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "23636",
+      "valor_repassado": "23636.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2301",
+      "sigla_uo": "DER-MG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "33749228",
+      "valor_repassado": "33749228.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2301",
+      "sigla_uo": "DER-MG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "1670762",
+      "valor_repassado": "1670762.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2311",
+      "sigla_uo": "UNIMONTES",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "82540680",
+      "valor_repassado": "0",
+      "diferenca": "82540680",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2311",
+      "sigla_uo": "UNIMONTES",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "3414553",
+      "valor_repassado": "0",
+      "diferenca": "3414553",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2321",
+      "sigla_uo": "HEMOMINAS",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "43466287",
+      "valor_repassado": "43466287.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2321",
+      "sigla_uo": "HEMOMINAS",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "1273971",
+      "valor_repassado": "1273971.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2331",
+      "sigla_uo": "IPEMMG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "4656563",
+      "valor_repassado": "4656563.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2331",
+      "sigla_uo": "IPEMMG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "237416",
+      "valor_repassado": "237416.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2351",
+      "sigla_uo": "UEMG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "61297946",
+      "valor_repassado": "0",
+      "diferenca": "61297946",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2351",
+      "sigla_uo": "UEMG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "1585031",
+      "valor_repassado": "0",
+      "diferenca": "1585031",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2371",
+      "sigla_uo": "IMA",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "72019088",
+      "valor_repassado": "72019088.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2371",
+      "sigla_uo": "IMA",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "2550210",
+      "valor_repassado": "2550210.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2421",
+      "sigla_uo": "IDENE",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "1516272",
+      "valor_repassado": "1511840.00",
+      "diferenca": "4432.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2421",
+      "sigla_uo": "IDENE",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "73113",
+      "valor_repassado": "77545.00",
+      "diferenca": "-4432.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2431",
+      "sigla_uo": "AGÊNCIA RMBH",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "412732",
+      "valor_repassado": "412732.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2431",
+      "sigla_uo": "AGÊNCIA RMBH",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "9608",
+      "valor_repassado": "9608.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2441",
+      "sigla_uo": "ARSAE -MG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "4485218",
+      "valor_repassado": "4485218.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2441",
+      "sigla_uo": "ARSAE -MG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "56163",
+      "valor_repassado": "56163.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2461",
+      "sigla_uo": "ARMVA",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "122175",
+      "valor_repassado": "0",
+      "diferenca": "122175",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2461",
+      "sigla_uo": "ARMVA",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "7196",
+      "valor_repassado": "7196.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2471",
+      "sigla_uo": "ARTEMIG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "1869051",
+      "valor_repassado": "1869051.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2471",
+      "sigla_uo": "ARTEMIG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "19279",
+      "valor_repassado": "19279.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "2481",
+      "sigla_uo": "DETRAN",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "6171348",
+      "valor_repassado": "6167221.00",
+      "diferenca": "4127.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2481",
+      "sigla_uo": "DETRAN",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "211945",
+      "valor_repassado": "216072.00",
+      "diferenca": "-4127.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "4291",
+      "sigla_uo": "FES",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "100132631",
+      "valor_repassado": "0",
+      "diferenca": "100132631",
+      "status": "Divergente"
+    },
+    {
+      "uo": "4291",
+      "sigla_uo": "FES",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "3346810",
+      "valor_repassado": "0",
+      "diferenca": "3346810",
+      "status": "Divergente"
+    },
+    {
+      "uo": "4711",
+      "sigla_uo": "FFP - MG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "302342485",
+      "valor_repassado": "302342485.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    },
+    {
+      "uo": "4711",
+      "sigla_uo": "FFP - MG",
+      "credor": "IPSM",
+      "uo_credor": "2121",
+      "valor_projetado": "45860",
+      "valor_repassado": "45860.00",
+      "diferenca": "0.00",
+      "status": "OK"
+    }
+  ]
+}

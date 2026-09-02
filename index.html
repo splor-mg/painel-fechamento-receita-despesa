@@ -14,73 +14,146 @@
 
 <p id="erro-carregamento" class="erro" hidden></p>
 
-<section id="kpis" class="kpi-grid">
-  <div class="kpi-card">
-    <span class="kpi-label">Combinações UO+Fonte</span>
-    <span class="kpi-value" id="kpi-total">-</span>
-  </div>
-  <div class="kpi-card kpi-ok">
-    <span class="kpi-label">OK</span>
-    <span class="kpi-value" id="kpi-ok">-</span>
-  </div>
-  <div class="kpi-card kpi-divergente">
-    <span class="kpi-label">Divergentes</span>
-    <span class="kpi-value" id="kpi-divergente">-</span>
-  </div>
-  <div class="kpi-card">
-    <span class="kpi-label">Soma das divergências (abs.)</span>
-    <span class="kpi-value" id="kpi-soma-divergencias">-</span>
-  </div>
+<nav class="tabs" role="tablist">
+  <button type="button" class="tab-btn active" id="tab-btn-receita-despesa" role="tab" aria-selected="true" aria-controls="view-receita-despesa">Fechamento Receita x Despesa</button>
+  <button type="button" class="tab-btn" id="tab-btn-intra-patronal" role="tab" aria-selected="false" aria-controls="view-intra-patronal">Despesa Intraorçamentária - Credor Patronal</button>
+</nav>
+
+<section id="view-receita-despesa" class="view" role="tabpanel" aria-labelledby="tab-btn-receita-despesa">
+  <section id="kpis" class="kpi-grid">
+    <div class="kpi-card">
+      <span class="kpi-label">Combinações UO+Fonte</span>
+      <span class="kpi-value" id="kpi-total">-</span>
+    </div>
+    <div class="kpi-card kpi-ok">
+      <span class="kpi-label">OK</span>
+      <span class="kpi-value" id="kpi-ok">-</span>
+    </div>
+    <div class="kpi-card kpi-divergente">
+      <span class="kpi-label">Divergentes</span>
+      <span class="kpi-value" id="kpi-divergente">-</span>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-label">Soma das divergências (abs.)</span>
+      <span class="kpi-value" id="kpi-soma-divergencias">-</span>
+    </div>
+  </section>
+
+  <section id="filtros" class="filtros">
+    <div class="filtro-campo">
+      <label for="filtro-uo">Unidade Orçamentária</label>
+      <select id="filtro-uo"><option value="">Todas</option></select>
+    </div>
+    <div class="filtro-campo">
+      <label for="filtro-fonte">Fonte</label>
+      <select id="filtro-fonte"><option value="">Todas</option></select>
+    </div>
+    <div class="filtro-campo">
+      <label for="filtro-busca">Buscar</label>
+      <input type="text" id="filtro-busca" placeholder="UO, Fonte ou nome...">
+    </div>
+    <div class="filtro-campo filtro-checkbox">
+      <label><input type="checkbox" id="filtro-divergentes"> Mostrar só divergências</label>
+    </div>
+  </section>
+
+  <main>
+    <table id="tabela-reconciliacao">
+      <caption class="visually-hidden">Conferência de valores de despesa, receita e repasses por Unidade Orçamentária e Fonte</caption>
+      <thead>
+        <tr>
+          <th data-sort="uo" scope="col">UO</th>
+          <th data-sort="fonte" scope="col">Fonte</th>
+          <th data-sort="valor_loa" scope="col">Receita Prevista</th>
+          <th data-sort="valor_repassado_entrada" scope="col">Recebido (entrada)</th>
+          <th data-sort="valor_despesa" scope="col">Despesa Detalhada</th>
+          <th data-sort="valor_repassado_saida" scope="col">Repassado (saída)</th>
+          <th data-sort="diferenca" scope="col">Diferença</th>
+          <th data-sort="status" scope="col">Status</th>
+        </tr>
+      </thead>
+      <tbody id="tabela-corpo"></tbody>
+      <tfoot>
+        <tr>
+          <th scope="row" colspan="2">Total (filtrado)</th>
+          <td id="total-loa">-</td>
+          <td id="total-entrada">-</td>
+          <td id="total-despesa">-</td>
+          <td id="total-saida">-</td>
+          <td id="total-diferenca">-</td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+    <p id="tabela-vazia" class="tabela-vazia" hidden>Nenhum registro encontrado para os filtros aplicados.</p>
+  </main>
 </section>
 
-<section id="filtros" class="filtros">
-  <div class="filtro-campo">
-    <label for="filtro-uo">Unidade Orçamentária</label>
-    <select id="filtro-uo"><option value="">Todas</option></select>
-  </div>
-  <div class="filtro-campo">
-    <label for="filtro-fonte">Fonte</label>
-    <select id="filtro-fonte"><option value="">Todas</option></select>
-  </div>
-  <div class="filtro-campo">
-    <label for="filtro-busca">Buscar</label>
-    <input type="text" id="filtro-busca" placeholder="UO, Fonte ou nome...">
-  </div>
-  <div class="filtro-campo filtro-checkbox">
-    <label><input type="checkbox" id="filtro-divergentes"> Mostrar só divergências</label>
-  </div>
-</section>
+<section id="view-intra-patronal" class="view" role="tabpanel" aria-labelledby="tab-btn-intra-patronal" hidden>
+  <section class="kpi-grid">
+    <div class="kpi-card">
+      <span class="kpi-label">Combinações UO+Credor</span>
+      <span class="kpi-value" id="intra-kpi-total">-</span>
+    </div>
+    <div class="kpi-card kpi-ok">
+      <span class="kpi-label">OK</span>
+      <span class="kpi-value" id="intra-kpi-ok">-</span>
+    </div>
+    <div class="kpi-card kpi-divergente">
+      <span class="kpi-label">Divergentes</span>
+      <span class="kpi-value" id="intra-kpi-divergente">-</span>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-label">Soma das divergências (abs.)</span>
+      <span class="kpi-value" id="intra-kpi-soma-divergencias">-</span>
+    </div>
+  </section>
 
-<main>
-  <table id="tabela-reconciliacao">
-    <caption class="visually-hidden">Conferência de valores de despesa, receita e repasses por Unidade Orçamentária e Fonte</caption>
-    <thead>
-      <tr>
-        <th data-sort="uo" scope="col">UO</th>
-        <th data-sort="fonte" scope="col">Fonte</th>
-        <th data-sort="valor_loa" scope="col">Receita Prevista</th>
-        <th data-sort="valor_repassado_entrada" scope="col">Recebido (entrada)</th>
-        <th data-sort="valor_despesa" scope="col">Despesa Detalhada</th>
-        <th data-sort="valor_repassado_saida" scope="col">Repassado (saída)</th>
-        <th data-sort="diferenca" scope="col">Diferença</th>
-        <th data-sort="status" scope="col">Status</th>
-      </tr>
-    </thead>
-    <tbody id="tabela-corpo"></tbody>
-    <tfoot>
-      <tr>
-        <th scope="row" colspan="2">Total (filtrado)</th>
-        <td id="total-loa">-</td>
-        <td id="total-entrada">-</td>
-        <td id="total-despesa">-</td>
-        <td id="total-saida">-</td>
-        <td id="total-diferenca">-</td>
-        <td></td>
-      </tr>
-    </tfoot>
-  </table>
-  <p id="tabela-vazia" class="tabela-vazia" hidden>Nenhum registro encontrado para os filtros aplicados.</p>
-</main>
+  <section class="filtros">
+    <div class="filtro-campo">
+      <label for="intra-filtro-uo">Unidade Orçamentária</label>
+      <select id="intra-filtro-uo"><option value="">Todas</option></select>
+    </div>
+    <div class="filtro-campo">
+      <label for="intra-filtro-credor">Credor</label>
+      <select id="intra-filtro-credor"><option value="">Todos</option></select>
+    </div>
+    <div class="filtro-campo">
+      <label for="intra-filtro-busca">Buscar</label>
+      <input type="text" id="intra-filtro-busca" placeholder="UO ou credor...">
+    </div>
+    <div class="filtro-campo filtro-checkbox">
+      <label><input type="checkbox" id="intra-filtro-divergentes"> Mostrar só divergências</label>
+    </div>
+  </section>
+
+  <main>
+    <table id="intra-tabela">
+      <caption class="visually-hidden">Conferência de despesa intraorçamentária, credor patronal: valor projetado na LOA 2027 x valor repassado</caption>
+      <thead>
+        <tr>
+          <th data-sort="uo" scope="col">UO</th>
+          <th data-sort="credor" scope="col">Credor</th>
+          <th data-sort="valor_projetado" scope="col">Valor Projetado (LOA 2027)</th>
+          <th data-sort="valor_repassado" scope="col">Valor Repassado</th>
+          <th data-sort="diferenca" scope="col">Diferença</th>
+          <th data-sort="status" scope="col">Status</th>
+        </tr>
+      </thead>
+      <tbody id="intra-tabela-corpo"></tbody>
+      <tfoot>
+        <tr>
+          <th scope="row" colspan="2">Total (filtrado)</th>
+          <td id="intra-total-projetado">-</td>
+          <td id="intra-total-repassado">-</td>
+          <td id="intra-total-diferenca">-</td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+    <p id="intra-tabela-vazia" class="tabela-vazia" hidden>Nenhum registro encontrado para os filtros aplicados.</p>
+  </main>
+</section>
 
 <script src="app.js"></script>
 </body>
