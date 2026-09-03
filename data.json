@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-03T13:58:05.101515+00:00",
+    "gerado_em": "2026-09-03T18:17:36.902533+00:00",
     "total_combinacoes": 424,
-    "total_ok": 187,
-    "total_divergente": 237,
-    "soma_divergencias_abs": "180607953230.00"
+    "total_ok": 190,
+    "total_divergente": 234,
+    "soma_divergencias_abs": "180646151006.00"
   },
   "registros": [
     {
@@ -546,11 +546,11 @@
       "sigla_uo": "SEAPA",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "41397147.00",
+      "valor_despesa": "41347880.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-41397147.00",
+      "diferenca": "-41347880.00",
       "status": "Divergente"
     },
     {
@@ -3614,11 +3614,11 @@
       "sigla_uo": "UEMG",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "513821471.00",
+      "valor_despesa": "522599144.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-513821471.00",
+      "diferenca": "-522599144.00",
       "status": "Divergente"
     },
     {
@@ -3666,11 +3666,11 @@
       "sigla_uo": "UEMG",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "0",
+      "valor_despesa": "1330000.00",
       "valor_repassado_saida": "0",
       "valor_loa": "1331000",
       "valor_repassado_entrada": "0",
-      "diferenca": "1331000",
+      "diferenca": "1000.00",
       "status": "Divergente"
     },
     {
@@ -3757,12 +3757,12 @@
       "sigla_uo": "IMA",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "20991857.00",
+      "valor_despesa": "20802401.00",
       "valor_repassado_saida": "0",
       "valor_loa": "20802401",
       "valor_repassado_entrada": "0",
-      "diferenca": "-189456.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "2371",
@@ -3783,11 +3783,11 @@
       "sigla_uo": "IMA",
       "fonte": "91",
       "nome_fonte": "TAXA DE EXPEDIENTE - ADMINISTRACAO INDIRETA",
-      "valor_despesa": "82716646.00",
+      "valor_despesa": "82903102.00",
       "valor_repassado_saida": "149161",
       "valor_loa": "83055263",
       "valor_repassado_entrada": "0",
-      "diferenca": "189456.00",
+      "diferenca": "3000.00",
       "status": "Divergente"
     },
     {
@@ -4017,12 +4017,12 @@
       "sigla_uo": "EMATER",
       "fonte": "1",
       "nome_fonte": "CONVENIOS COM A UNIAO E SUAS ENTIDADES - EMENDAS INDIVIDUAIS",
-      "valor_despesa": "1579750.00",
+      "valor_despesa": "1577750.00",
       "valor_repassado_saida": "0",
       "valor_loa": "1577750",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2000.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "3041",
@@ -4056,12 +4056,12 @@
       "sigla_uo": "EMATER",
       "fonte": "24",
       "nome_fonte": "CONVENIOS COM A UNIAO E SUAS ENTIDADES - EXCETO EMENDAS INDIVIDUAIS E DE BANCADA",
-      "valor_despesa": "8117500.00",
+      "valor_despesa": "8119500.00",
       "valor_repassado_saida": "0",
       "valor_loa": "8119500",
       "valor_repassado_entrada": "0",
-      "diferenca": "2000.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "3041",
@@ -4446,11 +4446,11 @@
       "sigla_uo": "FES",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "12675528479.00",
+      "valor_despesa": "12675449905.00",
       "valor_repassado_saida": "0",
       "valor_loa": "35000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-12675493479.00",
+      "diferenca": "-12675414905.00",
       "status": "Divergente"
     },
     {
@@ -4511,12 +4511,12 @@
       "sigla_uo": "FES",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "42000000.00",
+      "valor_despesa": "10819950.00",
       "valor_repassado_saida": "0",
       "valor_loa": "42000000",
       "valor_repassado_entrada": "0",
-      "diferenca": "0.00",
-      "status": "OK"
+      "diferenca": "31180050.00",
+      "status": "Divergente"
     },
     {
       "uo": "4291",
@@ -4537,12 +4537,12 @@
       "sigla_uo": "FES",
       "fonte": "63",
       "nome_fonte": "TRANSFERENCIAS DA UNIAO VINCULADAS A SAUDE - BLOCO MANUTENCAO - EMENDAS DE BANCADA",
-      "valor_despesa": "402000.00",
+      "valor_despesa": "901000.00",
       "valor_repassado_saida": "0",
       "valor_loa": "901000",
       "valor_repassado_entrada": "0",
-      "diferenca": "499000.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "4291",
@@ -5161,11 +5161,11 @@
       "sigla_uo": "FUNESB-MG",
       "fonte": "89",
       "nome_fonte": "RECURSOS DO FUNDO DE EQUALIZACAO FEDERATIVA - FEF",
-      "valor_despesa": "51257532.00",
+      "valor_despesa": "51834338.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-51257532.00",
+      "diferenca": "-51834338.00",
       "status": "Divergente"
     },
     {
