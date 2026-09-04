@@ -143,6 +143,7 @@ class TestReadDespesaDetalhada(unittest.TestCase):
         self.assertEqual(rows, [{
             'uo': '1011',
             'nome_uo': 'UO TESTE',
+            'sigla_uo': 'UOT',
             'funcao': '28',
             'acao': '7004',
             'nome_acao': 'NOME ACAO TESTE',

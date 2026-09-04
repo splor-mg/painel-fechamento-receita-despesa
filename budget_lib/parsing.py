@@ -67,6 +67,7 @@ def read_despesa_detalhada(path: Path) -> list[dict]:
     return [{
         'uo': row['Unidade Orçamentária'].strip(),
         'nome_uo': row['Nome da UO'].strip(),
+        'sigla_uo': row['Sigla da UO'].strip(),
         'funcao': row['Função'].strip(),
         'acao': row['Ação'].strip(),
         'nome_acao': row['Nome da Ação'].strip(),

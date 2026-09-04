@@ -263,16 +263,16 @@ const despesaDetalhadaController = createTabController({
   ],
   defaultSortKey: 'uo',
   dropdownAKey: 'uo',
-  dropdownALabel: (r) => (r.nome_uo ? `${r.uo} - ${r.nome_uo}` : r.uo),
+  dropdownALabel: (r) => (r.sigla_uo ? `${r.uo} - ${r.sigla_uo}` : r.uo),
   dropdownBKey: 'fonte',
   dropdownBLabel: (r) => r.fonte,
-  searchFields: ['uo', 'nome_uo', 'funcao', 'acao', 'nome_acao', 'grupo', 'modalidade', 'elemento', 'item', 'fonte', 'ipu'],
+  searchFields: ['uo', 'nome_uo', 'sigla_uo', 'funcao', 'acao', 'nome_acao', 'grupo', 'modalidade', 'elemento', 'item', 'fonte', 'ipu'],
   numericSortKeys: new Set(['valor']),
   sumFields: [
     { key: 'valor', el: document.getElementById('detalhada-total-valor') },
   ],
   rowTemplate: (r) => {
-    const uoLabel = escapeHtml(r.uo) + (r.nome_uo ? ` - ${escapeHtml(r.nome_uo)}` : '');
+    const uoLabel = escapeHtml(r.uo) + (r.sigla_uo ? ` - ${escapeHtml(r.sigla_uo)}` : '');
     const acaoLabel = escapeHtml(r.acao) + (r.nome_acao ? ` - ${escapeHtml(r.nome_acao)}` : '');
     return `
       <td>${uoLabel}</td>
