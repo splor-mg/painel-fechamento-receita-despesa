@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-04T13:26:21.455722+00:00",
-    "total_combinacoes": 118,
-    "total_ok": 76,
-    "total_divergente": 42,
-    "soma_divergencias_abs": "1297165340.00"
+    "gerado_em": "2026-09-04T15:51:09.751348+00:00",
+    "total_combinacoes": 120,
+    "total_ok": 80,
+    "total_divergente": 40,
+    "soma_divergencias_abs": "1001475854.00"
   },
   "registros": [
     {
@@ -35,6 +35,26 @@
       "valor_projetado": "0",
       "valor_repassado": "285000.00",
       "diferenca": "-285000.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1021",
+      "sigla_uo": "TCEMG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "0",
+      "valor_repassado": "98550188.00",
+      "diferenca": "-98550188.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1021",
+      "sigla_uo": "TCEMG",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "0",
+      "valor_repassado": "1158711.00",
+      "diferenca": "-1158711.00",
       "status": "Divergente"
     },
     {
@@ -363,8 +383,8 @@
       "credor": "FFP",
       "uo_credor": "4711",
       "valor_projetado": "12414932",
-      "valor_repassado": "17065826.00",
-      "diferenca": "-4650894.00",
+      "valor_repassado": "12410769.00",
+      "diferenca": "4163.00",
       "status": "Divergente"
     },
     {
@@ -373,8 +393,8 @@
       "credor": "IPSEMG",
       "uo_credor": "2011",
       "valor_projetado": "676595",
-      "valor_repassado": "936100.00",
-      "diferenca": "-259505.00",
+      "valor_repassado": "680758.00",
+      "diferenca": "-4163.00",
       "status": "Divergente"
     },
     {
@@ -873,9 +893,9 @@
       "credor": "FFP",
       "uo_credor": "4711",
       "valor_projetado": "378338978",
-      "valor_repassado": "0",
-      "diferenca": "378338978",
-      "status": "Divergente"
+      "valor_repassado": "378338978.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "2271",
@@ -883,9 +903,9 @@
       "credor": "IPSEMG",
       "uo_credor": "2011",
       "valor_projetado": "12138171",
-      "valor_repassado": "0",
-      "diferenca": "12138171",
-      "status": "Divergente"
+      "valor_repassado": "12138171.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "2281",
@@ -1153,9 +1173,9 @@
       "credor": "FFP",
       "uo_credor": "4711",
       "valor_projetado": "100132631",
-      "valor_repassado": "100151180.00",
-      "diferenca": "-18549.00",
-      "status": "Divergente"
+      "valor_repassado": "100132631.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "4291",
@@ -1163,9 +1183,9 @@
       "credor": "IPSEMG",
       "uo_credor": "2011",
       "valor_projetado": "3346810",
-      "valor_repassado": "3347424.00",
-      "diferenca": "-614.00",
-      "status": "Divergente"
+      "valor_repassado": "3346810.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "4711",

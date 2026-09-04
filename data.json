@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-04T13:26:21.428205+00:00",
-    "total_combinacoes": 422,
-    "total_ok": 197,
-    "total_divergente": 225,
-    "soma_divergencias_abs": "180954472947.00"
+    "gerado_em": "2026-09-04T15:51:09.729083+00:00",
+    "total_combinacoes": 424,
+    "total_ok": 200,
+    "total_divergente": 224,
+    "soma_divergencias_abs": "180945145584.00"
   },
   "registros": [
     {
@@ -520,11 +520,11 @@
       "sigla_uo": "SEDE",
       "fonte": "80",
       "nome_fonte": "RECURSOS DO ACORDO DE REPACTUACAO DO RIO DOCE",
-      "valor_despesa": "22330731.00",
+      "valor_despesa": "92531731.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-22330731.00",
+      "diferenca": "-92531731.00",
       "status": "Divergente"
     },
     {
@@ -1449,6 +1449,32 @@
       "valor_repassado_entrada": "0",
       "diferenca": "0.00",
       "status": "OK"
+    },
+    {
+      "uo": "1441",
+      "nome_uo": "DEFENSORIA PUBLICA DO ESTADO DE MINAS GERAIS",
+      "sigla_uo": "DEF PUB",
+      "fonte": "42",
+      "nome_fonte": "CONTRIBUICAO PATRONAL PARA O RPPS",
+      "valor_despesa": "0",
+      "valor_repassado_saida": "0",
+      "valor_loa": "0",
+      "valor_repassado_entrada": "105515757",
+      "diferenca": "105515757",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1441",
+      "nome_uo": "DEFENSORIA PUBLICA DO ESTADO DE MINAS GERAIS",
+      "sigla_uo": "DEF PUB",
+      "fonte": "43",
+      "nome_fonte": "CONTRIBUICAO DO SERVIDOR PARA O RPPS",
+      "valor_despesa": "0",
+      "valor_repassado_saida": "0",
+      "valor_loa": "0",
+      "valor_repassado_entrada": "72184244",
+      "diferenca": "72184244",
+      "status": "Divergente"
     },
     {
       "uo": "1441",
@@ -2470,12 +2496,12 @@
       "sigla_uo": "FEAM",
       "fonte": "9",
       "nome_fonte": "TERMOS DE AJUSTAMENTO, DOACOES CONTROLADAS POR INSTRUMENTO JURIDICO E CONGENERES",
-      "valor_despesa": "6002000.00",
+      "valor_despesa": "1268785.00",
       "valor_repassado_saida": "0",
       "valor_loa": "1268785",
       "valor_repassado_entrada": "0",
-      "diferenca": "-4733215.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "2091",
@@ -2665,12 +2691,12 @@
       "sigla_uo": "IPSM",
       "fonte": "49",
       "nome_fonte": "CONTRIBUICAO PATRONAL DO ESTADO AOS INSTITUTOS DE PREVIDENCIA",
-      "valor_despesa": "2208658204.00",
+      "valor_despesa": "2208661204.00",
       "valor_repassado_saida": "156420005",
       "valor_loa": "2365081209",
       "valor_repassado_entrada": "0",
-      "diferenca": "3000.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "2121",
@@ -2678,12 +2704,12 @@
       "sigla_uo": "IPSM",
       "fonte": "50",
       "nome_fonte": "CONTRIBUICAO DO SERVIDOR DO ESTADO AOS INSTITUTOS DE PREVIDENCIA",
-      "valor_despesa": "1134215661.00",
+      "valor_despesa": "1134218661.00",
       "valor_repassado_saida": "0",
       "valor_loa": "1134218661",
       "valor_repassado_entrada": "0",
-      "diferenca": "3000.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "2121",
@@ -2691,12 +2717,12 @@
       "sigla_uo": "IPSM",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "258470534.00",
+      "valor_despesa": "258470546.00",
       "valor_repassado_saida": "1687444",
       "valor_loa": "260157990",
       "valor_repassado_entrada": "0",
-      "diferenca": "12.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "2151",
@@ -2743,11 +2769,11 @@
       "sigla_uo": "FUCAM",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "3260533.00",
+      "valor_despesa": "13273136.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-3260533.00",
+      "diferenca": "-13273136.00",
       "status": "Divergente"
     },
     {
@@ -3094,11 +3120,11 @@
       "sigla_uo": "FUNED",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "119022331.00",
+      "valor_despesa": "194747689.00",
       "valor_repassado_saida": "0",
       "valor_loa": "673588524",
       "valor_repassado_entrada": "0",
-      "diferenca": "554566193.00",
+      "diferenca": "478840835.00",
       "status": "Divergente"
     },
     {
@@ -3120,11 +3146,11 @@
       "sigla_uo": "FUNED",
       "fonte": "57",
       "nome_fonte": "TRANSFERENCIAS DA UNIAO POR MEIO DE PORTARIA - EXCETO EMENDAS INDIVIDUAIS E DE BANCADA",
-      "valor_despesa": "0",
+      "valor_despesa": "18000.00",
       "valor_repassado_saida": "0",
       "valor_loa": "2000",
       "valor_repassado_entrada": "0",
-      "diferenca": "2000",
+      "diferenca": "-16000.00",
       "status": "Divergente"
     },
     {
@@ -3757,12 +3783,12 @@
       "sigla_uo": "IMA",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "20802401.00",
+      "valor_despesa": "20796546.00",
       "valor_repassado_saida": "0",
       "valor_loa": "20802401",
       "valor_repassado_entrada": "0",
-      "diferenca": "0.00",
-      "status": "OK"
+      "diferenca": "5855.00",
+      "status": "Divergente"
     },
     {
       "uo": "2371",
@@ -3783,12 +3809,12 @@
       "sigla_uo": "IMA",
       "fonte": "91",
       "nome_fonte": "TAXA DE EXPEDIENTE - ADMINISTRACAO INDIRETA",
-      "valor_despesa": "82906102.00",
+      "valor_despesa": "82911957.00",
       "valor_repassado_saida": "149161",
       "valor_loa": "83055263",
       "valor_repassado_entrada": "0",
-      "diferenca": "0.00",
-      "status": "OK"
+      "diferenca": "-5855.00",
+      "status": "Divergente"
     },
     {
       "uo": "2421",
@@ -4264,11 +4290,11 @@
       "sigla_uo": "FEH",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "18224595.00",
+      "valor_despesa": "19824595.00",
       "valor_repassado_saida": "0",
       "valor_loa": "41571088",
       "valor_repassado_entrada": "0",
-      "diferenca": "23346493.00",
+      "diferenca": "21746493.00",
       "status": "Divergente"
     },
     {
@@ -4784,12 +4810,12 @@
       "sigla_uo": "FAHMEMG",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "27421481.00",
+      "valor_despesa": "27423572.00",
       "valor_repassado_saida": "0",
       "valor_loa": "27423572",
       "valor_repassado_entrada": "0",
-      "diferenca": "2091.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "4551",
@@ -4836,11 +4862,11 @@
       "sigla_uo": "FUNCONTAS",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "0",
+      "valor_despesa": "7500000.00",
       "valor_repassado_saida": "0",
       "valor_loa": "14245944",
       "valor_repassado_entrada": "0",
-      "diferenca": "14245944",
+      "diferenca": "6745944.00",
       "status": "Divergente"
     },
     {
@@ -5006,10 +5032,10 @@
       "fonte": "42",
       "nome_fonte": "CONTRIBUICAO PATRONAL PARA O RPPS",
       "valor_despesa": "5850368667.00",
-      "valor_repassado_saida": "694329989",
+      "valor_repassado_saida": "799845746",
       "valor_loa": "7723365884",
       "valor_repassado_entrada": "0",
-      "diferenca": "1178667228.00",
+      "diferenca": "1073151471.00",
       "status": "Divergente"
     },
     {
@@ -5019,10 +5045,10 @@
       "fonte": "43",
       "nome_fonte": "CONTRIBUICAO DO SERVIDOR PARA O RPPS",
       "valor_despesa": "2638433255.00",
-      "valor_repassado_saida": "572014378",
+      "valor_repassado_saida": "644198622",
       "valor_loa": "4118375087",
       "valor_repassado_entrada": "0",
-      "diferenca": "907927454.00",
+      "diferenca": "835743210.00",
       "status": "Divergente"
     },
     {
