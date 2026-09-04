@@ -17,6 +17,7 @@
 <nav class="tabs" role="tablist">
   <button type="button" class="tab-btn active" id="tab-btn-receita-despesa" role="tab" aria-selected="true" aria-controls="view-receita-despesa">Fechamento Receita x Despesa</button>
   <button type="button" class="tab-btn" id="tab-btn-intra-patronal" role="tab" aria-selected="false" aria-controls="view-intra-patronal">Despesa Intraorçamentária - Credor Patronal</button>
+  <button type="button" class="tab-btn" id="tab-btn-despesa-detalhada" role="tab" aria-selected="false" aria-controls="view-despesa-detalhada">Despesa Detalhada</button>
 </nav>
 
 <section id="view-receita-despesa" class="view" role="tabpanel" aria-labelledby="tab-btn-receita-despesa">
@@ -152,6 +153,62 @@
       </tfoot>
     </table>
     <p id="intra-tabela-vazia" class="tabela-vazia" hidden>Nenhum registro encontrado para os filtros aplicados.</p>
+  </main>
+</section>
+
+<section id="view-despesa-detalhada" class="view" role="tabpanel" aria-labelledby="tab-btn-despesa-detalhada" hidden>
+  <section class="kpi-grid">
+    <div class="kpi-card">
+      <span class="kpi-label">Registros</span>
+      <span class="kpi-value" id="detalhada-kpi-total">-</span>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-label">Valor Total</span>
+      <span class="kpi-value" id="detalhada-kpi-valor-total">-</span>
+    </div>
+  </section>
+
+  <section class="filtros">
+    <div class="filtro-campo">
+      <label for="detalhada-filtro-uo">Unidade Orçamentária</label>
+      <select id="detalhada-filtro-uo"><option value="">Todas</option></select>
+    </div>
+    <div class="filtro-campo">
+      <label for="detalhada-filtro-fonte">Fonte</label>
+      <select id="detalhada-filtro-fonte"><option value="">Todas</option></select>
+    </div>
+    <div class="filtro-campo">
+      <label for="detalhada-filtro-busca">Buscar</label>
+      <input type="text" id="detalhada-filtro-busca" placeholder="UO, Ação, Elemento...">
+    </div>
+  </section>
+
+  <main>
+    <table id="detalhada-tabela">
+      <caption class="visually-hidden">Despesa orçamentária detalhada por Unidade Orçamentária, Função, Ação, Grupo de Despesa, Modalidade, Elemento, Item, Fonte e Identificador de Procedência e Uso</caption>
+      <thead>
+        <tr>
+          <th data-sort="uo" scope="col">UO</th>
+          <th data-sort="funcao" scope="col">Função</th>
+          <th data-sort="acao" scope="col">Ação</th>
+          <th data-sort="grupo" scope="col">Grupo</th>
+          <th data-sort="modalidade" scope="col">Modalidade</th>
+          <th data-sort="elemento" scope="col">Elemento</th>
+          <th data-sort="item" scope="col">Item</th>
+          <th data-sort="fonte" scope="col">Fonte</th>
+          <th data-sort="ipu" scope="col">IPU</th>
+          <th data-sort="valor" scope="col">Valor Detalhado</th>
+        </tr>
+      </thead>
+      <tbody id="detalhada-tabela-corpo"></tbody>
+      <tfoot>
+        <tr>
+          <th scope="row" colspan="9">Total (filtrado)</th>
+          <td id="detalhada-total-valor">-</td>
+        </tr>
+      </tfoot>
+    </table>
+    <p id="detalhada-tabela-vazia" class="tabela-vazia" hidden>Nenhum registro encontrado para os filtros aplicados.</p>
   </main>
 </section>
 

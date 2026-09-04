@@ -7,6 +7,7 @@ from budget_lib.parsing import (
     parse_valor_despesa,
     parse_valor_plain,
     read_despesa,
+    read_despesa_detalhada,
     read_fonte_desc,
     read_intra_orcamentaria,
     read_receita,
@@ -121,6 +122,38 @@ class TestReadFonteDesc(unittest.TestCase):
             {'fonte': '60', 'nome_fonte': 'RECURSOS DIRETAMENTE ARRECADADOS'},
             {'fonte': '10', 'nome_fonte': 'RECURSOS ORDINARIOS'},
         ])
+
+
+class TestReadDespesaDetalhada(unittest.TestCase):
+    def test_reads_relevant_columns(self):
+        content = (
+            'Ano;Poder;Órgão;Nome do Órgão;Unidade Orçamentária;Nome da UO;Sigla da UO;'
+            'Função;Subfunção;Programa;Nome do Programa;Ação;Identificador Projeto Atividade;'
+            'Projeto Atividade;Nome da Ação;Subprojeto / Subatividade;Categoria;'
+            'Grupo de Despesa (GND);Modalidade de Aplicação;Elemento de Despesa;'
+            'Item de Despesa;IAG;Fonte de Recursos;Identificador de Procedência e Uso;'
+            'Valor Proposto Ano\n'
+            '2027;1;1010;ORGAO TESTE;1011;UO TESTE;UOT;28;846;705;NOME PROGRAMA;7004;7;004;'
+            'NOME ACAO TESTE;0001;3;1;90;91;3;0;10;9;"1000000,00"\n'
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'despesa.csv'
+            path.write_text(content, encoding='utf-8-sig')
+            rows = read_despesa_detalhada(path)
+        self.assertEqual(rows, [{
+            'uo': '1011',
+            'nome_uo': 'UO TESTE',
+            'funcao': '28',
+            'acao': '7004',
+            'nome_acao': 'NOME ACAO TESTE',
+            'grupo': '1',
+            'modalidade': '90',
+            'elemento': '91',
+            'item': '3',
+            'fonte': '10',
+            'ipu': '9',
+            'valor': Decimal('1000000.00'),
+        }])
 
 
 class TestReadIntraOrcamentaria(unittest.TestCase):

@@ -4,7 +4,7 @@ import tempfile
 from decimal import Decimal
 from pathlib import Path
 
-from budget_lib.output import build_metadata, write_json
+from budget_lib.output import build_metadata, build_metadata_simples, write_json
 
 
 class TestBuildMetadata(unittest.TestCase):
@@ -26,6 +26,22 @@ class TestBuildMetadata(unittest.TestCase):
         self.assertEqual(metadata['total_ok'], 0)
         self.assertEqual(metadata['total_divergente'], 0)
         self.assertEqual(metadata['soma_divergencias_abs'], '0')
+
+
+class TestBuildMetadataSimples(unittest.TestCase):
+    def test_counts_and_sums_valor(self):
+        records = [
+            {'valor': Decimal('100.00')},
+            {'valor': Decimal('50.50')},
+        ]
+        metadata = build_metadata_simples(records, 'valor')
+        self.assertEqual(metadata['total_registros'], 2)
+        self.assertEqual(metadata['valor_total'], '150.50')
+
+    def test_empty_records(self):
+        metadata = build_metadata_simples([], 'valor')
+        self.assertEqual(metadata['total_registros'], 0)
+        self.assertEqual(metadata['valor_total'], '0')
 
 
 class TestWriteJson(unittest.TestCase):

@@ -31,9 +31,9 @@ function mostrarErro(mensagem) {
 }
 
 /**
- * Generic controller for one reconciliation tab: KPI cards, two dropdown
- * filters, free-text search, a divergences-only toggle, a sortable table
- * and a filtered-totals footer row.
+ * Generic controller for one tab: KPI cards, two dropdown filters,
+ * free-text search, an optional divergences-only toggle, a sortable
+ * table and a filtered-totals footer row.
  */
 function createTabController(opts) {
   const state = { registros: [], sortKey: opts.defaultSortKey, sortDir: 1 };
@@ -59,17 +59,16 @@ function createTabController(opts) {
   }
 
   function renderKpis(metadata) {
-    opts.els.kpiTotal.textContent = metadata.total_combinacoes;
-    opts.els.kpiOk.textContent = metadata.total_ok;
-    opts.els.kpiDivergente.textContent = metadata.total_divergente;
-    opts.els.kpiSomaDivergencias.textContent = formatBRL(metadata.soma_divergencias_abs);
+    for (const { key, el, format } of opts.kpiFields) {
+      el.textContent = format ? format(metadata[key]) : metadata[key];
+    }
   }
 
   function getFiltered() {
     const valorA = opts.els.filtroA.value;
     const valorB = opts.els.filtroB.value;
     const busca = opts.els.filtroBusca.value.trim().toLowerCase();
-    const soDivergentes = opts.els.filtroDivergentes.checked;
+    const soDivergentes = opts.els.filtroDivergentes ? opts.els.filtroDivergentes.checked : false;
 
     return state.registros.filter((r) => {
       if (valorA && r[opts.dropdownAKey] !== valorA) return false;
@@ -143,7 +142,9 @@ function createTabController(opts) {
     opts.els.filtroA.addEventListener('change', renderTabela);
     opts.els.filtroB.addEventListener('change', renderTabela);
     opts.els.filtroBusca.addEventListener('input', renderTabela);
-    opts.els.filtroDivergentes.addEventListener('change', renderTabela);
+    if (opts.els.filtroDivergentes) {
+      opts.els.filtroDivergentes.addEventListener('change', renderTabela);
+    }
     opts.els.tabela.querySelector('thead').addEventListener('click', onSortClick);
   }
 
@@ -167,11 +168,13 @@ const receitaDespesaController = createTabController({
     tabelaCorpo: document.getElementById('tabela-corpo'),
     tabelaVazia: document.getElementById('tabela-vazia'),
     tabela: document.getElementById('tabela-reconciliacao'),
-    kpiTotal: document.getElementById('kpi-total'),
-    kpiOk: document.getElementById('kpi-ok'),
-    kpiDivergente: document.getElementById('kpi-divergente'),
-    kpiSomaDivergencias: document.getElementById('kpi-soma-divergencias'),
   },
+  kpiFields: [
+    { key: 'total_combinacoes', el: document.getElementById('kpi-total') },
+    { key: 'total_ok', el: document.getElementById('kpi-ok') },
+    { key: 'total_divergente', el: document.getElementById('kpi-divergente') },
+    { key: 'soma_divergencias_abs', el: document.getElementById('kpi-soma-divergencias'), format: formatBRL },
+  ],
   defaultSortKey: 'uo',
   dropdownAKey: 'uo',
   dropdownALabel: (r) => (r.sigla_uo ? `${r.uo} - ${r.sigla_uo}` : r.uo),
@@ -212,11 +215,13 @@ const intraPatronalController = createTabController({
     tabelaCorpo: document.getElementById('intra-tabela-corpo'),
     tabelaVazia: document.getElementById('intra-tabela-vazia'),
     tabela: document.getElementById('intra-tabela'),
-    kpiTotal: document.getElementById('intra-kpi-total'),
-    kpiOk: document.getElementById('intra-kpi-ok'),
-    kpiDivergente: document.getElementById('intra-kpi-divergente'),
-    kpiSomaDivergencias: document.getElementById('intra-kpi-soma-divergencias'),
   },
+  kpiFields: [
+    { key: 'total_combinacoes', el: document.getElementById('intra-kpi-total') },
+    { key: 'total_ok', el: document.getElementById('intra-kpi-ok') },
+    { key: 'total_divergente', el: document.getElementById('intra-kpi-divergente') },
+    { key: 'soma_divergencias_abs', el: document.getElementById('intra-kpi-soma-divergencias'), format: formatBRL },
+  ],
   defaultSortKey: 'uo',
   dropdownAKey: 'uo',
   dropdownALabel: (r) => (r.sigla_uo ? `${r.uo} - ${r.sigla_uo}` : r.uo),
@@ -239,6 +244,47 @@ const intraPatronalController = createTabController({
       <td>${formatBRL(r.valor_repassado)}</td>
       <td>${formatBRL(r.diferenca)}</td>
       <td><span class="status-badge ${statusClass}">${escapeHtml(r.status)}</span></td>
+    `;
+  },
+});
+
+const despesaDetalhadaController = createTabController({
+  els: {
+    filtroA: document.getElementById('detalhada-filtro-uo'),
+    filtroB: document.getElementById('detalhada-filtro-fonte'),
+    filtroBusca: document.getElementById('detalhada-filtro-busca'),
+    tabelaCorpo: document.getElementById('detalhada-tabela-corpo'),
+    tabelaVazia: document.getElementById('detalhada-tabela-vazia'),
+    tabela: document.getElementById('detalhada-tabela'),
+  },
+  kpiFields: [
+    { key: 'total_registros', el: document.getElementById('detalhada-kpi-total') },
+    { key: 'valor_total', el: document.getElementById('detalhada-kpi-valor-total'), format: formatBRL },
+  ],
+  defaultSortKey: 'uo',
+  dropdownAKey: 'uo',
+  dropdownALabel: (r) => (r.nome_uo ? `${r.uo} - ${r.nome_uo}` : r.uo),
+  dropdownBKey: 'fonte',
+  dropdownBLabel: (r) => r.fonte,
+  searchFields: ['uo', 'nome_uo', 'funcao', 'acao', 'nome_acao', 'grupo', 'modalidade', 'elemento', 'item', 'fonte', 'ipu'],
+  numericSortKeys: new Set(['valor']),
+  sumFields: [
+    { key: 'valor', el: document.getElementById('detalhada-total-valor') },
+  ],
+  rowTemplate: (r) => {
+    const uoLabel = escapeHtml(r.uo) + (r.nome_uo ? ` - ${escapeHtml(r.nome_uo)}` : '');
+    const acaoLabel = escapeHtml(r.acao) + (r.nome_acao ? ` - ${escapeHtml(r.nome_acao)}` : '');
+    return `
+      <td>${uoLabel}</td>
+      <td>${escapeHtml(r.funcao)}</td>
+      <td>${acaoLabel}</td>
+      <td>${escapeHtml(r.grupo)}</td>
+      <td>${escapeHtml(r.modalidade)}</td>
+      <td>${escapeHtml(r.elemento)}</td>
+      <td>${escapeHtml(r.item)}</td>
+      <td>${escapeHtml(r.fonte)}</td>
+      <td>${escapeHtml(r.ipu)}</td>
+      <td>${formatBRL(r.valor)}</td>
     `;
   },
 });
@@ -302,6 +348,13 @@ async function init() {
     intraPatronalController.load(data);
   } catch (err) {
     erros.push(`Despesa Intraorçamentária (data_intra_patronal.json): ${err.message}`);
+  }
+
+  try {
+    const data = await fetchJson('data_despesa_detalhada.json');
+    despesaDetalhadaController.load(data);
+  } catch (err) {
+    erros.push(`Despesa Detalhada (data_despesa_detalhada.json): ${err.message}`);
   }
 
   if (erros.length > 0) {

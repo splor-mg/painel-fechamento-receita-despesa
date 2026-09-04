@@ -17,6 +17,15 @@ def build_metadata(records: list[dict]) -> dict:
     }
 
 
+def build_metadata_simples(records: list[dict], valor_key: str) -> dict:
+    valor_total = sum((r[valor_key] for r in records), Decimal('0'))
+    return {
+        'gerado_em': datetime.now(timezone.utc).isoformat(),
+        'total_registros': len(records),
+        'valor_total': format(valor_total, 'f'),
+    }
+
+
 def _decimal_to_str(value):
     if isinstance(value, Decimal):
         return format(value, 'f')

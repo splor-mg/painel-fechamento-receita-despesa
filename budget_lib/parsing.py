@@ -62,6 +62,24 @@ def read_repasse(path: Path) -> list[dict]:
     } for row in rows]
 
 
+def read_despesa_detalhada(path: Path) -> list[dict]:
+    rows = read_csv_rows(path)
+    return [{
+        'uo': row['Unidade Orçamentária'].strip(),
+        'nome_uo': row['Nome da UO'].strip(),
+        'funcao': row['Função'].strip(),
+        'acao': row['Ação'].strip(),
+        'nome_acao': row['Nome da Ação'].strip(),
+        'grupo': row['Grupo de Despesa (GND)'].strip(),
+        'modalidade': row['Modalidade de Aplicação'].strip(),
+        'elemento': row['Elemento de Despesa'].strip(),
+        'item': row['Item de Despesa'].strip(),
+        'fonte': row['Fonte de Recursos'].strip(),
+        'ipu': row['Identificador de Procedência e Uso'].strip(),
+        'valor': parse_valor_despesa(row['Valor Proposto Ano']),
+    } for row in rows]
+
+
 def read_intra_orcamentaria(path: Path) -> list[dict]:
     rows = read_csv_rows(path)
     return [{
