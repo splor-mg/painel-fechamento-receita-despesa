@@ -31,30 +31,33 @@ function mostrarErro(mensagem) {
 }
 
 /**
- * Generic controller for one tab: KPI cards, two dropdown filters,
- * free-text search, an optional divergences-only toggle, a sortable
- * table and a filtered-totals footer row.
+ * Generic controller for one tab: KPI cards, any number of dropdown
+ * filters, free-text search, an optional divergences-only toggle, a
+ * sortable table and a filtered-totals footer row.
+ *
+ * opts.dropdownFilters: [{ key, el, label(record) }, ...]
  */
 function createTabController(opts) {
   const state = { registros: [], sortKey: opts.defaultSortKey, sortDir: 1 };
 
   function populateFiltros(registros) {
-    const valoresA = uniqueSorted(registros.map((r) => r[opts.dropdownAKey]));
-    for (const valor of valoresA) {
-      const registro = registros.find((r) => r[opts.dropdownAKey] === valor);
-      const option = document.createElement('option');
-      option.value = valor;
-      option.textContent = opts.dropdownALabel(registro);
-      opts.els.filtroA.appendChild(option);
-    }
-
-    const valoresB = uniqueSorted(registros.map((r) => r[opts.dropdownBKey]));
-    for (const valor of valoresB) {
-      const registro = registros.find((r) => r[opts.dropdownBKey] === valor);
-      const option = document.createElement('option');
-      option.value = valor;
-      option.textContent = opts.dropdownBLabel(registro);
-      opts.els.filtroB.appendChild(option);
+    for (const filtro of opts.dropdownFilters) {
+      const primeiroRegistroPorValor = new Map();
+      for (const r of registros) {
+        const valor = r[filtro.key];
+        if (!primeiroRegistroPorValor.has(valor)) {
+          primeiroRegistroPorValor.set(valor, r);
+        }
+      }
+      const valores = uniqueSorted(Array.from(primeiroRegistroPorValor.keys()));
+      const frag = document.createDocumentFragment();
+      for (const valor of valores) {
+        const option = document.createElement('option');
+        option.value = valor;
+        option.textContent = filtro.label(primeiroRegistroPorValor.get(valor));
+        frag.appendChild(option);
+      }
+      filtro.el.appendChild(frag);
     }
   }
 
@@ -65,14 +68,14 @@ function createTabController(opts) {
   }
 
   function getFiltered() {
-    const valorA = opts.els.filtroA.value;
-    const valorB = opts.els.filtroB.value;
     const busca = opts.els.filtroBusca.value.trim().toLowerCase();
     const soDivergentes = opts.els.filtroDivergentes ? opts.els.filtroDivergentes.checked : false;
 
     return state.registros.filter((r) => {
-      if (valorA && r[opts.dropdownAKey] !== valorA) return false;
-      if (valorB && r[opts.dropdownBKey] !== valorB) return false;
+      for (const filtro of opts.dropdownFilters) {
+        const valor = filtro.el.value;
+        if (valor && r[filtro.key] !== valor) return false;
+      }
       if (soDivergentes && r.status !== 'Divergente') return false;
       if (busca) {
         const haystack = opts.searchFields.map((f) => r[f]).join(' ').toLowerCase();
@@ -139,8 +142,9 @@ function createTabController(opts) {
   }
 
   function wireEvents() {
-    opts.els.filtroA.addEventListener('change', renderTabela);
-    opts.els.filtroB.addEventListener('change', renderTabela);
+    for (const filtro of opts.dropdownFilters) {
+      filtro.el.addEventListener('change', renderTabela);
+    }
     opts.els.filtroBusca.addEventListener('input', renderTabela);
     if (opts.els.filtroDivergentes) {
       opts.els.filtroDivergentes.addEventListener('change', renderTabela);
@@ -161,8 +165,6 @@ function createTabController(opts) {
 
 const receitaDespesaController = createTabController({
   els: {
-    filtroA: document.getElementById('filtro-uo'),
-    filtroB: document.getElementById('filtro-fonte'),
     filtroBusca: document.getElementById('filtro-busca'),
     filtroDivergentes: document.getElementById('filtro-divergentes'),
     tabelaCorpo: document.getElementById('tabela-corpo'),
@@ -176,10 +178,10 @@ const receitaDespesaController = createTabController({
     { key: 'soma_divergencias_abs', el: document.getElementById('kpi-soma-divergencias'), format: formatBRL },
   ],
   defaultSortKey: 'uo',
-  dropdownAKey: 'uo',
-  dropdownALabel: (r) => (r.sigla_uo ? `${r.uo} - ${r.sigla_uo}` : r.uo),
-  dropdownBKey: 'fonte',
-  dropdownBLabel: (r) => (r.nome_fonte ? `${r.fonte} - ${r.nome_fonte}` : r.fonte),
+  dropdownFilters: [
+    { key: 'uo', el: document.getElementById('filtro-uo'), label: (r) => (r.sigla_uo ? `${r.uo} - ${r.sigla_uo}` : r.uo) },
+    { key: 'fonte', el: document.getElementById('filtro-fonte'), label: (r) => (r.nome_fonte ? `${r.fonte} - ${r.nome_fonte}` : r.fonte) },
+  ],
   searchFields: ['uo', 'nome_uo', 'sigla_uo', 'fonte', 'nome_fonte'],
   numericSortKeys: new Set(['valor_despesa', 'valor_repassado_saida', 'valor_loa', 'valor_repassado_entrada', 'diferenca']),
   sumFields: [
@@ -208,8 +210,6 @@ const receitaDespesaController = createTabController({
 
 const intraPatronalController = createTabController({
   els: {
-    filtroA: document.getElementById('intra-filtro-uo'),
-    filtroB: document.getElementById('intra-filtro-credor'),
     filtroBusca: document.getElementById('intra-filtro-busca'),
     filtroDivergentes: document.getElementById('intra-filtro-divergentes'),
     tabelaCorpo: document.getElementById('intra-tabela-corpo'),
@@ -223,10 +223,10 @@ const intraPatronalController = createTabController({
     { key: 'soma_divergencias_abs', el: document.getElementById('intra-kpi-soma-divergencias'), format: formatBRL },
   ],
   defaultSortKey: 'uo',
-  dropdownAKey: 'uo',
-  dropdownALabel: (r) => (r.sigla_uo ? `${r.uo} - ${r.sigla_uo}` : r.uo),
-  dropdownBKey: 'credor',
-  dropdownBLabel: (r) => r.credor,
+  dropdownFilters: [
+    { key: 'uo', el: document.getElementById('intra-filtro-uo'), label: (r) => (r.sigla_uo ? `${r.uo} - ${r.sigla_uo}` : r.uo) },
+    { key: 'credor', el: document.getElementById('intra-filtro-credor'), label: (r) => r.credor },
+  ],
   searchFields: ['uo', 'sigla_uo', 'credor'],
   numericSortKeys: new Set(['valor_projetado', 'valor_repassado', 'diferenca']),
   sumFields: [
@@ -250,8 +250,6 @@ const intraPatronalController = createTabController({
 
 const despesaDetalhadaController = createTabController({
   els: {
-    filtroA: document.getElementById('detalhada-filtro-uo'),
-    filtroB: document.getElementById('detalhada-filtro-fonte'),
     filtroBusca: document.getElementById('detalhada-filtro-busca'),
     tabelaCorpo: document.getElementById('detalhada-tabela-corpo'),
     tabelaVazia: document.getElementById('detalhada-tabela-vazia'),
@@ -262,10 +260,15 @@ const despesaDetalhadaController = createTabController({
     { key: 'valor_total', el: document.getElementById('detalhada-kpi-valor-total'), format: formatBRL },
   ],
   defaultSortKey: 'uo',
-  dropdownAKey: 'uo',
-  dropdownALabel: (r) => (r.sigla_uo ? `${r.uo} - ${r.sigla_uo}` : r.uo),
-  dropdownBKey: 'fonte',
-  dropdownBLabel: (r) => r.fonte,
+  dropdownFilters: [
+    { key: 'uo', el: document.getElementById('detalhada-filtro-uo'), label: (r) => (r.sigla_uo ? `${r.uo} - ${r.sigla_uo}` : r.uo) },
+    { key: 'fonte', el: document.getElementById('detalhada-filtro-fonte'), label: (r) => r.fonte },
+    { key: 'grupo', el: document.getElementById('detalhada-filtro-grupo'), label: (r) => r.grupo },
+    { key: 'elemento', el: document.getElementById('detalhada-filtro-elemento'), label: (r) => r.elemento },
+    { key: 'item', el: document.getElementById('detalhada-filtro-item'), label: (r) => r.item },
+    { key: 'ipu', el: document.getElementById('detalhada-filtro-ipu'), label: (r) => r.ipu },
+    { key: 'acao', el: document.getElementById('detalhada-filtro-acao'), label: (r) => (r.nome_acao ? `${r.acao} - ${r.nome_acao}` : r.acao) },
+  ],
   searchFields: ['uo', 'nome_uo', 'sigla_uo', 'funcao', 'acao', 'nome_acao', 'grupo', 'modalidade', 'elemento', 'item', 'fonte', 'ipu'],
   numericSortKeys: new Set(['valor']),
   sumFields: [
