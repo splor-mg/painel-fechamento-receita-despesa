@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-03T18:17:36.902533+00:00",
-    "total_combinacoes": 424,
-    "total_ok": 190,
-    "total_divergente": 234,
-    "soma_divergencias_abs": "180646151006.00"
+    "gerado_em": "2026-09-04T12:19:58.633067+00:00",
+    "total_combinacoes": 422,
+    "total_ok": 193,
+    "total_divergente": 229,
+    "soma_divergencias_abs": "180950028338.00"
   },
   "registros": [
     {
@@ -65,11 +65,11 @@
       "sigla_uo": "TCEMG",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "91058250.00",
+      "valor_despesa": "1280383546.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-91058250.00",
+      "diferenca": "-1280383546.00",
       "status": "Divergente"
     },
     {
@@ -78,12 +78,12 @@
       "sigla_uo": "TCEMG",
       "fonte": "42",
       "nome_fonte": "CONTRIBUICAO PATRONAL PARA O RPPS",
-      "valor_despesa": "0",
+      "valor_despesa": "115233552.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "115233552",
-      "diferenca": "115233552",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1021",
@@ -91,12 +91,12 @@
       "sigla_uo": "TCEMG",
       "fonte": "43",
       "nome_fonte": "CONTRIBUICAO DO SERVIDOR PARA O RPPS",
-      "valor_despesa": "0",
+      "valor_despesa": "133292078.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "133292078",
-      "diferenca": "133292078",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1021",
@@ -104,11 +104,11 @@
       "sigla_uo": "TCEMG",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "0",
+      "valor_despesa": "40781073.00",
       "valor_repassado_saida": "0",
       "valor_loa": "58781073",
       "valor_repassado_entrada": "0",
-      "diferenca": "58781073",
+      "diferenca": "18000000.00",
       "status": "Divergente"
     },
     {
@@ -377,11 +377,11 @@
       "sigla_uo": "SEF",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "425161166.00",
+      "valor_despesa": "413753166.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-425161166.00",
+      "diferenca": "-413753166.00",
       "status": "Divergente"
     },
     {
@@ -421,6 +421,19 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-28874808.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1191",
+      "nome_uo": "SECRETARIA DE ESTADO DE FAZENDA",
+      "sigla_uo": "SEF",
+      "fonte": "48",
+      "nome_fonte": "ALIENACAO DE BENS DO TESOURO ESTADUAL",
+      "valor_despesa": "11408000.00",
+      "valor_repassado_saida": "0",
+      "valor_loa": "0",
+      "valor_repassado_entrada": "0",
+      "diferenca": "-11408000.00",
       "status": "Divergente"
     },
     {
@@ -1391,12 +1404,12 @@
       "sigla_uo": "CBMMG",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "3313256.00",
+      "valor_despesa": "9110103.00",
       "valor_repassado_saida": "0",
       "valor_loa": "1733261",
-      "valor_repassado_entrada": "1579995",
-      "diferenca": "0.00",
-      "status": "OK"
+      "valor_repassado_entrada": "8596155",
+      "diferenca": "1219313.00",
+      "status": "Divergente"
     },
     {
       "uo": "1401",
@@ -2523,10 +2536,10 @@
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
       "valor_despesa": "4502477.00",
-      "valor_repassado_saida": "0",
+      "valor_repassado_saida": "7016160",
       "valor_loa": "20151000",
       "valor_repassado_entrada": "0",
-      "diferenca": "15648523.00",
+      "diferenca": "8632363.00",
       "status": "Divergente"
     },
     {
@@ -2743,24 +2756,11 @@
       "sigla_uo": "FAOP",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "5275681.00",
+      "valor_despesa": "5308951.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-5275681.00",
-      "status": "Divergente"
-    },
-    {
-      "uo": "2171",
-      "nome_uo": "FUNDAÇÃO DE ARTE DE OURO PRETO",
-      "sigla_uo": "FAOP",
-      "fonte": "3",
-      "nome_fonte": "TRANSFERENCIAS DO FNDE VINCULADAS A EDUCACAO - EMENDAS INDIVIDUAIS",
-      "valor_despesa": "24293.00",
-      "valor_repassado_saida": "0",
-      "valor_loa": "0",
-      "valor_repassado_entrada": "0",
-      "diferenca": "-24293.00",
+      "diferenca": "-5308951.00",
       "status": "Divergente"
     },
     {
@@ -2769,11 +2769,11 @@
       "sigla_uo": "FAOP",
       "fonte": "59",
       "nome_fonte": "OUTROS RECURSOS VINCULADOS",
-      "valor_despesa": "500.00",
+      "valor_despesa": "1000.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-500.00",
+      "diferenca": "-1000.00",
       "status": "Divergente"
     },
     {
@@ -2782,11 +2782,11 @@
       "sigla_uo": "FAOP",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "99500.00",
+      "valor_despesa": "101000.00",
       "valor_repassado_saida": "0",
       "valor_loa": "100000",
       "valor_repassado_entrada": "0",
-      "diferenca": "500.00",
+      "diferenca": "-1000.00",
       "status": "Divergente"
     },
     {
@@ -3146,11 +3146,11 @@
       "sigla_uo": "FHEMIG",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "1879061972.00",
+      "valor_despesa": "2721270362.00",
       "valor_repassado_saida": "0",
       "valor_loa": "2578250267",
       "valor_repassado_entrada": "0",
-      "diferenca": "699188295.00",
+      "diferenca": "-143020095.00",
       "status": "Divergente"
     },
     {
@@ -3783,12 +3783,12 @@
       "sigla_uo": "IMA",
       "fonte": "91",
       "nome_fonte": "TAXA DE EXPEDIENTE - ADMINISTRACAO INDIRETA",
-      "valor_despesa": "82903102.00",
+      "valor_despesa": "82906102.00",
       "valor_repassado_saida": "149161",
       "valor_loa": "83055263",
       "valor_repassado_entrada": "0",
-      "diferenca": "3000.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "2421",
@@ -4147,38 +4147,12 @@
       "sigla_uo": "EPAMIG",
       "fonte": "70",
       "nome_fonte": "CONVENIOS COM OS MUNICIPIOS",
-      "valor_despesa": "143991.00",
+      "valor_despesa": "431315.00",
       "valor_repassado_saida": "0",
       "valor_loa": "431315",
       "valor_repassado_entrada": "0",
-      "diferenca": "287324.00",
-      "status": "Divergente"
-    },
-    {
-      "uo": "3151",
-      "nome_uo": "EMPRESA MINEIRA DE COMUNICAÇÃO",
-      "sigla_uo": "EMC",
-      "fonte": "10",
-      "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "35576675.00",
-      "valor_repassado_saida": "0",
-      "valor_loa": "0",
-      "valor_repassado_entrada": "0",
-      "diferenca": "-35576675.00",
-      "status": "Divergente"
-    },
-    {
-      "uo": "3151",
-      "nome_uo": "EMPRESA MINEIRA DE COMUNICAÇÃO",
-      "sigla_uo": "EMC",
-      "fonte": "59",
-      "nome_fonte": "OUTROS RECURSOS VINCULADOS",
-      "valor_despesa": "36.00",
-      "valor_repassado_saida": "0",
-      "valor_loa": "0",
-      "valor_repassado_entrada": "0",
-      "diferenca": "-36.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "3151",
@@ -4186,11 +4160,11 @@
       "sigla_uo": "EMC",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "1680844.00",
+      "valor_despesa": "0",
       "valor_repassado_saida": "0",
       "valor_loa": "2500000",
       "valor_repassado_entrada": "0",
-      "diferenca": "819156.00",
+      "diferenca": "2500000",
       "status": "Divergente"
     },
     {
