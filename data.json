@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-04T16:37:03.278156+00:00",
+    "gerado_em": "2026-09-04T17:32:16.745718+00:00",
     "total_combinacoes": 427,
-    "total_ok": 203,
-    "total_divergente": 224,
-    "soma_divergencias_abs": "193044337357.00"
+    "total_ok": 205,
+    "total_divergente": 222,
+    "soma_divergencias_abs": "192996857955.00"
   },
   "registros": [
     {
@@ -2691,12 +2691,12 @@
       "sigla_uo": "IEF",
       "fonte": "9",
       "nome_fonte": "TERMOS DE AJUSTAMENTO, DOACOES CONTROLADAS POR INSTRUMENTO JURIDICO E CONGENERES",
-      "valor_despesa": "0",
+      "valor_despesa": "102000.00",
       "valor_repassado_saida": "0",
       "valor_loa": "102000",
       "valor_repassado_entrada": "0",
-      "diferenca": "102000",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "2101",
@@ -3159,11 +3159,11 @@
       "sigla_uo": "FUNED",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "619175678.00",
+      "valor_despesa": "660792564.00",
       "valor_repassado_saida": "0",
       "valor_loa": "673588524",
       "valor_repassado_entrada": "0",
-      "diferenca": "54412846.00",
+      "diferenca": "12795960.00",
       "status": "Divergente"
     },
     {
@@ -4901,12 +4901,12 @@
       "sigla_uo": "FUNCONTAS",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "7500000.00",
+      "valor_despesa": "14245944.00",
       "valor_repassado_saida": "0",
       "valor_loa": "14245944",
       "valor_repassado_entrada": "0",
-      "diferenca": "6745944.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "4621",
@@ -4927,11 +4927,11 @@
       "sigla_uo": "FPP - MG",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "674900454.00",
+      "valor_despesa": "675885882.00",
       "valor_repassado_saida": "0",
       "valor_loa": "1038",
       "valor_repassado_entrada": "0",
-      "diferenca": "-674899416.00",
+      "diferenca": "-675884844.00",
       "status": "Divergente"
     },
     {
