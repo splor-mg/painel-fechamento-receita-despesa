@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-04T13:06:18.006596+00:00",
+    "gerado_em": "2026-09-04T13:26:21.428205+00:00",
     "total_combinacoes": 422,
-    "total_ok": 196,
-    "total_divergente": 226,
-    "soma_divergencias_abs": "180956474413.00"
+    "total_ok": 197,
+    "total_divergente": 225,
+    "soma_divergencias_abs": "180954472947.00"
   },
   "registros": [
     {
@@ -65,11 +65,11 @@
       "sigla_uo": "TCEMG",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "1305498911.00",
+      "valor_despesa": "1311345781.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-1305498911.00",
+      "diferenca": "-1311345781.00",
       "status": "Divergente"
     },
     {
@@ -104,12 +104,12 @@
       "sigla_uo": "TCEMG",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "56781073.00",
+      "valor_despesa": "58781073.00",
       "valor_repassado_saida": "0",
       "valor_loa": "58781073",
       "valor_repassado_entrada": "0",
-      "diferenca": "2000000.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1031",
@@ -3094,11 +3094,11 @@
       "sigla_uo": "FUNED",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "113173995.00",
+      "valor_despesa": "119022331.00",
       "valor_repassado_saida": "0",
       "valor_loa": "673588524",
       "valor_repassado_entrada": "0",
-      "diferenca": "560414529.00",
+      "diferenca": "554566193.00",
       "status": "Divergente"
     },
     {
