@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-08T16:41:51.848334+00:00",
+    "gerado_em": "2026-09-08T17:29:02.747425+00:00",
     "total_combinacoes": 432,
     "total_ok": 218,
     "total_divergente": 214,
-    "soma_divergencias_abs": "191053015412.00"
+    "soma_divergencias_abs": "191053011685.00"
   },
   "registros": [
     {
@@ -988,11 +988,11 @@
       "sigla_uo": "SEE",
       "fonte": "23",
       "nome_fonte": "FUNDO DE MANUTENCAO E DESENVOLVIMENTO DA EDUCACAO BASICA - FUNDEB",
-      "valor_despesa": "14008935318.00",
+      "valor_despesa": "14008935319.00",
       "valor_repassado_saida": "0",
       "valor_loa": "13986505550",
       "valor_repassado_entrada": "0",
-      "diferenca": "-22429768.00",
+      "diferenca": "-22429769.00",
       "status": "Divergente"
     },
     {
@@ -1144,11 +1144,11 @@
       "sigla_uo": "SEINFRA",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "290397858.00",
+      "valor_despesa": "290396858.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-290397858.00",
+      "diferenca": "-290396858.00",
       "status": "Divergente"
     },
     {
@@ -1937,11 +1937,11 @@
       "sigla_uo": "PCMG",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "2226394326.00",
+      "valor_despesa": "2226391598.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2226394326.00",
+      "diferenca": "-2226391598.00",
       "status": "Divergente"
     },
     {
