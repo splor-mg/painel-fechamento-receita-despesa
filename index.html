@@ -18,6 +18,7 @@
   <button type="button" class="tab-btn active" id="tab-btn-receita-despesa" role="tab" aria-selected="true" aria-controls="view-receita-despesa">Fechamento Receita x Despesa</button>
   <button type="button" class="tab-btn" id="tab-btn-intra-patronal" role="tab" aria-selected="false" aria-controls="view-intra-patronal">Despesa Intraorçamentária - Credor Patronal</button>
   <button type="button" class="tab-btn" id="tab-btn-despesa-detalhada" role="tab" aria-selected="false" aria-controls="view-despesa-detalhada">Despesa Detalhada</button>
+  <button type="button" class="tab-btn" id="tab-btn-limite-orcamentario" role="tab" aria-selected="false" aria-controls="view-limite-orcamentario">Limite Orçamentário</button>
 </nav>
 
 <section id="view-receita-despesa" class="view" role="tabpanel" aria-labelledby="tab-btn-receita-despesa">
@@ -229,6 +230,87 @@
       </tfoot>
     </table>
     <p id="detalhada-tabela-vazia" class="tabela-vazia" hidden>Nenhum registro encontrado para os filtros aplicados.</p>
+  </main>
+</section>
+
+<section id="view-limite-orcamentario" class="view" role="tabpanel" aria-labelledby="tab-btn-limite-orcamentario" hidden>
+  <section class="kpi-grid">
+    <div class="kpi-card">
+      <span class="kpi-label">Combinações UO+Grupo+IAG+Fonte+IPU</span>
+      <span class="kpi-value" id="limite-kpi-total">-</span>
+    </div>
+    <div class="kpi-card kpi-ok">
+      <span class="kpi-label">OK</span>
+      <span class="kpi-value" id="limite-kpi-ok">-</span>
+    </div>
+    <div class="kpi-card kpi-divergente">
+      <span class="kpi-label">Divergentes</span>
+      <span class="kpi-value" id="limite-kpi-divergente">-</span>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-label">Soma das divergências (abs.)</span>
+      <span class="kpi-value" id="limite-kpi-soma-divergencias">-</span>
+    </div>
+  </section>
+
+  <section class="filtros">
+    <div class="filtro-campo">
+      <label for="limite-filtro-uo">Unidade Orçamentária</label>
+      <select id="limite-filtro-uo"><option value="">Todas</option></select>
+    </div>
+    <div class="filtro-campo">
+      <label for="limite-filtro-grupo">Grupo</label>
+      <select id="limite-filtro-grupo"><option value="">Todos</option></select>
+    </div>
+    <div class="filtro-campo">
+      <label for="limite-filtro-iag">IAG</label>
+      <select id="limite-filtro-iag"><option value="">Todos</option></select>
+    </div>
+    <div class="filtro-campo">
+      <label for="limite-filtro-fonte">Fonte</label>
+      <select id="limite-filtro-fonte"><option value="">Todas</option></select>
+    </div>
+    <div class="filtro-campo">
+      <label for="limite-filtro-ipu">IPU</label>
+      <select id="limite-filtro-ipu"><option value="">Todos</option></select>
+    </div>
+    <div class="filtro-campo">
+      <label for="limite-filtro-busca">Buscar</label>
+      <input type="text" id="limite-filtro-busca" placeholder="UO, Grupo, Fonte...">
+    </div>
+    <div class="filtro-campo filtro-checkbox">
+      <label><input type="checkbox" id="limite-filtro-divergentes"> Mostrar só divergências</label>
+    </div>
+  </section>
+
+  <main>
+    <table id="limite-tabela">
+      <caption class="visually-hidden">Conferência de limite orçamentário x despesa detalhada por Unidade Orçamentária, Grupo, IAG, Fonte e Identificador de Procedência e Uso</caption>
+      <thead>
+        <tr>
+          <th data-sort="uo" scope="col">UO</th>
+          <th data-sort="grupo" scope="col">Grupo</th>
+          <th data-sort="iag" scope="col">IAG</th>
+          <th data-sort="fonte" scope="col">Fonte</th>
+          <th data-sort="ipu" scope="col">IPU</th>
+          <th data-sort="valor_limite" scope="col">Valor Limite</th>
+          <th data-sort="valor_despesa" scope="col">Despesa Detalhada</th>
+          <th data-sort="diferenca" scope="col">Diferença</th>
+          <th data-sort="status" scope="col">Status</th>
+        </tr>
+      </thead>
+      <tbody id="limite-tabela-corpo"></tbody>
+      <tfoot>
+        <tr>
+          <th scope="row" colspan="5">Total (filtrado)</th>
+          <td id="limite-total-limite">-</td>
+          <td id="limite-total-despesa">-</td>
+          <td id="limite-total-diferenca">-</td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+    <p id="limite-tabela-vazia" class="tabela-vazia" hidden>Nenhum registro encontrado para os filtros aplicados.</p>
   </main>
 </section>
 

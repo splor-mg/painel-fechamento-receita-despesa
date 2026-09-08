@@ -10,6 +10,7 @@ from budget_lib.parsing import (
     read_despesa_detalhada,
     read_fonte_desc,
     read_intra_orcamentaria,
+    read_limite_orcamentario,
     read_receita,
     read_repasse,
 )
@@ -151,9 +152,31 @@ class TestReadDespesaDetalhada(unittest.TestCase):
             'modalidade': '90',
             'elemento': '91',
             'item': '3',
+            'iag': '0',
             'fonte': '10',
             'ipu': '9',
             'valor': Decimal('1000000.00'),
+        }])
+
+
+class TestReadLimiteOrcamentario(unittest.TestCase):
+    def test_reads_relevant_columns(self):
+        content = (
+            'Ano;UO;SIGLA;GRUPO;IAG;FONTE;IPU;VALOR LIMITE\n'
+            '2027;2371;IMA;3;1;91;1;1000\n'
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'limite.csv'
+            path.write_text(content, encoding='utf-8-sig')
+            rows = read_limite_orcamentario(path)
+        self.assertEqual(rows, [{
+            'uo': '2371',
+            'sigla_uo': 'IMA',
+            'grupo': '3',
+            'iag': '1',
+            'fonte': '91',
+            'ipu': '1',
+            'valor': Decimal('1000'),
         }])
 
 

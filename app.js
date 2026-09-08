@@ -292,6 +292,52 @@ const despesaDetalhadaController = createTabController({
   },
 });
 
+const limiteOrcamentarioController = createTabController({
+  els: {
+    filtroBusca: document.getElementById('limite-filtro-busca'),
+    filtroDivergentes: document.getElementById('limite-filtro-divergentes'),
+    tabelaCorpo: document.getElementById('limite-tabela-corpo'),
+    tabelaVazia: document.getElementById('limite-tabela-vazia'),
+    tabela: document.getElementById('limite-tabela'),
+  },
+  kpiFields: [
+    { key: 'total_combinacoes', el: document.getElementById('limite-kpi-total') },
+    { key: 'total_ok', el: document.getElementById('limite-kpi-ok') },
+    { key: 'total_divergente', el: document.getElementById('limite-kpi-divergente') },
+    { key: 'soma_divergencias_abs', el: document.getElementById('limite-kpi-soma-divergencias'), format: formatBRL },
+  ],
+  defaultSortKey: 'uo',
+  dropdownFilters: [
+    { key: 'uo', el: document.getElementById('limite-filtro-uo'), label: (r) => (r.sigla_uo ? `${r.uo} - ${r.sigla_uo}` : r.uo) },
+    { key: 'grupo', el: document.getElementById('limite-filtro-grupo'), label: (r) => r.grupo },
+    { key: 'iag', el: document.getElementById('limite-filtro-iag'), label: (r) => r.iag },
+    { key: 'fonte', el: document.getElementById('limite-filtro-fonte'), label: (r) => r.fonte },
+    { key: 'ipu', el: document.getElementById('limite-filtro-ipu'), label: (r) => r.ipu },
+  ],
+  searchFields: ['uo', 'sigla_uo', 'grupo', 'iag', 'fonte', 'ipu'],
+  numericSortKeys: new Set(['valor_limite', 'valor_despesa', 'diferenca']),
+  sumFields: [
+    { key: 'valor_limite', el: document.getElementById('limite-total-limite') },
+    { key: 'valor_despesa', el: document.getElementById('limite-total-despesa') },
+    { key: 'diferenca', el: document.getElementById('limite-total-diferenca') },
+  ],
+  rowTemplate: (r) => {
+    const uoLabel = escapeHtml(r.uo) + (r.sigla_uo ? ` - ${escapeHtml(r.sigla_uo)}` : '');
+    const statusClass = r.status === 'OK' ? 'status-ok' : 'status-divergente';
+    return `
+      <td>${uoLabel}</td>
+      <td>${escapeHtml(r.grupo)}</td>
+      <td>${escapeHtml(r.iag)}</td>
+      <td>${escapeHtml(r.fonte)}</td>
+      <td>${escapeHtml(r.ipu)}</td>
+      <td>${formatBRL(r.valor_limite)}</td>
+      <td>${formatBRL(r.valor_despesa)}</td>
+      <td>${formatBRL(r.diferenca)}</td>
+      <td><span class="status-badge ${statusClass}">${escapeHtml(r.status)}</span></td>
+    `;
+  },
+});
+
 function updateTabsHeightVar() {
   const tabsEl = document.querySelector('.tabs');
   if (tabsEl) {
@@ -358,6 +404,13 @@ async function init() {
     despesaDetalhadaController.load(data);
   } catch (err) {
     erros.push(`Despesa Detalhada (data_despesa_detalhada.json): ${err.message}`);
+  }
+
+  try {
+    const data = await fetchJson('data_limite_orcamentario.json');
+    limiteOrcamentarioController.load(data);
+  } catch (err) {
+    erros.push(`Limite Orçamentário (data_limite_orcamentario.json): ${err.message}`);
   }
 
   if (erros.length > 0) {

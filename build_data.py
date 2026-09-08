@@ -5,6 +5,7 @@ from budget_lib.parsing import (
     read_despesa_detalhada,
     read_fonte_desc,
     read_intra_orcamentaria,
+    read_limite_orcamentario,
     read_receita,
     read_repasse,
 )
@@ -17,6 +18,7 @@ from budget_lib.reconcile import (
     reconcile,
 )
 from budget_lib.intra_patronal import aggregate_intra_orcamentaria, read_projetado, reconcile_intra_patronal
+from budget_lib.limite_orcamentario import aggregate_por_uo_grupo_iag_fonte_ipu, reconcile_limite
 from budget_lib.output import build_metadata, build_metadata_simples, write_json
 
 BASE_DIR = Path(__file__).parent
@@ -26,9 +28,11 @@ REPASSE_CSV = BASE_DIR / 'repasse-recurso.csv'
 FONTE_DESC_CSV = BASE_DIR / 'fonte_desc.csv'
 PROJETADO_CSV = BASE_DIR / 'pessoal_intra_credor_patronal.csv'
 INTRA_ORCAMENTARIA_CSV = BASE_DIR / 'Despesa_Intraorcamentaria_2027.csv'
+LIMITE_CSV = BASE_DIR / 'Limite Orçamentário.csv'
 OUTPUT_JSON = BASE_DIR / 'data.json'
 OUTPUT_INTRA_JSON = BASE_DIR / 'data_intra_patronal.json'
 OUTPUT_DESPESA_DETALHADA_JSON = BASE_DIR / 'data_despesa_detalhada.json'
+OUTPUT_LIMITE_JSON = BASE_DIR / 'data_limite_orcamentario.json'
 
 
 def main() -> None:
@@ -75,6 +79,19 @@ def main() -> None:
     print(
         f"Gerado {OUTPUT_DESPESA_DETALHADA_JSON} com {despesa_detalhada_metadata['total_registros']} registros "
         f"(valor total {despesa_detalhada_metadata['valor_total']})."
+    )
+
+    limite_rows = read_limite_orcamentario(LIMITE_CSV)
+    despesa_totais_limite = aggregate_por_uo_grupo_iag_fonte_ipu(despesa_detalhada_rows)
+    limite_totais = aggregate_por_uo_grupo_iag_fonte_ipu(limite_rows)
+    uo_siglas_limite = build_uo_siglas(limite_rows, despesa_detalhada_rows)
+    limite_records = reconcile_limite(despesa_totais_limite, limite_totais, uo_siglas_limite)
+    limite_metadata = build_metadata(limite_records)
+
+    write_json(limite_records, limite_metadata, OUTPUT_LIMITE_JSON)
+    print(
+        f"Gerado {OUTPUT_LIMITE_JSON} com {limite_metadata['total_combinacoes']} combinacoes "
+        f"UO+Grupo+IAG+Fonte+IPU ({limite_metadata['total_ok']} OK, {limite_metadata['total_divergente']} divergentes)."
     )
 
 

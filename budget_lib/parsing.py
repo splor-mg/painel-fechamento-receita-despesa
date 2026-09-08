@@ -75,6 +75,7 @@ def read_despesa_detalhada(path: Path) -> list[dict]:
         'modalidade': row['Modalidade de Aplicação'].strip(),
         'elemento': row['Elemento de Despesa'].strip(),
         'item': row['Item de Despesa'].strip(),
+        'iag': row['IAG'].strip(),
         'fonte': row['Fonte de Recursos'].strip(),
         'ipu': row['Identificador de Procedência e Uso'].strip(),
         'valor': parse_valor_despesa(row['Valor Proposto Ano']),
@@ -89,4 +90,17 @@ def read_intra_orcamentaria(path: Path) -> list[dict]:
         'uo_beneficiada': row['Unidade Orçamentária Beneficiada'].strip(),
         'sigla_beneficiada': row['Sigla Beneficiada'].strip(),
         'valor': parse_valor_despesa(row['Valor Distribuído']),
+    } for row in rows]
+
+
+def read_limite_orcamentario(path: Path) -> list[dict]:
+    rows = read_csv_rows(path)
+    return [{
+        'uo': row['UO'].strip(),
+        'sigla_uo': row['SIGLA'].strip(),
+        'grupo': row['GRUPO'].strip(),
+        'iag': row['IAG'].strip(),
+        'fonte': row['FONTE'].strip(),
+        'ipu': row['IPU'].strip(),
+        'valor': parse_valor_plain(row['VALOR LIMITE']),
     } for row in rows]
