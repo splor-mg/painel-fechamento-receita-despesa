@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-08T13:09:55.279727+00:00",
+    "gerado_em": "2026-09-08T16:41:51.848334+00:00",
     "total_combinacoes": 432,
-    "total_ok": 217,
-    "total_divergente": 215,
-    "soma_divergencias_abs": "189293110771.00"
+    "total_ok": 218,
+    "total_divergente": 214,
+    "soma_divergencias_abs": "191053015412.00"
   },
   "registros": [
     {
@@ -598,11 +598,11 @@
       "sigla_uo": "SEAPA",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "41389880.00",
+      "valor_despesa": "41399147.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-41389880.00",
+      "diferenca": "-41399147.00",
       "status": "Divergente"
     },
     {
@@ -650,11 +650,11 @@
       "sigla_uo": "SEAPA",
       "fonte": "71",
       "nome_fonte": "RECURSOS DO FUNDO ESTADUAL DE ERRADICACAO DA MISERIA",
-      "valor_despesa": "30209488.00",
+      "valor_despesa": "30253156.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-30209488.00",
+      "diferenca": "-30253156.00",
       "status": "Divergente"
     },
     {
@@ -663,11 +663,11 @@
       "sigla_uo": "SEAPA",
       "fonte": "80",
       "nome_fonte": "RECURSOS DO ACORDO DE REPACTUACAO DO RIO DOCE",
-      "valor_despesa": "32251731.00",
+      "valor_despesa": "32251732.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-32251731.00",
+      "diferenca": "-32251732.00",
       "status": "Divergente"
     },
     {
@@ -1794,11 +1794,11 @@
       "sigla_uo": "SEGOV",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "112549404.00",
+      "valor_despesa": "1872403105.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-112549404.00",
+      "diferenca": "-1872403105.00",
       "status": "Divergente"
     },
     {
@@ -2095,10 +2095,10 @@
       "nome_fonte": "CONVENIOS COM OS ESTADOS E O DISTRITO FEDERAL",
       "valor_despesa": "0",
       "valor_repassado_saida": "0",
-      "valor_loa": "2000",
+      "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "2000",
-      "status": "Divergente"
+      "diferenca": "0",
+      "status": "OK"
     },
     {
       "uo": "1721",
@@ -3614,11 +3614,11 @@
       "sigla_uo": "HEMOMINAS",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "431909933.00",
+      "valor_despesa": "431909937.00",
       "valor_repassado_saida": "0",
       "valor_loa": "430144099",
       "valor_repassado_entrada": "0",
-      "diferenca": "-1765834.00",
+      "diferenca": "-1765838.00",
       "status": "Divergente"
     },
     {

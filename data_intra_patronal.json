@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-08T13:09:55.302283+00:00",
+    "gerado_em": "2026-09-08T16:41:51.872815+00:00",
     "total_combinacoes": 120,
-    "total_ok": 83,
-    "total_divergente": 37,
-    "soma_divergencias_abs": "851963885.00"
+    "total_ok": 85,
+    "total_divergente": 35,
+    "soma_divergencias_abs": "851919070.00"
   },
   "registros": [
     {
@@ -733,9 +733,9 @@
       "credor": "FFP",
       "uo_credor": "4711",
       "valor_projetado": "688876",
-      "valor_repassado": "726791.00",
-      "diferenca": "-37915.00",
-      "status": "Divergente"
+      "valor_repassado": "688876.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "2161",
@@ -743,9 +743,9 @@
       "credor": "IPSEMG",
       "uo_credor": "2011",
       "valor_projetado": "31100",
-      "valor_repassado": "38000.00",
-      "diferenca": "-6900.00",
-      "status": "Divergente"
+      "valor_repassado": "31100.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "2171",
