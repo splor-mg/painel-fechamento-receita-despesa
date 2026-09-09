@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-08T17:59:41.608449+00:00",
-    "total_combinacoes": 741,
-    "total_ok": 459,
-    "total_divergente": 282,
-    "soma_divergencias_abs": "32983040161.00"
+    "gerado_em": "2026-09-09T15:40:12.169882+00:00",
+    "total_combinacoes": 744,
+    "total_ok": 463,
+    "total_divergente": 281,
+    "soma_divergencias_abs": "32986042451.00"
   },
   "registros": [
     {
@@ -483,9 +483,9 @@
       "fonte": "10",
       "ipu": "1",
       "valor_limite": "8628259",
-      "valor_despesa": "8555395.00",
-      "diferenca": "72864.00",
-      "status": "Divergente"
+      "valor_despesa": "8628259.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1071",
@@ -1731,9 +1731,9 @@
       "fonte": "10",
       "ipu": "1",
       "valor_limite": "1199950283",
-      "valor_despesa": "1199855283.00",
-      "diferenca": "95000.00",
-      "status": "Divergente"
+      "valor_despesa": "1199950283.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1261",
@@ -1743,9 +1743,9 @@
       "fonte": "10",
       "ipu": "3",
       "valor_limite": "151975",
-      "valor_despesa": "0",
-      "diferenca": "151975",
-      "status": "Divergente"
+      "valor_despesa": "151975.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1261",
@@ -1887,9 +1887,9 @@
       "fonte": "10",
       "ipu": "3",
       "valor_limite": "799235",
-      "valor_despesa": "0",
-      "diferenca": "799235",
-      "status": "Divergente"
+      "valor_despesa": "799235.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1261",
@@ -2052,6 +2052,18 @@
       "sigla_uo": "SECULT",
       "grupo": "3",
       "iag": "0",
+      "fonte": "16",
+      "ipu": "1",
+      "valor_limite": "0",
+      "valor_despesa": "3000.00",
+      "diferenca": "-3000.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1271",
+      "sigla_uo": "SECULT",
+      "grupo": "3",
+      "iag": "0",
       "fonte": "24",
       "ipu": "1",
       "valor_limite": "0",
@@ -2114,9 +2126,9 @@
       "iag": "0",
       "fonte": "10",
       "ipu": "1",
-      "valor_limite": "167133860",
+      "valor_limite": "167140860",
       "valor_despesa": "167132860.00",
-      "diferenca": "1000.00",
+      "diferenca": "8000.00",
       "status": "Divergente"
     },
     {
@@ -3435,8 +3447,8 @@
       "fonte": "24",
       "ipu": "1",
       "valor_limite": "0",
-      "valor_despesa": "14627769.00",
-      "diferenca": "-14627769.00",
+      "valor_despesa": "3500000.00",
+      "diferenca": "-3500000.00",
       "status": "Divergente"
     },
     {
@@ -3498,6 +3510,18 @@
       "valor_despesa": "28872190.00",
       "diferenca": "0.00",
       "status": "OK"
+    },
+    {
+      "uo": "1511",
+      "sigla_uo": "PCMG",
+      "grupo": "4",
+      "iag": "0",
+      "fonte": "24",
+      "ipu": "1",
+      "valor_limite": "0",
+      "valor_despesa": "15341768.00",
+      "diferenca": "-15341768.00",
+      "status": "Divergente"
     },
     {
       "uo": "1511",
@@ -4995,9 +5019,9 @@
       "fonte": "10",
       "ipu": "7",
       "valor_limite": "728460",
-      "valor_despesa": "616825.00",
-      "diferenca": "111635.00",
-      "status": "Divergente"
+      "valor_despesa": "728460.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "2161",
@@ -5070,18 +5094,6 @@
       "valor_despesa": "100000.00",
       "diferenca": "0.00",
       "status": "OK"
-    },
-    {
-      "uo": "2171",
-      "sigla_uo": "FAOP",
-      "grupo": "3",
-      "iag": "0",
-      "fonte": "9",
-      "ipu": "1",
-      "valor_limite": "0",
-      "valor_despesa": "1000.00",
-      "diferenca": "-1000.00",
-      "status": "Divergente"
     },
     {
       "uo": "2171",
@@ -5163,9 +5175,21 @@
       "fonte": "10",
       "ipu": "1",
       "valor_limite": "1000",
+      "valor_despesa": "0",
+      "diferenca": "1000",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2181",
+      "sigla_uo": "FCS",
+      "grupo": "3",
+      "iag": "1",
+      "fonte": "59",
+      "ipu": "2",
+      "valor_limite": "0",
       "valor_despesa": "1000.00",
-      "diferenca": "0.00",
-      "status": "OK"
+      "diferenca": "-1000.00",
+      "status": "Divergente"
     },
     {
       "uo": "2181",
@@ -5280,12 +5304,12 @@
       "sigla_uo": "IEPHA",
       "grupo": "3",
       "iag": "1",
-      "fonte": "10",
-      "ipu": "1",
-      "valor_limite": "1000",
+      "fonte": "59",
+      "ipu": "2",
+      "valor_limite": "0",
       "valor_despesa": "1000.00",
-      "diferenca": "0.00",
-      "status": "OK"
+      "diferenca": "-1000.00",
+      "status": "Divergente"
     },
     {
       "uo": "2201",
@@ -7152,6 +7176,18 @@
       "sigla_uo": "ARMVA",
       "grupo": "3",
       "iag": "1",
+      "fonte": "24",
+      "ipu": "1",
+      "valor_limite": "0",
+      "valor_despesa": "8000.00",
+      "diferenca": "-8000.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "2461",
+      "sigla_uo": "ARMVA",
+      "grupo": "3",
+      "iag": "1",
       "fonte": "32",
       "ipu": "1",
       "valor_limite": "3794482",
@@ -8823,9 +8859,9 @@
       "fonte": "10",
       "ipu": "1",
       "valor_limite": "1000",
-      "valor_despesa": "0",
-      "diferenca": "1000",
-      "status": "Divergente"
+      "valor_despesa": "1000.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "4731",

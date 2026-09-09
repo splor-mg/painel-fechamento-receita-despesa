@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-08T17:59:41.383165+00:00",
-    "total_combinacoes": 432,
-    "total_ok": 218,
-    "total_divergente": 214,
-    "soma_divergencias_abs": "191053011685.00"
+    "gerado_em": "2026-09-09T15:40:11.869574+00:00",
+    "total_combinacoes": 431,
+    "total_ok": 224,
+    "total_divergente": 207,
+    "soma_divergencias_abs": "190660013395.00"
   },
   "registros": [
     {
@@ -221,11 +221,11 @@
       "sigla_uo": "GABINETE MILITAR",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "39834000.00",
+      "valor_despesa": "39906864.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-39834000.00",
+      "diferenca": "-39906864.00",
       "status": "Divergente"
     },
     {
@@ -936,11 +936,11 @@
       "sigla_uo": "SEE",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "5284708392.00",
+      "valor_despesa": "5285754602.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-5284708392.00",
+      "diferenca": "-5285754602.00",
       "status": "Divergente"
     },
     {
@@ -1105,12 +1105,12 @@
       "sigla_uo": "SECULT",
       "fonte": "16",
       "nome_fonte": "DEMAIS TRANSFERENCIAS VINCULADAS DA UNIAO",
-      "valor_despesa": "0",
-      "valor_repassado_saida": "130003000",
+      "valor_despesa": "3000.00",
+      "valor_repassado_saida": "0",
       "valor_loa": "3000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-130000000",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1271",
@@ -1976,12 +1976,12 @@
       "sigla_uo": "PCMG",
       "fonte": "24",
       "nome_fonte": "CONVENIOS COM A UNIAO E SUAS ENTIDADES - EXCETO EMENDAS INDIVIDUAIS E DE BANCADA",
-      "valor_despesa": "15427769.00",
+      "valor_despesa": "19641768.00",
       "valor_repassado_saida": "0",
       "valor_loa": "19641768",
       "valor_repassado_entrada": "0",
-      "diferenca": "4213999.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1511",
@@ -2821,11 +2821,11 @@
       "sigla_uo": "FUCAM",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "17625281.00",
+      "valor_despesa": "17736916.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-17625281.00",
+      "diferenca": "-17736916.00",
       "status": "Divergente"
     },
     {
@@ -2868,29 +2868,16 @@
       "status": "OK"
     },
     {
-      "uo": "2171",
-      "nome_uo": "FUNDAÇÃO DE ARTE DE OURO PRETO",
-      "sigla_uo": "FAOP",
-      "fonte": "9",
-      "nome_fonte": "TERMOS DE AJUSTAMENTO, DOACOES CONTROLADAS POR INSTRUMENTO JURIDICO E CONGENERES",
-      "valor_despesa": "1000.00",
-      "valor_repassado_saida": "0",
-      "valor_loa": "0",
-      "valor_repassado_entrada": "0",
-      "diferenca": "-1000.00",
-      "status": "Divergente"
-    },
-    {
       "uo": "2181",
       "nome_uo": "FUNDAÇÃO CLÓVIS SALGADO",
       "sigla_uo": "FCS",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "57525686.00",
+      "valor_despesa": "57524686.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-57525686.00",
+      "diferenca": "-57524686.00",
       "status": "Divergente"
     },
     {
@@ -2912,12 +2899,12 @@
       "sigla_uo": "FCS",
       "fonte": "59",
       "nome_fonte": "OUTROS RECURSOS VINCULADOS",
-      "valor_despesa": "0",
+      "valor_despesa": "1000.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "1000",
-      "diferenca": "1000",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "2181",
@@ -2938,11 +2925,11 @@
       "sigla_uo": "IEPHA",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "22846966.00",
+      "valor_despesa": "22845966.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-22846966.00",
+      "diferenca": "-22845966.00",
       "status": "Divergente"
     },
     {
@@ -2977,12 +2964,12 @@
       "sigla_uo": "IEPHA",
       "fonte": "59",
       "nome_fonte": "OUTROS RECURSOS VINCULADOS",
-      "valor_despesa": "0",
+      "valor_despesa": "1000.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "1000",
-      "diferenca": "1000",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "2201",
@@ -4004,12 +3991,12 @@
       "sigla_uo": "ARMVA",
       "fonte": "24",
       "nome_fonte": "CONVENIOS COM A UNIAO E SUAS ENTIDADES - EXCETO EMENDAS INDIVIDUAIS E DE BANCADA",
-      "valor_despesa": "0",
+      "valor_despesa": "8000.00",
       "valor_repassado_saida": "0",
       "valor_loa": "8000",
       "valor_repassado_entrada": "0",
-      "diferenca": "8000",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "2461",
@@ -4467,19 +4454,6 @@
       "status": "Divergente"
     },
     {
-      "uo": "4171",
-      "nome_uo": "FUNDO ESTADUAL DE DESENVOLVIMENTO RURAL",
-      "sigla_uo": "FUNDERUR",
-      "fonte": "16",
-      "nome_fonte": "DEMAIS TRANSFERENCIAS VINCULADAS DA UNIAO",
-      "valor_despesa": "0",
-      "valor_repassado_saida": "0",
-      "valor_loa": "130000000",
-      "valor_repassado_entrada": "0",
-      "diferenca": "130000000",
-      "status": "Divergente"
-    },
-    {
       "uo": "4251",
       "nome_uo": "FUNDO ESTADUAL DE ASSISTÊNCIA SOCIAL",
       "sigla_uo": "FEAS",
@@ -4891,9 +4865,9 @@
       "valor_despesa": "130000000.00",
       "valor_repassado_saida": "0",
       "valor_loa": "130000000",
-      "valor_repassado_entrada": "130003000",
-      "diferenca": "130003000.00",
-      "status": "Divergente"
+      "valor_repassado_entrada": "0",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "4491",
@@ -5193,6 +5167,19 @@
       "valor_repassado_entrada": "0",
       "diferenca": "0.00",
       "status": "OK"
+    },
+    {
+      "uo": "4721",
+      "nome_uo": "FUNDO ESTADUAL DE PREVIDÊNCIA DO ESTADO DE MINAS GERAIS",
+      "sigla_uo": "FEPREMG",
+      "fonte": "10",
+      "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
+      "valor_despesa": "1000.00",
+      "valor_repassado_saida": "0",
+      "valor_loa": "0",
+      "valor_repassado_entrada": "0",
+      "diferenca": "-1000.00",
+      "status": "Divergente"
     },
     {
       "uo": "4731",
