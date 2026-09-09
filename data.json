@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-09T15:44:52.412610+00:00",
+    "gerado_em": "2026-09-09T15:47:03.945905+00:00",
     "total_combinacoes": 431,
     "total_ok": 224,
     "total_divergente": 207,
-    "soma_divergencias_abs": "190660013395.00"
+    "soma_divergencias_abs": "190660014395.00"
   },
   "registros": [
     {
@@ -2379,11 +2379,11 @@
       "sigla_uo": "FAPEMIG",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "610390237.00",
+      "valor_despesa": "610391237.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-610390237.00",
+      "diferenca": "-610391237.00",
       "status": "Divergente"
     },
     {
