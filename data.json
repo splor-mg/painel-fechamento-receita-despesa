@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-09T15:47:03.945905+00:00",
+    "gerado_em": "2026-09-10T19:53:44.385182+00:00",
     "total_combinacoes": 431,
-    "total_ok": 224,
-    "total_divergente": 207,
-    "soma_divergencias_abs": "190660014395.00"
+    "total_ok": 226,
+    "total_divergente": 205,
+    "soma_divergencias_abs": "193859338405.00"
   },
   "registros": [
     {
@@ -312,11 +312,11 @@
       "sigla_uo": "PGJ",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "1000.00",
+      "valor_despesa": "3985891876.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-1000.00",
+      "diferenca": "-3985891876.00",
       "status": "Divergente"
     },
     {
@@ -338,12 +338,12 @@
       "sigla_uo": "PGJ",
       "fonte": "42",
       "nome_fonte": "CONTRIBUICAO PATRONAL PARA O RPPS",
-      "valor_despesa": "0",
+      "valor_despesa": "448050447.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "448050447",
-      "diferenca": "448050447",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1091",
@@ -351,12 +351,12 @@
       "sigla_uo": "PGJ",
       "fonte": "43",
       "nome_fonte": "CONTRIBUICAO DO SERVIDOR PARA O RPPS",
-      "valor_despesa": "0",
+      "valor_despesa": "300411652.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "300411652",
-      "diferenca": "300411652",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1091",
@@ -377,11 +377,11 @@
       "sigla_uo": "PGJ",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "0",
+      "valor_despesa": "66913000.00",
       "valor_repassado_saida": "0",
       "valor_loa": "67913000",
       "valor_repassado_entrada": "0",
-      "diferenca": "67913000",
+      "diferenca": "1000000.00",
       "status": "Divergente"
     },
     {
@@ -1794,11 +1794,11 @@
       "sigla_uo": "SEGOV",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "1872403105.00",
+      "valor_despesa": "1901195338.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-1872403105.00",
+      "diferenca": "-1901195338.00",
       "status": "Divergente"
     },
     {
@@ -5083,11 +5083,11 @@
       "sigla_uo": "FFP - MG",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "10496253370.00",
+      "valor_despesa": "10640479788.00",
       "valor_repassado_saida": "0",
       "valor_loa": "1000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-10496252370.00",
+      "diferenca": "-10640478788.00",
       "status": "Divergente"
     },
     {
@@ -5096,11 +5096,11 @@
       "sigla_uo": "FFP - MG",
       "fonte": "15",
       "nome_fonte": "RECURSOS ORDINARIOS - OUTROS RECURSOS NAO VINCULADOS",
-      "valor_despesa": "2097088741.00",
+      "valor_despesa": "1952878323.00",
       "valor_repassado_saida": "0",
       "valor_loa": "1000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2097087741.00",
+      "diferenca": "-1952877323.00",
       "status": "Divergente"
     },
     {

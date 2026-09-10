@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-09T15:47:03.967935+00:00",
+    "gerado_em": "2026-09-10T19:53:44.409448+00:00",
     "total_combinacoes": 120,
     "total_ok": 90,
     "total_divergente": 30,
-    "soma_divergencias_abs": "851025333.00"
+    "soma_divergencias_abs": "850904567.00"
   },
   "registros": [
     {
@@ -1113,8 +1113,8 @@
       "credor": "FFP",
       "uo_credor": "4711",
       "valor_projetado": "122175",
-      "valor_repassado": "0",
-      "diferenca": "122175",
+      "valor_repassado": "123584.00",
+      "diferenca": "-1409.00",
       "status": "Divergente"
     },
     {

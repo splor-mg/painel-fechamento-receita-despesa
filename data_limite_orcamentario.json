@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-09T15:47:04.200732+00:00",
-    "total_combinacoes": 744,
-    "total_ok": 462,
-    "total_divergente": 282,
-    "soma_divergencias_abs": "33014834684.00"
+    "gerado_em": "2026-09-10T19:53:44.644684+00:00",
+    "total_combinacoes": 759,
+    "total_ok": 461,
+    "total_divergente": 298,
+    "soma_divergencias_abs": "37787326426.00"
   },
   "registros": [
     {
@@ -697,11 +697,95 @@
       "grupo": "1",
       "iag": "0",
       "fonte": "10",
+      "ipu": "1",
+      "valor_limite": "0",
+      "valor_despesa": "3042666500.00",
+      "diferenca": "-3042666500.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1091",
+      "sigla_uo": "PGJ",
+      "grupo": "1",
+      "iag": "0",
+      "fonte": "10",
+      "ipu": "5",
+      "valor_limite": "0",
+      "valor_despesa": "111710700.00",
+      "diferenca": "-111710700.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1091",
+      "sigla_uo": "PGJ",
+      "grupo": "1",
+      "iag": "0",
+      "fonte": "10",
       "ipu": "9",
       "valor_limite": "1000",
       "valor_despesa": "1000.00",
       "diferenca": "0.00",
       "status": "OK"
+    },
+    {
+      "uo": "1091",
+      "sigla_uo": "PGJ",
+      "grupo": "1",
+      "iag": "0",
+      "fonte": "42",
+      "ipu": "5",
+      "valor_limite": "0",
+      "valor_despesa": "448050447.00",
+      "diferenca": "-448050447.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1091",
+      "sigla_uo": "PGJ",
+      "grupo": "1",
+      "iag": "0",
+      "fonte": "43",
+      "ipu": "5",
+      "valor_limite": "0",
+      "valor_despesa": "300411652.00",
+      "diferenca": "-300411652.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1091",
+      "sigla_uo": "PGJ",
+      "grupo": "1",
+      "iag": "0",
+      "fonte": "60",
+      "ipu": "1",
+      "valor_limite": "0",
+      "valor_despesa": "2000000.00",
+      "diferenca": "-2000000.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1091",
+      "sigla_uo": "PGJ",
+      "grupo": "3",
+      "iag": "0",
+      "fonte": "10",
+      "ipu": "1",
+      "valor_limite": "0",
+      "valor_despesa": "459800000.00",
+      "diferenca": "-459800000.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1091",
+      "sigla_uo": "PGJ",
+      "grupo": "3",
+      "iag": "0",
+      "fonte": "10",
+      "ipu": "7",
+      "valor_limite": "0",
+      "valor_despesa": "338713676.00",
+      "diferenca": "-338713676.00",
+      "status": "Divergente"
     },
     {
       "uo": "1091",
@@ -713,6 +797,54 @@
       "valor_limite": "0",
       "valor_despesa": "1396086.00",
       "diferenca": "-1396086.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1091",
+      "sigla_uo": "PGJ",
+      "grupo": "3",
+      "iag": "0",
+      "fonte": "60",
+      "ipu": "1",
+      "valor_limite": "0",
+      "valor_despesa": "10000000.00",
+      "diferenca": "-10000000.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1091",
+      "sigla_uo": "PGJ",
+      "grupo": "3",
+      "iag": "0",
+      "fonte": "60",
+      "ipu": "7",
+      "valor_limite": "0",
+      "valor_despesa": "34913000.00",
+      "diferenca": "-34913000.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1091",
+      "sigla_uo": "PGJ",
+      "grupo": "4",
+      "iag": "0",
+      "fonte": "10",
+      "ipu": "1",
+      "valor_limite": "0",
+      "valor_despesa": "28336775.00",
+      "diferenca": "-28336775.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1091",
+      "sigla_uo": "PGJ",
+      "grupo": "4",
+      "iag": "0",
+      "fonte": "10",
+      "ipu": "3",
+      "valor_limite": "0",
+      "valor_despesa": "1663225.00",
+      "diferenca": "-1663225.00",
       "status": "Divergente"
     },
     {
@@ -744,11 +876,35 @@
       "sigla_uo": "PGJ",
       "grupo": "4",
       "iag": "0",
+      "fonte": "60",
+      "ipu": "1",
+      "valor_limite": "0",
+      "valor_despesa": "20000000.00",
+      "diferenca": "-20000000.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1091",
+      "sigla_uo": "PGJ",
+      "grupo": "4",
+      "iag": "0",
       "fonte": "70",
       "ipu": "1",
       "valor_limite": "0",
       "valor_despesa": "6500000.00",
       "diferenca": "-6500000.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1091",
+      "sigla_uo": "PGJ",
+      "grupo": "5",
+      "iag": "0",
+      "fonte": "10",
+      "ipu": "1",
+      "valor_limite": "0",
+      "valor_despesa": "3000000.00",
+      "diferenca": "-3000000.00",
       "status": "Divergente"
     },
     {
@@ -3195,9 +3351,9 @@
       "fonte": "10",
       "ipu": "1",
       "valor_limite": "1832972213",
-      "valor_despesa": "1804179980.00",
-      "diferenca": "28792233.00",
-      "status": "Divergente"
+      "valor_despesa": "1832972213.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1491",
@@ -3878,9 +4034,21 @@
       "iag": "0",
       "fonte": "10",
       "ipu": "1",
-      "valor_limite": "2535809771",
+      "valor_limite": "2035809771",
       "valor_despesa": "0",
-      "diferenca": "2535809771",
+      "diferenca": "2035809771",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1916",
+      "sigla_uo": "GDPE - SEF",
+      "grupo": "6",
+      "iag": "0",
+      "fonte": "15",
+      "ipu": "1",
+      "valor_limite": "500000000",
+      "valor_despesa": "0",
+      "diferenca": "500000000",
       "status": "Divergente"
     },
     {
@@ -7671,9 +7839,9 @@
       "fonte": "10",
       "ipu": "1",
       "valor_limite": "14394441",
-      "valor_despesa": "14394441.00",
-      "diferenca": "0.00",
-      "status": "OK"
+      "valor_despesa": "14393441.00",
+      "diferenca": "1000.00",
+      "status": "Divergente"
     },
     {
       "uo": "3151",
@@ -7698,6 +7866,18 @@
       "valor_despesa": "2500000.00",
       "diferenca": "0.00",
       "status": "OK"
+    },
+    {
+      "uo": "3151",
+      "sigla_uo": "EMC",
+      "grupo": "3",
+      "iag": "1",
+      "fonte": "10",
+      "ipu": "1",
+      "valor_limite": "0",
+      "valor_despesa": "1000.00",
+      "diferenca": "-1000.00",
+      "status": "Divergente"
     },
     {
       "uo": "3151",
@@ -8750,10 +8930,10 @@
       "iag": "0",
       "fonte": "10",
       "ipu": "1",
-      "valor_limite": "10462253370",
-      "valor_despesa": "10462253370.00",
-      "diferenca": "0.00",
-      "status": "OK"
+      "valor_limite": "10606463788",
+      "valor_despesa": "10606479788.00",
+      "diferenca": "-16000.00",
+      "status": "Divergente"
     },
     {
       "uo": "4711",
@@ -8774,8 +8954,8 @@
       "iag": "0",
       "fonte": "15",
       "ipu": "1",
-      "valor_limite": "2097088741",
-      "valor_despesa": "2097088741.00",
+      "valor_limite": "1952878323",
+      "valor_despesa": "1952878323.00",
       "diferenca": "0.00",
       "status": "OK"
     },
@@ -8871,8 +9051,8 @@
       "fonte": "59",
       "ipu": "1",
       "valor_limite": "0",
-      "valor_despesa": "86000000.00",
-      "diferenca": "-86000000.00",
+      "valor_despesa": "100000000.00",
+      "diferenca": "-100000000.00",
       "status": "Divergente"
     },
     {
@@ -8883,8 +9063,8 @@
       "fonte": "59",
       "ipu": "1",
       "valor_limite": "0",
-      "valor_despesa": "30000000.00",
-      "diferenca": "-30000000.00",
+      "valor_despesa": "16000000.00",
+      "diferenca": "-16000000.00",
       "status": "Divergente"
     },
     {
