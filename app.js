@@ -371,7 +371,7 @@ const plurianualController = createTabController({
   ],
   rowTemplate: (r) => {
     const uoLabel = escapeHtml(r.uo) + (r.sigla_uo ? ` - ${escapeHtml(r.sigla_uo)}` : '');
-    const acaoLabel = escapeHtml(r.acao) + (r.nome_acao ? ` - ${escapeHtml(r.nome_acao)}` : '');
+    const acaoLabel = escapeHtml(r.acao);
     const classe2027 = r.status_2027 === 'OK' ? 'status-ok' : 'status-divergente';
     const classesPlurianual = { 'OK': 'status-ok', 'Atenção': 'status-atencao', 'Zerado': 'status-divergente' };
     const classePlurianual = classesPlurianual[r.status_plurianual] || 'status-divergente';
