@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-10T19:53:44.644684+00:00",
+    "gerado_em": "2026-09-11T12:59:38.658368+00:00",
     "total_combinacoes": 759,
-    "total_ok": 461,
-    "total_divergente": 298,
-    "soma_divergencias_abs": "37787326426.00"
+    "total_ok": 460,
+    "total_divergente": 299,
+    "soma_divergencias_abs": "37788628868.00"
   },
   "registros": [
     {
@@ -819,8 +819,8 @@
       "fonte": "60",
       "ipu": "7",
       "valor_limite": "0",
-      "valor_despesa": "34913000.00",
-      "diferenca": "-34913000.00",
+      "valor_despesa": "35913000.00",
+      "diferenca": "-35913000.00",
       "status": "Divergente"
     },
     {
@@ -5067,9 +5067,9 @@
       "fonte": "10",
       "ipu": "1",
       "valor_limite": "38297180",
-      "valor_despesa": "38297180.00",
-      "diferenca": "0.00",
-      "status": "OK"
+      "valor_despesa": "38599622.00",
+      "diferenca": "-302442.00",
+      "status": "Divergente"
     },
     {
       "uo": "2151",

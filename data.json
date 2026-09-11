@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-10T19:53:44.385182+00:00",
+    "gerado_em": "2026-09-11T12:59:38.355521+00:00",
     "total_combinacoes": 431,
-    "total_ok": 226,
-    "total_divergente": 205,
-    "soma_divergencias_abs": "193859338405.00"
+    "total_ok": 228,
+    "total_divergente": 203,
+    "soma_divergencias_abs": "193781993177.00"
   },
   "registros": [
     {
@@ -133,9 +133,9 @@
       "valor_despesa": "1186551659.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
-      "valor_repassado_entrada": "1131169707",
-      "diferenca": "-55381952.00",
-      "status": "Divergente"
+      "valor_repassado_entrada": "1186551659",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1031",
@@ -146,8 +146,8 @@
       "valor_despesa": "901779260.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
-      "valor_repassado_entrada": "880513540",
-      "diferenca": "-21265720.00",
+      "valor_repassado_entrada": "901779262",
+      "diferenca": "2.00",
       "status": "Divergente"
     },
     {
@@ -377,12 +377,12 @@
       "sigla_uo": "PGJ",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "66913000.00",
+      "valor_despesa": "67913000.00",
       "valor_repassado_saida": "0",
       "valor_loa": "67913000",
       "valor_repassado_entrada": "0",
-      "diferenca": "1000000.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1091",
@@ -2782,11 +2782,11 @@
       "sigla_uo": "FHA",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "85481056.00",
+      "valor_despesa": "85783498.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-85481056.00",
+      "diferenca": "-85783498.00",
       "status": "Divergente"
     },
     {
@@ -5110,8 +5110,8 @@
       "fonte": "42",
       "nome_fonte": "CONTRIBUICAO PATRONAL PARA O RPPS",
       "valor_despesa": "5850368667.00",
-      "valor_repassado_saida": "1931015453",
-      "valor_loa": "7781384120",
+      "valor_repassado_saida": "1986397405",
+      "valor_loa": "7836766072",
       "valor_repassado_entrada": "0",
       "diferenca": "0.00",
       "status": "OK"
@@ -5123,8 +5123,8 @@
       "fonte": "43",
       "nome_fonte": "CONTRIBUICAO DO SERVIDOR PARA O RPPS",
       "valor_despesa": "2638433255.00",
-      "valor_repassado_saida": "1524712161",
-      "valor_loa": "4163145417",
+      "valor_repassado_saida": "1545977883",
+      "valor_loa": "4184411139",
       "valor_repassado_entrada": "0",
       "diferenca": "1.00",
       "status": "Divergente"

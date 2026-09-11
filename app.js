@@ -338,6 +338,56 @@ const limiteOrcamentarioController = createTabController({
   },
 });
 
+const plurianualController = createTabController({
+  els: {
+    filtroBusca: document.getElementById('plurianual-filtro-busca'),
+    tabelaCorpo: document.getElementById('plurianual-tabela-corpo'),
+    tabelaVazia: document.getElementById('plurianual-tabela-vazia'),
+    tabela: document.getElementById('plurianual-tabela'),
+  },
+  kpiFields: [
+    { key: 'total_acoes', el: document.getElementById('plurianual-kpi-total') },
+    { key: 'total_2027_divergente', el: document.getElementById('plurianual-kpi-divergente-2027') },
+    { key: 'total_plurianual_zerado', el: document.getElementById('plurianual-kpi-zerado') },
+    { key: 'soma_divergencias_abs', el: document.getElementById('plurianual-kpi-soma-divergencias'), format: formatBRL },
+  ],
+  defaultSortKey: 'uo',
+  dropdownFilters: [
+    { key: 'uo', el: document.getElementById('plurianual-filtro-uo'), label: (r) => (r.sigla_uo ? `${r.uo} - ${r.sigla_uo}` : r.uo) },
+    { key: 'acao', el: document.getElementById('plurianual-filtro-acao'), label: (r) => (r.nome_acao ? `${r.acao} - ${r.nome_acao}` : r.acao) },
+    { key: 'status_2027', el: document.getElementById('plurianual-filtro-status-2027'), label: (r) => r.status_2027 },
+    { key: 'status_plurianual', el: document.getElementById('plurianual-filtro-status-plurianual'), label: (r) => r.status_plurianual },
+  ],
+  searchFields: ['uo', 'sigla_uo', 'nome_uo', 'acao', 'nome_acao'],
+  numericSortKeys: new Set(['valor_despesa', 'previsao_2027', 'previsao_2028', 'previsao_2029', 'previsao_2030', 'diferenca_2027']),
+  sumFields: [
+    { key: 'valor_despesa', el: document.getElementById('plurianual-total-despesa') },
+    { key: 'previsao_2027', el: document.getElementById('plurianual-total-2027') },
+    { key: 'previsao_2028', el: document.getElementById('plurianual-total-2028') },
+    { key: 'previsao_2029', el: document.getElementById('plurianual-total-2029') },
+    { key: 'previsao_2030', el: document.getElementById('plurianual-total-2030') },
+    { key: 'diferenca_2027', el: document.getElementById('plurianual-total-diferenca') },
+  ],
+  rowTemplate: (r) => {
+    const uoLabel = escapeHtml(r.uo) + (r.sigla_uo ? ` - ${escapeHtml(r.sigla_uo)}` : '');
+    const acaoLabel = escapeHtml(r.acao) + (r.nome_acao ? ` - ${escapeHtml(r.nome_acao)}` : '');
+    const classe2027 = r.status_2027 === 'OK' ? 'status-ok' : 'status-divergente';
+    const classePlurianual = r.status_plurianual === 'OK' ? 'status-ok' : 'status-divergente';
+    return `
+      <td>${uoLabel}</td>
+      <td>${acaoLabel}</td>
+      <td>${formatBRL(r.valor_despesa)}</td>
+      <td>${formatBRL(r.previsao_2027)}</td>
+      <td>${formatBRL(r.previsao_2028)}</td>
+      <td>${formatBRL(r.previsao_2029)}</td>
+      <td>${formatBRL(r.previsao_2030)}</td>
+      <td>${formatBRL(r.diferenca_2027)}</td>
+      <td><span class="status-badge ${classe2027}">${escapeHtml(r.status_2027)}</span></td>
+      <td><span class="status-badge ${classePlurianual}">${escapeHtml(r.status_plurianual)}</span></td>
+    `;
+  },
+});
+
 function updateTabsHeightVar() {
   const tabsEl = document.querySelector('.tabs');
   if (tabsEl) {
@@ -411,6 +461,13 @@ async function init() {
     limiteOrcamentarioController.load(data);
   } catch (err) {
     erros.push(`Limite Orçamentário (data_limite_orcamentario.json): ${err.message}`);
+  }
+
+  try {
+    const data = await fetchJson('data_plurianual.json');
+    plurianualController.load(data);
+  } catch (err) {
+    erros.push(`Plurianual (data_plurianual.json): ${err.message}`);
   }
 
   if (erros.length > 0) {

@@ -19,6 +19,7 @@
   <button type="button" class="tab-btn" id="tab-btn-intra-patronal" role="tab" aria-selected="false" aria-controls="view-intra-patronal">Despesa Intraorçamentária - Credor Patronal</button>
   <button type="button" class="tab-btn" id="tab-btn-despesa-detalhada" role="tab" aria-selected="false" aria-controls="view-despesa-detalhada">Despesa Detalhada</button>
   <button type="button" class="tab-btn" id="tab-btn-limite-orcamentario" role="tab" aria-selected="false" aria-controls="view-limite-orcamentario">Limite Orçamentário</button>
+  <button type="button" class="tab-btn" id="tab-btn-plurianual" role="tab" aria-selected="false" aria-controls="view-plurianual">Plurianual</button>
 </nav>
 
 <section id="view-receita-despesa" class="view" role="tabpanel" aria-labelledby="tab-btn-receita-despesa">
@@ -311,6 +312,85 @@
       </tfoot>
     </table>
     <p id="limite-tabela-vazia" class="tabela-vazia" hidden>Nenhum registro encontrado para os filtros aplicados.</p>
+  </main>
+</section>
+
+<section id="view-plurianual" class="view" role="tabpanel" aria-labelledby="tab-btn-plurianual" hidden>
+  <section class="kpi-grid">
+    <div class="kpi-card">
+      <span class="kpi-label">Ações (UO+Ação)</span>
+      <span class="kpi-value" id="plurianual-kpi-total">-</span>
+    </div>
+    <div class="kpi-card kpi-divergente">
+      <span class="kpi-label">Divergentes em 2027</span>
+      <span class="kpi-value" id="plurianual-kpi-divergente-2027">-</span>
+    </div>
+    <div class="kpi-card kpi-divergente">
+      <span class="kpi-label">Plurianual zerado</span>
+      <span class="kpi-value" id="plurianual-kpi-zerado">-</span>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-label">Soma das divergências 2027 (abs.)</span>
+      <span class="kpi-value" id="plurianual-kpi-soma-divergencias">-</span>
+    </div>
+  </section>
+
+  <section class="filtros">
+    <div class="filtro-campo">
+      <label for="plurianual-filtro-uo">Unidade Orçamentária</label>
+      <select id="plurianual-filtro-uo"><option value="">Todas</option></select>
+    </div>
+    <div class="filtro-campo">
+      <label for="plurianual-filtro-acao">Ação</label>
+      <select id="plurianual-filtro-acao"><option value="">Todas</option></select>
+    </div>
+    <div class="filtro-campo">
+      <label for="plurianual-filtro-status-2027">Status 2027</label>
+      <select id="plurianual-filtro-status-2027"><option value="">Todos</option></select>
+    </div>
+    <div class="filtro-campo">
+      <label for="plurianual-filtro-status-plurianual">Status Plurianual</label>
+      <select id="plurianual-filtro-status-plurianual"><option value="">Todos</option></select>
+    </div>
+    <div class="filtro-campo">
+      <label for="plurianual-filtro-busca">Buscar</label>
+      <input type="text" id="plurianual-filtro-busca" placeholder="UO, Ação ou nome...">
+    </div>
+  </section>
+
+  <main>
+    <table id="plurianual-tabela">
+      <caption class="visually-hidden">Conferência plurianual: previsão orçamentária 2027 a 2030 por Unidade Orçamentária e Ação, comparada à despesa detalhada de 2027</caption>
+      <thead>
+        <tr>
+          <th data-sort="uo" scope="col">UO</th>
+          <th data-sort="acao" scope="col">Ação</th>
+          <th data-sort="valor_despesa" scope="col">Despesa Detalhada</th>
+          <th data-sort="previsao_2027" scope="col">Previsão 2027</th>
+          <th data-sort="previsao_2028" scope="col">Previsão 2028</th>
+          <th data-sort="previsao_2029" scope="col">Previsão 2029</th>
+          <th data-sort="previsao_2030" scope="col">Previsão 2030</th>
+          <th data-sort="diferenca_2027" scope="col">Diferença 2027</th>
+          <th data-sort="status_2027" scope="col">Status 2027</th>
+          <th data-sort="status_plurianual" scope="col">Status Plurianual</th>
+        </tr>
+      </thead>
+      <tbody id="plurianual-tabela-corpo"></tbody>
+      <tfoot>
+        <tr>
+          <th scope="row" colspan="2">Total (filtrado)</th>
+          <td id="plurianual-total-despesa">-</td>
+          <td id="plurianual-total-2027">-</td>
+          <td id="plurianual-total-2028">-</td>
+          <td id="plurianual-total-2029">-</td>
+          <td id="plurianual-total-2030">-</td>
+          <td id="plurianual-total-diferenca">-</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+    <p id="plurianual-tabela-vazia" class="tabela-vazia" hidden>Nenhum registro encontrado para os filtros aplicados.</p>
   </main>
 </section>
 

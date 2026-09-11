@@ -1,6 +1,7 @@
 from pathlib import Path
 
 from budget_lib.parsing import (
+    read_acao_exportacao,
     read_despesa,
     read_despesa_detalhada,
     read_fonte_desc,
@@ -19,6 +20,12 @@ from budget_lib.reconcile import (
 )
 from budget_lib.intra_patronal import aggregate_intra_orcamentaria, read_projetado, reconcile_intra_patronal
 from budget_lib.limite_orcamentario import aggregate_por_uo_grupo_iag_fonte_ipu, reconcile_limite
+from budget_lib.plurianual import (
+    aggregate_despesa_por_acao,
+    aggregate_previsoes,
+    build_metadata_plurianual,
+    reconcile_plurianual,
+)
 from budget_lib.output import build_metadata, build_metadata_simples, write_json
 
 BASE_DIR = Path(__file__).parent
@@ -29,10 +36,12 @@ FONTE_DESC_CSV = BASE_DIR / 'fonte_desc.csv'
 PROJETADO_CSV = BASE_DIR / 'pessoal_intra_credor_patronal.csv'
 INTRA_ORCAMENTARIA_CSV = BASE_DIR / 'Despesa_Intraorcamentaria_2027.csv'
 LIMITE_CSV = BASE_DIR / 'Limite_Orcamentario.csv'
+ACAO_EXPORTACAO_CSV = BASE_DIR / 'AcaoExportacaoCsv.csv'
 OUTPUT_JSON = BASE_DIR / 'data.json'
 OUTPUT_INTRA_JSON = BASE_DIR / 'data_intra_patronal.json'
 OUTPUT_DESPESA_DETALHADA_JSON = BASE_DIR / 'data_despesa_detalhada.json'
 OUTPUT_LIMITE_JSON = BASE_DIR / 'data_limite_orcamentario.json'
+OUTPUT_PLURIANUAL_JSON = BASE_DIR / 'data_plurianual.json'
 
 
 def main() -> None:
@@ -92,6 +101,20 @@ def main() -> None:
     print(
         f"Gerado {OUTPUT_LIMITE_JSON} com {limite_metadata['total_combinacoes']} combinacoes "
         f"UO+Grupo+IAG+Fonte+IPU ({limite_metadata['total_ok']} OK, {limite_metadata['total_divergente']} divergentes)."
+    )
+
+    acao_rows = read_acao_exportacao(ACAO_EXPORTACAO_CSV)
+    previsoes = aggregate_previsoes(acao_rows)
+    despesa_por_acao = aggregate_despesa_por_acao(despesa_detalhada_rows)
+    uo_siglas_acao = build_uo_siglas(despesa_detalhada_rows, receita_rows)
+    plurianual_records = reconcile_plurianual(previsoes, despesa_por_acao, uo_siglas_acao)
+    plurianual_metadata = build_metadata_plurianual(plurianual_records)
+
+    write_json(plurianual_records, plurianual_metadata, OUTPUT_PLURIANUAL_JSON)
+    print(
+        f"Gerado {OUTPUT_PLURIANUAL_JSON} com {plurianual_metadata['total_acoes']} acoes UO+Acao "
+        f"({plurianual_metadata['total_2027_divergente']} divergentes em 2027, "
+        f"{plurianual_metadata['total_plurianual_zerado']} com plurianual zerado)."
     )
 
 

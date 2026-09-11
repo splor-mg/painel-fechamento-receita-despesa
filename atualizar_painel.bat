@@ -8,7 +8,7 @@ echo  Atualizando o Painel de Fechamento
 echo ============================================
 echo.
 
-echo [1/4] Gerando data.json, data_intra_patronal.json, data_despesa_detalhada.json e data_limite_orcamentario.json...
+echo [1/4] Gerando os arquivos data*.json de todas as abas...
 python build_data.py
 if errorlevel 1 (
     echo.
@@ -19,7 +19,7 @@ if errorlevel 1 (
 
 echo.
 echo [2/4] Adicionando arquivos ao git...
-git add Despesa_Orcamentaria_Fiscal_2027.csv Orcamento_Receita.csv repasse-recurso.csv Despesa_Intraorcamentaria_2027.csv Limite_Orcamentario.csv data.json data_intra_patronal.json data_despesa_detalhada.json data_limite_orcamentario.json
+git add Despesa_Orcamentaria_Fiscal_2027.csv Orcamento_Receita.csv repasse-recurso.csv Despesa_Intraorcamentaria_2027.csv Limite_Orcamentario.csv AcaoExportacaoCsv.csv data.json data_intra_patronal.json data_despesa_detalhada.json data_limite_orcamentario.json data_plurianual.json
 
 git diff --cached --quiet
 if %errorlevel% equ 0 (

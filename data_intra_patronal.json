@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-10T19:53:44.409448+00:00",
-    "total_combinacoes": 120,
+    "gerado_em": "2026-09-11T12:59:38.384544+00:00",
+    "total_combinacoes": 122,
     "total_ok": 90,
-    "total_divergente": 30,
-    "soma_divergencias_abs": "850904567.00"
+    "total_divergente": 32,
+    "soma_divergencias_abs": "1298955014.00"
   },
   "registros": [
     {
@@ -136,6 +136,26 @@
       "valor_repassado": "236956.00",
       "diferenca": "0.00",
       "status": "OK"
+    },
+    {
+      "uo": "1091",
+      "sigla_uo": "PGJ",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "0",
+      "valor_repassado": "445362144.00",
+      "diferenca": "-445362144.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1091",
+      "sigla_uo": "PGJ",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "0",
+      "valor_repassado": "2688303.00",
+      "diferenca": "-2688303.00",
+      "status": "Divergente"
     },
     {
       "uo": "1101",

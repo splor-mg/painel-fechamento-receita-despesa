@@ -13,6 +13,12 @@ def parse_valor_plain(raw: str) -> Decimal:
     return Decimal(raw.strip())
 
 
+def parse_valor_opcional(raw: str) -> Decimal:
+    """Parse a plain integer that may be blank, e.g. '' -> Decimal('0')."""
+    limpo = (raw or '').strip()
+    return Decimal(limpo) if limpo else Decimal('0')
+
+
 def read_csv_rows(path: Path) -> list[dict]:
     with open(path, encoding='utf-8-sig', newline='') as f:
         reader = csv.DictReader(f, delimiter=';')
@@ -90,6 +96,22 @@ def read_intra_orcamentaria(path: Path) -> list[dict]:
         'uo_beneficiada': row['Unidade Orçamentária Beneficiada'].strip(),
         'sigla_beneficiada': row['Sigla Beneficiada'].strip(),
         'valor': parse_valor_despesa(row['Valor Distribuído']),
+    } for row in rows]
+
+
+def read_acao_exportacao(path: Path) -> list[dict]:
+    rows = read_csv_rows(path)
+    return [{
+        'uo': row['Código da Unidade Orçamentária Responsável pela Ação'].strip(),
+        'nome_uo': row['Unidade Orçamentária Responsável pela Ação'].strip(),
+        'acao': row['Código da Ação'].strip(),
+        'nome_acao': row['Título da Ação'].strip(),
+        # NB: the source header really has two spaces in "Justificativa  Exclusão".
+        'justificativa_exclusao': (row['Justificativa  Exclusão da Ação'] or '').strip(),
+        'previsao_2027': parse_valor_opcional(row['Previsão Orçamentária 2027']),
+        'previsao_2028': parse_valor_opcional(row['Previsão Orçamentária 2028']),
+        'previsao_2029': parse_valor_opcional(row['Previsão Orçamentária 2029']),
+        'previsao_2030': parse_valor_opcional(row['Previsão Orçamentária 2030']),
     } for row in rows]
 
 

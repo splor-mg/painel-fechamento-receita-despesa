@@ -5,7 +5,9 @@ from pathlib import Path
 
 from budget_lib.parsing import (
     parse_valor_despesa,
+    parse_valor_opcional,
     parse_valor_plain,
+    read_acao_exportacao,
     read_despesa,
     read_despesa_detalhada,
     read_fonte_desc,
@@ -123,6 +125,61 @@ class TestReadFonteDesc(unittest.TestCase):
             {'fonte': '60', 'nome_fonte': 'RECURSOS DIRETAMENTE ARRECADADOS'},
             {'fonte': '10', 'nome_fonte': 'RECURSOS ORDINARIOS'},
         ])
+
+
+class TestParseValorOpcional(unittest.TestCase):
+    def test_parses_plain_integer(self):
+        self.assertEqual(parse_valor_opcional('1000'), Decimal('1000'))
+
+    def test_blank_becomes_zero(self):
+        self.assertEqual(parse_valor_opcional(''), Decimal('0'))
+        self.assertEqual(parse_valor_opcional('   '), Decimal('0'))
+
+
+class TestReadAcaoExportacao(unittest.TestCase):
+    def test_reads_relevant_columns(self):
+        content = (
+            'Código da Unidade Orçamentária Responsável pela Ação;'
+            'Unidade Orçamentária Responsável pela Ação;'
+            'Justificativa  Exclusão da Ação;Código da Ação;Título da Ação;'
+            'Previsão Orçamentária 2027;Previsão Orçamentária 2028;'
+            'Previsão Orçamentária 2029;Previsão Orçamentária 2030\n'
+            '2181;FUNDACAO CLOVIS SALGADO;;7004;PRECATORIOS;368237;1000;1000;1000\n'
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'acao.csv'
+            path.write_text(content, encoding='utf-8-sig')
+            rows = read_acao_exportacao(path)
+        self.assertEqual(rows, [{
+            'uo': '2181',
+            'nome_uo': 'FUNDACAO CLOVIS SALGADO',
+            'acao': '7004',
+            'nome_acao': 'PRECATORIOS',
+            'justificativa_exclusao': '',
+            'previsao_2027': Decimal('368237'),
+            'previsao_2028': Decimal('1000'),
+            'previsao_2029': Decimal('1000'),
+            'previsao_2030': Decimal('1000'),
+        }])
+
+    def test_blank_previsao_becomes_zero_and_keeps_justificativa(self):
+        content = (
+            'Código da Unidade Orçamentária Responsável pela Ação;'
+            'Unidade Orçamentária Responsável pela Ação;'
+            'Justificativa  Exclusão da Ação;Código da Ação;Título da Ação;'
+            'Previsão Orçamentária 2027;Previsão Orçamentária 2028;'
+            'Previsão Orçamentária 2029;Previsão Orçamentária 2030\n'
+            '4651;FECIDAT;Fundo extinto pela Lei 25.350;7038;APORTE;100;;;\n'
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'acao.csv'
+            path.write_text(content, encoding='utf-8-sig')
+            rows = read_acao_exportacao(path)
+        r = rows[0]
+        self.assertEqual(r['justificativa_exclusao'], 'Fundo extinto pela Lei 25.350')
+        self.assertEqual(r['previsao_2028'], Decimal('0'))
+        self.assertEqual(r['previsao_2029'], Decimal('0'))
+        self.assertEqual(r['previsao_2030'], Decimal('0'))
 
 
 class TestReadDespesaDetalhada(unittest.TestCase):
