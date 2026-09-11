@@ -1,10 +1,11 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-11T13:31:27.022181+00:00",
+    "gerado_em": "2026-09-11T13:35:51.288840+00:00",
     "total_acoes": 998,
     "total_2027_ok": 934,
     "total_2027_divergente": 64,
     "total_plurianual_zerado": 47,
+    "total_plurianual_atencao": 105,
     "soma_divergencias_abs": "24893497058.00"
   },
   "registros": [
@@ -141,7 +142,7 @@
       "previsao_2030": "631718671",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1031",
@@ -366,7 +367,7 @@
       "previsao_2030": "10209130",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1071",
@@ -606,7 +607,7 @@
       "previsao_2030": "564188907",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1081",
@@ -681,7 +682,7 @@
       "previsao_2030": "35000000",
       "diferenca_2027": "88794319.00",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1091",
@@ -1266,7 +1267,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1221",
@@ -1386,7 +1387,7 @@
       "previsao_2030": "683515",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1221",
@@ -1446,7 +1447,7 @@
       "previsao_2030": "2058026",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1221",
@@ -1926,7 +1927,7 @@
       "previsao_2030": "8885699",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1251",
@@ -2016,7 +2017,7 @@
       "previsao_2030": "71928409",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1251",
@@ -2046,7 +2047,7 @@
       "previsao_2030": "713294288",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1251",
@@ -2226,7 +2227,7 @@
       "previsao_2030": "83247395",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1261",
@@ -2406,7 +2407,7 @@
       "previsao_2030": "136402441",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1261",
@@ -2496,7 +2497,7 @@
       "previsao_2030": "265897630",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1261",
@@ -2616,7 +2617,7 @@
       "previsao_2030": "1261386",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1261",
@@ -2736,7 +2737,7 @@
       "previsao_2030": "28851805",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1261",
@@ -2766,7 +2767,7 @@
       "previsao_2030": "53844531",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1261",
@@ -2811,7 +2812,7 @@
       "previsao_2030": "323067188",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1261",
@@ -2901,7 +2902,7 @@
       "previsao_2030": "34500000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1271",
@@ -2931,7 +2932,7 @@
       "previsao_2030": "15166708",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1271",
@@ -3141,7 +3142,7 @@
       "previsao_2030": "1001000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1271",
@@ -3411,7 +3412,7 @@
       "previsao_2030": "9011526",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1301",
@@ -3501,7 +3502,7 @@
       "previsao_2030": "6258412",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1301",
@@ -3516,7 +3517,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1371",
@@ -3696,7 +3697,7 @@
       "previsao_2030": "291275",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1371",
@@ -3951,7 +3952,7 @@
       "previsao_2030": "3723419",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1401",
@@ -4281,7 +4282,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1451",
@@ -4506,7 +4507,7 @@
       "previsao_2030": "95252",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1481",
@@ -5286,7 +5287,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1491",
@@ -6096,7 +6097,7 @@
       "previsao_2030": "74500330",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1521",
@@ -6141,7 +6142,7 @@
       "previsao_2030": "2000000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1521",
@@ -6201,7 +6202,7 @@
       "previsao_2030": "20300",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1521",
@@ -6276,7 +6277,7 @@
       "previsao_2030": "10481824",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1541",
@@ -6366,7 +6367,7 @@
       "previsao_2030": "10865575",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1631",
@@ -6636,7 +6637,7 @@
       "previsao_2030": "85000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1915",
@@ -6681,7 +6682,7 @@
       "previsao_2030": "1379645434",
       "diferenca_2027": "1149999996",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1916",
@@ -6726,7 +6727,7 @@
       "previsao_2030": "76244419",
       "diferenca_2027": "259294580",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1916",
@@ -6741,7 +6742,7 @@
       "previsao_2030": "63571968",
       "diferenca_2027": "93333402",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1916",
@@ -6756,7 +6757,7 @@
       "previsao_2030": "77365860",
       "diferenca_2027": "81872423",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1916",
@@ -6771,7 +6772,7 @@
       "previsao_2030": "7015954383",
       "diferenca_2027": "4213835259",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1916",
@@ -6786,7 +6787,7 @@
       "previsao_2030": "513497359",
       "diferenca_2027": "1785768712",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1941",
@@ -6801,7 +6802,7 @@
       "previsao_2030": "3242146",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1941",
@@ -6816,7 +6817,7 @@
       "previsao_2030": "1175354",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1941",
@@ -6831,7 +6832,7 @@
       "previsao_2030": "2600000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1941",
@@ -6846,7 +6847,7 @@
       "previsao_2030": "22500000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1951",
@@ -7101,7 +7102,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2041",
@@ -7356,7 +7357,7 @@
       "previsao_2030": "544542",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2061",
@@ -7416,7 +7417,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2071",
@@ -7551,7 +7552,7 @@
       "previsao_2030": "68486920",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2071",
@@ -7581,7 +7582,7 @@
       "previsao_2030": "146551200",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2071",
@@ -7866,7 +7867,7 @@
       "previsao_2030": "3200000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2121",
@@ -7881,7 +7882,7 @@
       "previsao_2030": "123362229",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2121",
@@ -8376,7 +8377,7 @@
       "previsao_2030": "4928547",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2161",
@@ -8406,7 +8407,7 @@
       "previsao_2030": "18500",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2161",
@@ -8736,7 +8737,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2201",
@@ -8916,7 +8917,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2211",
@@ -9156,7 +9157,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2241",
@@ -9186,7 +9187,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2251",
@@ -9276,7 +9277,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2261",
@@ -9396,7 +9397,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2271",
@@ -9411,7 +9412,7 @@
       "previsao_2030": "1840546674",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2271",
@@ -9576,7 +9577,7 @@
       "previsao_2030": "458200",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2281",
@@ -9816,7 +9817,7 @@
       "previsao_2030": "242743678",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2311",
@@ -9861,7 +9862,7 @@
       "previsao_2030": "29080282",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2311",
@@ -9966,7 +9967,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2321",
@@ -10041,7 +10042,7 @@
       "previsao_2030": "3000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2331",
@@ -10116,7 +10117,7 @@
       "previsao_2030": "3000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2351",
@@ -10221,7 +10222,7 @@
       "previsao_2030": "6283871",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2351",
@@ -10431,7 +10432,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2371",
@@ -10881,7 +10882,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2461",
@@ -10926,7 +10927,7 @@
       "previsao_2030": "473504",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2461",
@@ -10941,7 +10942,7 @@
       "previsao_2030": "944533",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2461",
@@ -11001,7 +11002,7 @@
       "previsao_2030": "24803759",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "2471",
@@ -11241,7 +11242,7 @@
       "previsao_2030": "113567278",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "3041",
@@ -11646,7 +11647,7 @@
       "previsao_2030": "566899776",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "4031",
@@ -11676,7 +11677,7 @@
       "previsao_2030": "428510014",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "4031",
@@ -11691,7 +11692,7 @@
       "previsao_2030": "13683000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "4031",
@@ -12951,7 +12952,7 @@
       "previsao_2030": "85000000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "4451",
@@ -13026,7 +13027,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "4601",
@@ -13056,7 +13057,7 @@
       "previsao_2030": "8234774",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "4621",
@@ -13071,7 +13072,7 @@
       "previsao_2030": "10000000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "4621",
@@ -13101,7 +13102,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "4631",
@@ -13116,7 +13117,7 @@
       "previsao_2030": "16216826",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "4631",
@@ -13326,7 +13327,7 @@
       "previsao_2030": "78709838",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "4631",
@@ -13341,7 +13342,7 @@
       "previsao_2030": "1087758",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "4631",
@@ -13356,7 +13357,7 @@
       "previsao_2030": "1",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "4631",
@@ -13386,7 +13387,7 @@
       "previsao_2030": "1",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "4661",
@@ -13476,7 +13477,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "4711",
@@ -14481,7 +14482,7 @@
       "previsao_2030": "164876148",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5011",
@@ -14496,7 +14497,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "1600000",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5031",
@@ -14511,7 +14512,7 @@
       "previsao_2030": "13684671",
       "diferenca_2027": "26830404",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5071",
@@ -14526,7 +14527,7 @@
       "previsao_2030": "49650360",
       "diferenca_2027": "36608798",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5081",
@@ -14646,7 +14647,7 @@
       "previsao_2030": "3250000",
       "diferenca_2027": "16317109",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5141",
@@ -14661,7 +14662,7 @@
       "previsao_2030": "6210000",
       "diferenca_2027": "58031337",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5191",
@@ -14691,7 +14692,7 @@
       "previsao_2030": "2000",
       "diferenca_2027": "665500",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5191",
@@ -14706,7 +14707,7 @@
       "previsao_2030": "50000",
       "diferenca_2027": "555000",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5201",
@@ -14736,7 +14737,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "260000000",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5201",
@@ -14751,7 +14752,7 @@
       "previsao_2030": "1000",
       "diferenca_2027": "825000000",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5251",
@@ -14766,7 +14767,7 @@
       "previsao_2030": "300116226",
       "diferenca_2027": "457766318",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5261",
@@ -14796,7 +14797,7 @@
       "previsao_2030": "8001000",
       "diferenca_2027": "18018430",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5391",
@@ -14841,7 +14842,7 @@
       "previsao_2030": "323349820",
       "diferenca_2027": "426883823",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5391",
@@ -14856,7 +14857,7 @@
       "previsao_2030": "3106064",
       "diferenca_2027": "32235731",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5391",
@@ -14871,7 +14872,7 @@
       "previsao_2030": "417307107",
       "diferenca_2027": "121588957",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5391",
@@ -14886,7 +14887,7 @@
       "previsao_2030": "5320479",
       "diferenca_2027": "28627843",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5391",
@@ -14916,7 +14917,7 @@
       "previsao_2030": "219978460",
       "diferenca_2027": "1080197578",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5401",
@@ -14946,7 +14947,7 @@
       "previsao_2030": "60599694",
       "diferenca_2027": "250370467",
       "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "5511",

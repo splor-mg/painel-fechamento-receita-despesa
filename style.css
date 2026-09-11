@@ -64,6 +64,7 @@ header h1 { margin: 0 0 0.25rem; font-size: 1.5rem; }
 .kpi-value { font-size: 1.5rem; font-weight: 600; }
 .kpi-ok .kpi-value { color: #1a7f37; }
 .kpi-divergente .kpi-value { color: #c0341d; }
+.kpi-atencao .kpi-value { color: #92600e; }
 
 .filtros {
   display: flex;
@@ -145,6 +146,7 @@ tfoot th { text-align: left; }
 }
 .status-ok { background: #dcfce7; color: #1a7f37; }
 .status-divergente { background: #fde2e1; color: #c0341d; }
+.status-atencao { background: #fef3c7; color: #92600e; }
 
 .tabela-vazia { text-align: center; color: #616e7c; padding: 2rem; }
 

@@ -4,9 +4,43 @@ from decimal import Decimal
 from budget_lib.plurianual import (
     aggregate_despesa_por_acao,
     aggregate_previsoes,
+    avaliar_status_plurianual,
     build_metadata_plurianual,
     reconcile_plurianual,
 )
+
+
+def previsao(p2027='100', p2028='100', p2029='100', p2030='100'):
+    return {
+        'previsao_2027': Decimal(p2027),
+        'previsao_2028': Decimal(p2028),
+        'previsao_2029': Decimal(p2029),
+        'previsao_2030': Decimal(p2030),
+    }
+
+
+class TestAvaliarStatusPlurianual(unittest.TestCase):
+    def test_ok_quando_crescente(self):
+        self.assertEqual(avaliar_status_plurianual(previsao('100', '110', '120', '130')), 'OK')
+
+    def test_ok_quando_estavel(self):
+        self.assertEqual(avaliar_status_plurianual(previsao('100', '100', '100', '100')), 'OK')
+
+    def test_atencao_quando_2028_menor_que_2027(self):
+        self.assertEqual(avaliar_status_plurianual(previsao('100', '90', '120', '130')), 'Atenção')
+
+    def test_atencao_quando_2029_menor_que_2028(self):
+        self.assertEqual(avaliar_status_plurianual(previsao('100', '110', '105', '130')), 'Atenção')
+
+    def test_atencao_quando_2030_menor_que_2029(self):
+        self.assertEqual(avaliar_status_plurianual(previsao('100', '110', '120', '115')), 'Atenção')
+
+    def test_zerado_tem_precedencia_sobre_atencao(self):
+        # 2028 zerado tambem e uma queda em relacao a 2027, mas Zerado prevalece
+        self.assertEqual(avaliar_status_plurianual(previsao('100', '0', '120', '130')), 'Zerado')
+
+    def test_previsao_2027_zerada_nao_gera_zerado(self):
+        self.assertEqual(avaliar_status_plurianual(previsao('0', '10', '20', '30')), 'OK')
 
 
 def acao_row(uo='2181', acao='7004', justificativa='', exclusao_logica=False,
@@ -101,10 +135,15 @@ class TestReconcilePlurianual(unittest.TestCase):
         records = reconcile_plurianual(previsoes, {}, {})
         self.assertEqual(records[0]['status_plurianual'], 'Zerado')
 
-    def test_status_plurianual_ok_quando_todos_os_anos_preenchidos(self):
-        previsoes = aggregate_previsoes([acao_row(p2028='1', p2029='2', p2030='3')])
+    def test_status_plurianual_ok_quando_todos_os_anos_preenchidos_e_crescentes(self):
+        previsoes = aggregate_previsoes([acao_row(p2027='100', p2028='110', p2029='120', p2030='130')])
         records = reconcile_plurianual(previsoes, {}, {})
         self.assertEqual(records[0]['status_plurianual'], 'OK')
+
+    def test_status_plurianual_atencao_quando_projecao_cai(self):
+        previsoes = aggregate_previsoes([acao_row(p2027='100', p2028='110', p2029='105', p2030='130')])
+        records = reconcile_plurianual(previsoes, {}, {})
+        self.assertEqual(records[0]['status_plurianual'], 'Atenção')
 
     def test_ano_de_2027_zerado_nao_afeta_status_plurianual(self):
         previsoes = aggregate_previsoes([acao_row(p2027='0', p2028='1', p2029='2', p2030='3')])
@@ -130,12 +169,14 @@ class TestBuildMetadataPlurianual(unittest.TestCase):
             {'status_2027': 'OK', 'status_plurianual': 'OK', 'diferenca_2027': Decimal('0')},
             {'status_2027': 'Divergente', 'status_plurianual': 'OK', 'diferenca_2027': Decimal('30')},
             {'status_2027': 'OK', 'status_plurianual': 'Zerado', 'diferenca_2027': Decimal('-10')},
+            {'status_2027': 'OK', 'status_plurianual': 'Atenção', 'diferenca_2027': Decimal('0')},
         ]
         metadata = build_metadata_plurianual(records)
-        self.assertEqual(metadata['total_acoes'], 3)
-        self.assertEqual(metadata['total_2027_ok'], 2)
+        self.assertEqual(metadata['total_acoes'], 4)
+        self.assertEqual(metadata['total_2027_ok'], 3)
         self.assertEqual(metadata['total_2027_divergente'], 1)
         self.assertEqual(metadata['total_plurianual_zerado'], 1)
+        self.assertEqual(metadata['total_plurianual_atencao'], 1)
         self.assertEqual(metadata['soma_divergencias_abs'], '40')
 
     def test_empty_records(self):

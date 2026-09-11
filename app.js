@@ -349,6 +349,7 @@ const plurianualController = createTabController({
     { key: 'total_acoes', el: document.getElementById('plurianual-kpi-total') },
     { key: 'total_2027_divergente', el: document.getElementById('plurianual-kpi-divergente-2027') },
     { key: 'total_plurianual_zerado', el: document.getElementById('plurianual-kpi-zerado') },
+    { key: 'total_plurianual_atencao', el: document.getElementById('plurianual-kpi-atencao') },
     { key: 'soma_divergencias_abs', el: document.getElementById('plurianual-kpi-soma-divergencias'), format: formatBRL },
   ],
   defaultSortKey: 'uo',
@@ -372,7 +373,8 @@ const plurianualController = createTabController({
     const uoLabel = escapeHtml(r.uo) + (r.sigla_uo ? ` - ${escapeHtml(r.sigla_uo)}` : '');
     const acaoLabel = escapeHtml(r.acao) + (r.nome_acao ? ` - ${escapeHtml(r.nome_acao)}` : '');
     const classe2027 = r.status_2027 === 'OK' ? 'status-ok' : 'status-divergente';
-    const classePlurianual = r.status_plurianual === 'OK' ? 'status-ok' : 'status-divergente';
+    const classesPlurianual = { 'OK': 'status-ok', 'Atenção': 'status-atencao', 'Zerado': 'status-divergente' };
+    const classePlurianual = classesPlurianual[r.status_plurianual] || 'status-divergente';
     return `
       <td>${uoLabel}</td>
       <td>${acaoLabel}</td>
