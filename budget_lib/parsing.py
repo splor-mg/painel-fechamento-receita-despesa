@@ -108,6 +108,7 @@ def read_acao_exportacao(path: Path) -> list[dict]:
         'nome_acao': row['Título da Ação'].strip(),
         # NB: the source header really has two spaces in "Justificativa  Exclusão".
         'justificativa_exclusao': (row['Justificativa  Exclusão da Ação'] or '').strip(),
+        'exclusao_logica': (row['Exclusão Lógica da Ação'] or '').strip().lower() == 'sim',
         'previsao_2027': parse_valor_opcional(row['Previsão Orçamentária 2027']),
         'previsao_2028': parse_valor_opcional(row['Previsão Orçamentária 2028']),
         'previsao_2029': parse_valor_opcional(row['Previsão Orçamentária 2029']),

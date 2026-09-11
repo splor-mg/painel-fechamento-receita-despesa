@@ -9,13 +9,15 @@ from budget_lib.plurianual import (
 )
 
 
-def acao_row(uo='2181', acao='7004', justificativa='', p2027='100', p2028='100', p2029='100', p2030='100'):
+def acao_row(uo='2181', acao='7004', justificativa='', exclusao_logica=False,
+             p2027='100', p2028='100', p2029='100', p2030='100'):
     return {
         'uo': uo,
         'nome_uo': 'UO TESTE',
         'acao': acao,
         'nome_acao': 'ACAO TESTE',
         'justificativa_exclusao': justificativa,
+        'exclusao_logica': exclusao_logica,
         'previsao_2027': Decimal(p2027),
         'previsao_2028': Decimal(p2028),
         'previsao_2029': Decimal(p2029),
@@ -77,6 +79,22 @@ class TestReconcilePlurianual(unittest.TestCase):
         records = reconcile_plurianual(previsoes, {}, {})
         self.assertEqual(records[0]['valor_despesa'], Decimal('0'))
         self.assertEqual(records[0]['status_2027'], 'Divergente')
+
+    def test_exclusao_logica_sem_despesa_sai_do_painel(self):
+        previsoes = aggregate_previsoes([acao_row(exclusao_logica=True)])
+        records = reconcile_plurianual(previsoes, {}, {})
+        self.assertEqual(records, [])
+
+    def test_exclusao_logica_com_despesa_permanece_no_painel(self):
+        previsoes = aggregate_previsoes([acao_row(exclusao_logica=True, p2027='100')])
+        records = reconcile_plurianual(previsoes, {('2181', '7004'): Decimal('79419031')}, {})
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0]['valor_despesa'], Decimal('79419031'))
+
+    def test_acao_normal_sem_despesa_continua_no_painel(self):
+        previsoes = aggregate_previsoes([acao_row(exclusao_logica=False)])
+        records = reconcile_plurianual(previsoes, {}, {})
+        self.assertEqual(len(records), 1)
 
     def test_status_plurianual_zerado_quando_algum_ano_e_zero(self):
         previsoes = aggregate_previsoes([acao_row(p2028='100', p2029='0', p2030='100')])

@@ -28,12 +28,14 @@ def aggregate_previsoes(acao_rows: list[dict]) -> dict:
             previsoes[chave] = {
                 'nome_uo': row['nome_uo'],
                 'nome_acao': row['nome_acao'],
+                'exclusao_logica': row['exclusao_logica'],
                 'previsao_2027': row['previsao_2027'],
                 'previsao_2028': row['previsao_2028'],
                 'previsao_2029': row['previsao_2029'],
                 'previsao_2030': row['previsao_2030'],
             }
         else:
+            atual['exclusao_logica'] = atual['exclusao_logica'] or row['exclusao_logica']
             for ano in ('previsao_2027',) + ANOS_PLURIANUAL:
                 atual[ano] += row[ano]
     return previsoes
@@ -44,6 +46,10 @@ def reconcile_plurianual(previsoes: dict, despesa_totais: dict, uo_siglas: dict)
     records = []
     for (uo, acao), previsao in sorted(previsoes.items()):
         valor_despesa = despesa_totais.get((uo, acao), zero)
+        # Ações flagged for removal from the PPAG are only conferred while
+        # they still carry detailed expense in 2027.
+        if previsao['exclusao_logica'] and valor_despesa == zero:
+            continue
         diferenca_2027 = previsao['previsao_2027'] - valor_despesa
         tem_ano_zerado = any(previsao[ano] == zero for ano in ANOS_PLURIANUAL)
         records.append({

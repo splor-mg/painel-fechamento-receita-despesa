@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-11T12:59:38.727543+00:00",
-    "total_acoes": 999,
+    "gerado_em": "2026-09-11T13:31:27.022181+00:00",
+    "total_acoes": 998,
     "total_2027_ok": 934,
-    "total_2027_divergente": 65,
+    "total_2027_divergente": 64,
     "total_plurianual_zerado": 47,
-    "soma_divergencias_abs": "24893498058.00"
+    "soma_divergencias_abs": "24893497058.00"
   },
   "registros": [
     {
@@ -1971,21 +1971,6 @@
       "previsao_2030": "448707543",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "OK"
-    },
-    {
-      "uo": "1251",
-      "sigla_uo": "PMMG",
-      "nome_uo": "POLÍCIA MILITAR DO ESTADO DE MINAS GERAIS",
-      "acao": "2697",
-      "nome_acao": "EXPANSÃO DOS COLÉGIOS TIRADENTES DA POLÍCIA MILITAR",
-      "valor_despesa": "0",
-      "previsao_2027": "1000",
-      "previsao_2028": "1050",
-      "previsao_2029": "1102",
-      "previsao_2030": "1158",
-      "diferenca_2027": "1000",
-      "status_2027": "Divergente",
       "status_plurianual": "OK"
     },
     {
