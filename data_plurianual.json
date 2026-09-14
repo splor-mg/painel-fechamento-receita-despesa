@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-14T10:48:46.781879+00:00",
+    "gerado_em": "2026-09-14T17:30:15.365969+00:00",
     "total_acoes": 998,
-    "total_2027_ok": 956,
-    "total_2027_divergente": 42,
+    "total_2027_ok": 960,
+    "total_2027_divergente": 38,
     "total_plurianual_zerado": 26,
-    "total_plurianual_atencao": 99,
-    "soma_divergencias_abs": "17023199061.00"
+    "total_plurianual_atencao": 97,
+    "soma_divergencias_abs": "15746867125.00"
   },
   "registros": [
     {
@@ -4125,13 +4125,13 @@
       "nome_uo": "DEFENSORIA PUBLICA DO ESTADO DE MINAS GERAIS",
       "acao": "4150",
       "nome_acao": "OPERACIONALIZAÇÃO DAS ATRIBUIÇÕES DA DEFENSORIA PÚBLICA E DIREÇÃO ADMIINISTRATIVA",
-      "valor_despesa": "15357.00",
+      "valor_despesa": "198924190.00",
       "previsao_2027": "198924190",
       "previsao_2028": "209168786",
       "previsao_2029": "219940978",
       "previsao_2030": "231267939",
-      "diferenca_2027": "198908833.00",
-      "status_2027": "Divergente",
+      "diferenca_2027": "0.00",
+      "status_2027": "OK",
       "status_plurianual": "OK"
     },
     {
@@ -4140,13 +4140,13 @@
       "nome_uo": "DEFENSORIA PUBLICA DO ESTADO DE MINAS GERAIS",
       "acao": "4193",
       "nome_acao": "REMUNERAÇAO DE PESSOAL ATIVO E ENCARGOS SOCIAIS",
-      "valor_despesa": "2419.00",
-      "previsao_2027": "883117947",
-      "previsao_2028": "928598509",
-      "previsao_2029": "976421323",
-      "previsao_2030": "1026707032",
-      "diferenca_2027": "883115528.00",
-      "status_2027": "Divergente",
+      "valor_despesa": "883117940.00",
+      "previsao_2027": "883117940",
+      "previsao_2028": "928598514",
+      "previsao_2029": "976421337",
+      "previsao_2030": "1026707036",
+      "diferenca_2027": "0.00",
+      "status_2027": "OK",
       "status_plurianual": "OK"
     },
     {
@@ -4170,13 +4170,13 @@
       "nome_uo": "DEFENSORIA PUBLICA DO ESTADO DE MINAS GERAIS",
       "acao": "7006",
       "nome_acao": "PROVENTOS DE INATIVOS CIVIS E PENSIONISTAS",
-      "valor_despesa": "192.00",
+      "valor_despesa": "193100000.00",
       "previsao_2027": "193100000",
-      "previsao_2028": "203044660",
-      "previsao_2029": "213501474",
-      "previsao_2030": "224496792",
-      "diferenca_2027": "193099808.00",
-      "status_2027": "Divergente",
+      "previsao_2028": "203044650",
+      "previsao_2029": "213501449",
+      "previsao_2030": "224496774",
+      "diferenca_2027": "0.00",
+      "status_2027": "OK",
       "status_plurianual": "OK"
     },
     {
@@ -5281,12 +5281,12 @@
       "acao": "2046",
       "nome_acao": "Atendimento às Demandas da Participação Cidadã",
       "valor_despesa": "30000000.00",
-      "previsao_2027": "28792233",
+      "previsao_2027": "30000000",
       "previsao_2028": "1000",
       "previsao_2029": "1000",
       "previsao_2030": "1000",
-      "diferenca_2027": "-1207767.00",
-      "status_2027": "Divergente",
+      "diferenca_2027": "0.00",
+      "status_2027": "OK",
       "status_plurianual": "Atenção"
     },
     {
@@ -6122,9 +6122,9 @@
       "nome_acao": "EXECUÇÃO DE AÇÕES INVESTIGATIVAS E RECUPERAÇÃO DE ATIVOS",
       "valor_despesa": "109909.00",
       "previsao_2027": "109909",
-      "previsao_2028": "355870",
-      "previsao_2029": "370105",
-      "previsao_2030": "390000",
+      "previsao_2028": "131909",
+      "previsao_2029": "153909",
+      "previsao_2030": "175909",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
       "status_plurianual": "OK"
@@ -6137,12 +6137,12 @@
       "nome_acao": "PROMOÇÃO DO ACESSO À INFORMAÇÃO E DA TRANSPARÊNCIA",
       "valor_despesa": "2006584.00",
       "previsao_2027": "2006584",
-      "previsao_2028": "2000000",
-      "previsao_2029": "2000000",
-      "previsao_2030": "2000000",
+      "previsao_2028": "2028584",
+      "previsao_2029": "2050584",
+      "previsao_2030": "2072584",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "Atenção"
+      "status_plurianual": "OK"
     },
     {
       "uo": "1521",
@@ -6182,9 +6182,9 @@
       "nome_acao": "ESTRUTURAÇÃO TECNOLÓGICA E INSTITUCIONALIZAÇÃO DA AUDITORIA CONTÍNUA",
       "valor_despesa": "163810.00",
       "previsao_2027": "163810",
-      "previsao_2028": "289344",
-      "previsao_2029": "300918",
-      "previsao_2030": "320000",
+      "previsao_2028": "185810",
+      "previsao_2029": "207810",
+      "previsao_2030": "229810",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
       "status_plurianual": "OK"
@@ -6197,12 +6197,12 @@
       "nome_acao": "FORTALECIMENTO DA PREVENÇÃO A ILÍCITOS ADMINISTRATIVOS",
       "valor_despesa": "52680.00",
       "previsao_2027": "52680",
-      "previsao_2028": "19049",
-      "previsao_2029": "19811",
-      "previsao_2030": "20300",
+      "previsao_2028": "74680",
+      "previsao_2029": "96680",
+      "previsao_2030": "118680",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "Atenção"
+      "status_plurianual": "OK"
     },
     {
       "uo": "1521",
@@ -6227,9 +6227,9 @@
       "nome_acao": "FORTALECIMENTO DO CONTROLE INTERNO E DAS REDES DE CONTROLE",
       "valor_despesa": "170432.00",
       "previsao_2027": "170432",
-      "previsao_2028": "284821",
-      "previsao_2029": "296214",
-      "previsao_2030": "300000",
+      "previsao_2028": "192432",
+      "previsao_2029": "214432",
+      "previsao_2030": "236432",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
       "status_plurianual": "OK"
@@ -6242,9 +6242,9 @@
       "nome_acao": "GOVERNANÇA TIC PARA O CONTROLE INTERNO",
       "valor_despesa": "429545.00",
       "previsao_2027": "429545",
-      "previsao_2028": "1538553",
-      "previsao_2029": "1646252",
-      "previsao_2030": "1761489",
+      "previsao_2028": "451545",
+      "previsao_2029": "473545",
+      "previsao_2030": "495545",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
       "status_plurianual": "OK"

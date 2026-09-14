@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-14T10:48:46.515239+00:00",
-    "total_combinacoes": 122,
-    "total_ok": 88,
-    "total_divergente": 34,
-    "soma_divergencias_abs": "1298982846.00"
+    "gerado_em": "2026-09-14T17:30:15.065404+00:00",
+    "total_combinacoes": 124,
+    "total_ok": 89,
+    "total_divergente": 35,
+    "soma_divergencias_abs": "1403065018.00"
   },
   "registros": [
     {
@@ -223,9 +223,9 @@
       "credor": "FFP",
       "uo_credor": "4711",
       "valor_projetado": "3883588",
-      "valor_repassado": "3883587.00",
-      "diferenca": "1.00",
-      "status": "Divergente"
+      "valor_repassado": "3883588.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1231",
@@ -375,6 +375,26 @@
       "valor_projetado": "295001047",
       "valor_repassado": "290341331.00",
       "diferenca": "4659716.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1441",
+      "sigla_uo": "DEF PUB",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "0",
+      "valor_repassado": "1353068.00",
+      "diferenca": "-1353068.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1441",
+      "sigla_uo": "DEF PUB",
+      "credor": "IPSEMG",
+      "uo_credor": "2011",
+      "valor_projetado": "0",
+      "valor_repassado": "102729105.00",
+      "diferenca": "-102729105.00",
       "status": "Divergente"
     },
     {

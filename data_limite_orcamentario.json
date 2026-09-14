@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-14T10:48:46.727889+00:00",
+    "gerado_em": "2026-09-14T17:30:15.310451+00:00",
     "total_combinacoes": 772,
-    "total_ok": 483,
-    "total_divergente": 289,
-    "soma_divergencias_abs": "27301795846.00"
+    "total_ok": 490,
+    "total_divergente": 282,
+    "soma_divergencias_abs": "26405973296.00"
   },
   "registros": [
     {
@@ -2859,9 +2859,9 @@
       "fonte": "10",
       "ipu": "1",
       "valor_limite": "800632100",
-      "valor_despesa": "1918.00",
-      "diferenca": "800630182.00",
-      "status": "Divergente"
+      "valor_despesa": "800632100.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1441",
@@ -2871,9 +2871,9 @@
       "fonte": "10",
       "ipu": "5",
       "valor_limite": "1000000",
-      "valor_despesa": "1.00",
-      "diferenca": "999999.00",
-      "status": "Divergente"
+      "valor_despesa": "1000000.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1441",
@@ -2895,8 +2895,8 @@
       "fonte": "42",
       "ipu": "5",
       "valor_limite": "0",
-      "valor_despesa": "105.00",
-      "diferenca": "-105.00",
+      "valor_despesa": "105515757.00",
+      "diferenca": "-105515757.00",
       "status": "Divergente"
     },
     {
@@ -2907,8 +2907,8 @@
       "fonte": "43",
       "ipu": "5",
       "valor_limite": "0",
-      "valor_despesa": "72.00",
-      "diferenca": "-72.00",
+      "valor_despesa": "72184243.00",
+      "diferenca": "-72184243.00",
       "status": "Divergente"
     },
     {
@@ -2919,9 +2919,9 @@
       "fonte": "10",
       "ipu": "1",
       "valor_limite": "179189100",
-      "valor_despesa": "416840.00",
-      "diferenca": "178772260.00",
-      "status": "Divergente"
+      "valor_despesa": "179189100.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1441",
@@ -2931,9 +2931,9 @@
       "fonte": "10",
       "ipu": "7",
       "valor_limite": "96885840",
-      "valor_despesa": "515.00",
-      "diferenca": "96885325.00",
-      "status": "Divergente"
+      "valor_despesa": "96885840.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1441",
@@ -2943,8 +2943,8 @@
       "fonte": "60",
       "ipu": "1",
       "valor_limite": "0",
-      "valor_despesa": "6.00",
-      "diferenca": "-6.00",
+      "valor_despesa": "6509379.00",
+      "diferenca": "-6509379.00",
       "status": "Divergente"
     },
     {
@@ -2955,9 +2955,9 @@
       "fonte": "10",
       "ipu": "1",
       "valor_limite": "5000000",
-      "valor_despesa": "1503.00",
-      "diferenca": "4998497.00",
-      "status": "Divergente"
+      "valor_despesa": "5000000.00",
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1441",
@@ -2967,8 +2967,8 @@
       "fonte": "60",
       "ipu": "1",
       "valor_limite": "0",
-      "valor_despesa": "8.00",
-      "diferenca": "-8.00",
+      "valor_despesa": "8628711.00",
+      "diferenca": "-8628711.00",
       "status": "Divergente"
     },
     {
@@ -6290,10 +6290,10 @@
       "iag": "0",
       "fonte": "32",
       "ipu": "0",
-      "valor_limite": "238288993",
+      "valor_limite": "235101900",
       "valor_despesa": "235101900.00",
-      "diferenca": "3187093.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "2301",
@@ -6302,10 +6302,10 @@
       "iag": "0",
       "fonte": "32",
       "ipu": "1",
-      "valor_limite": "100108865",
+      "valor_limite": "103295958",
       "valor_despesa": "103295958.00",
-      "diferenca": "-3187093.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "2301",

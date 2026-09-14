@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-14T10:48:46.492419+00:00",
+    "gerado_em": "2026-09-14T17:30:15.044154+00:00",
     "total_combinacoes": 436,
-    "total_ok": 231,
-    "total_divergente": 205,
-    "soma_divergencias_abs": "201150560175.00"
+    "total_ok": 234,
+    "total_divergente": 202,
+    "soma_divergencias_abs": "202040008539.00"
   },
   "registros": [
     {
@@ -1495,11 +1495,11 @@
       "sigla_uo": "DEF PUB",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "421777.00",
+      "valor_despesa": "1082708040.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-421777.00",
+      "diferenca": "-1082708040.00",
       "status": "Divergente"
     },
     {
@@ -1508,12 +1508,12 @@
       "sigla_uo": "DEF PUB",
       "fonte": "42",
       "nome_fonte": "CONTRIBUICAO PATRONAL PARA O RPPS",
-      "valor_despesa": "105.00",
+      "valor_despesa": "105515757.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "105515757",
-      "diferenca": "105515652.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1441",
@@ -1521,12 +1521,12 @@
       "sigla_uo": "DEF PUB",
       "fonte": "43",
       "nome_fonte": "CONTRIBUICAO DO SERVIDOR PARA O RPPS",
-      "valor_despesa": "72.00",
+      "valor_despesa": "72184243.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "72184243",
-      "diferenca": "72184171.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1441",
@@ -1534,12 +1534,12 @@
       "sigla_uo": "DEF PUB",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "14.00",
+      "valor_despesa": "15138090.00",
       "valor_repassado_saida": "0",
       "valor_loa": "15138090",
       "valor_repassado_entrada": "0",
-      "diferenca": "15138076.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1451",
