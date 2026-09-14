@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-11T12:59:38.355521+00:00",
-    "total_combinacoes": 431,
-    "total_ok": 228,
-    "total_divergente": 203,
-    "soma_divergencias_abs": "193781993177.00"
+    "gerado_em": "2026-09-14T10:48:46.492419+00:00",
+    "total_combinacoes": 436,
+    "total_ok": 231,
+    "total_divergente": 205,
+    "soma_divergencias_abs": "201150560175.00"
   },
   "registros": [
     {
@@ -260,11 +260,11 @@
       "sigla_uo": "AGE",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "1724961202.00",
+      "valor_despesa": "1583961202.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-1724961202.00",
+      "diferenca": "-1583961202.00",
       "status": "Divergente"
     },
     {
@@ -1493,13 +1493,26 @@
       "uo": "1441",
       "nome_uo": "DEFENSORIA PUBLICA DO ESTADO DE MINAS GERAIS",
       "sigla_uo": "DEF PUB",
+      "fonte": "10",
+      "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
+      "valor_despesa": "421777.00",
+      "valor_repassado_saida": "0",
+      "valor_loa": "0",
+      "valor_repassado_entrada": "0",
+      "diferenca": "-421777.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1441",
+      "nome_uo": "DEFENSORIA PUBLICA DO ESTADO DE MINAS GERAIS",
+      "sigla_uo": "DEF PUB",
       "fonte": "42",
       "nome_fonte": "CONTRIBUICAO PATRONAL PARA O RPPS",
-      "valor_despesa": "0",
+      "valor_despesa": "105.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "105515757",
-      "diferenca": "105515757",
+      "diferenca": "105515652.00",
       "status": "Divergente"
     },
     {
@@ -1508,11 +1521,11 @@
       "sigla_uo": "DEF PUB",
       "fonte": "43",
       "nome_fonte": "CONTRIBUICAO DO SERVIDOR PARA O RPPS",
-      "valor_despesa": "0",
+      "valor_despesa": "72.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "72184243",
-      "diferenca": "72184243",
+      "diferenca": "72184171.00",
       "status": "Divergente"
     },
     {
@@ -1521,11 +1534,11 @@
       "sigla_uo": "DEF PUB",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "0",
+      "valor_despesa": "14.00",
       "valor_repassado_saida": "0",
       "valor_loa": "15138090",
       "valor_repassado_entrada": "0",
-      "diferenca": "15138090",
+      "diferenca": "15138076.00",
       "status": "Divergente"
     },
     {
@@ -1677,12 +1690,12 @@
       "sigla_uo": "SEDESE",
       "fonte": "1",
       "nome_fonte": "CONVENIOS COM A UNIAO E SUAS ENTIDADES - EMENDAS INDIVIDUAIS",
-      "valor_despesa": "2000.00",
+      "valor_despesa": "597840.00",
       "valor_repassado_saida": "0",
       "valor_loa": "597840",
       "valor_repassado_entrada": "0",
-      "diferenca": "595840.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1481",
@@ -2164,6 +2177,58 @@
       "valor_repassado_entrada": "98000",
       "diferenca": "0.00",
       "status": "OK"
+    },
+    {
+      "uo": "1916",
+      "nome_uo": "GESTÃO DA DÍVIDA PÚBLICA ESTADUAL",
+      "sigla_uo": "GDPE - SEF",
+      "fonte": "10",
+      "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
+      "valor_despesa": "2971350382.00",
+      "valor_repassado_saida": "0",
+      "valor_loa": "0",
+      "valor_repassado_entrada": "0",
+      "diferenca": "-2971350382.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1916",
+      "nome_uo": "GESTÃO DA DÍVIDA PÚBLICA ESTADUAL",
+      "sigla_uo": "GDPE - SEF",
+      "fonte": "11",
+      "nome_fonte": "RECURSOS DE DESVINCULACAO DE RECEITAS",
+      "valor_despesa": "250000000.00",
+      "valor_repassado_saida": "0",
+      "valor_loa": "0",
+      "valor_repassado_entrada": "0",
+      "diferenca": "-250000000.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1916",
+      "nome_uo": "GESTÃO DA DÍVIDA PÚBLICA ESTADUAL",
+      "sigla_uo": "GDPE - SEF",
+      "fonte": "15",
+      "nome_fonte": "RECURSOS ORDINARIOS - OUTROS RECURSOS NAO VINCULADOS",
+      "valor_despesa": "500000000.00",
+      "valor_repassado_saida": "0",
+      "valor_loa": "0",
+      "valor_repassado_entrada": "0",
+      "diferenca": "-500000000.00",
+      "status": "Divergente"
+    },
+    {
+      "uo": "1916",
+      "nome_uo": "GESTÃO DA DÍVIDA PÚBLICA ESTADUAL",
+      "sigla_uo": "GDPE - SEF",
+      "fonte": "48",
+      "nome_fonte": "ALIENACAO DE BENS DO TESOURO ESTADUAL",
+      "valor_despesa": "3901898815.00",
+      "valor_repassado_saida": "0",
+      "valor_loa": "0",
+      "valor_repassado_entrada": "0",
+      "diferenca": "-3901898815.00",
+      "status": "Divergente"
     },
     {
       "uo": "1941",
@@ -2782,11 +2847,11 @@
       "sigla_uo": "FHA",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "85783498.00",
+      "valor_despesa": "85481056.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-85783498.00",
+      "diferenca": "-85481056.00",
       "status": "Divergente"
     },
     {
@@ -5083,11 +5148,11 @@
       "sigla_uo": "FFP - MG",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "10640479788.00",
+      "valor_despesa": "10640463788.00",
       "valor_repassado_saida": "0",
       "valor_loa": "1000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-10640478788.00",
+      "diferenca": "-10640462788.00",
       "status": "Divergente"
     },
     {
@@ -5200,12 +5265,12 @@
       "sigla_uo": "FEGAJ",
       "fonte": "59",
       "nome_fonte": "OUTROS RECURSOS VINCULADOS",
-      "valor_despesa": "0",
+      "valor_despesa": "106189000.00",
       "valor_repassado_saida": "0",
       "valor_loa": "106189000",
       "valor_repassado_entrada": "0",
-      "diferenca": "106189000",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "4741",
@@ -5213,12 +5278,12 @@
       "sigla_uo": "FEGAJ",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "0",
+      "valor_despesa": "7000503.00",
       "valor_repassado_saida": "0",
       "valor_loa": "7000503",
       "valor_repassado_entrada": "0",
-      "diferenca": "7000503",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "4751",
