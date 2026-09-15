@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-15T12:46:52.415297+00:00",
+    "gerado_em": "2026-09-15T17:57:07.366216+00:00",
     "total_acoes": 998,
     "total_2027_ok": 961,
     "total_2027_divergente": 37,
-    "total_plurianual_zerado": 26,
+    "total_plurianual_zerado": 24,
     "total_plurianual_atencao": 99,
     "soma_divergencias_abs": "15746271287.00"
   },
@@ -8057,12 +8057,12 @@
       "nome_acao": "INTERVENÇÕES COLETIVAS E SOCIOEMOCIONAIS REALIZADAS NA CLÍNICA PSICOPEDAGÓGICA ÉDOUARD CLAPARÉDE",
       "valor_despesa": "14000.00",
       "previsao_2027": "14000",
-      "previsao_2028": "22176",
-      "previsao_2029": "23156",
-      "previsao_2030": "0",
+      "previsao_2028": "14700",
+      "previsao_2029": "15435",
+      "previsao_2030": "16207",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "Zerado"
+      "status_plurianual": "OK"
     },
     {
       "uo": "2151",
@@ -8087,8 +8087,8 @@
       "nome_acao": "MELHORIA NA ALIMENTAÇÃO",
       "valor_despesa": "1816929.00",
       "previsao_2027": "1816929",
-      "previsao_2028": "1097089",
-      "previsao_2029": "1145572",
+      "previsao_2028": "1907775",
+      "previsao_2029": "2003164",
       "previsao_2030": "0",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
@@ -8192,12 +8192,12 @@
       "nome_acao": "OFICINAS COMUNITÁRIAS DE ARTE, EDUCAÇÃO E CIDADANIA",
       "valor_despesa": "17500.00",
       "previsao_2027": "17500",
-      "previsao_2028": "10970",
-      "previsao_2029": "11455",
-      "previsao_2030": "0",
+      "previsao_2028": "18375",
+      "previsao_2029": "19294",
+      "previsao_2030": "20258",
       "diferenca_2027": "0.00",
       "status_2027": "OK",
-      "status_plurianual": "Zerado"
+      "status_plurianual": "OK"
     },
     {
       "uo": "2151",
