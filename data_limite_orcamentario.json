@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-14T17:32:23.297801+00:00",
+    "gerado_em": "2026-09-15T12:46:52.354899+00:00",
     "total_combinacoes": 772,
     "total_ok": 490,
     "total_divergente": 282,
-    "soma_divergencias_abs": "26405973296.00"
+    "soma_divergencias_abs": "26405973298.00"
   },
   "registros": [
     {
@@ -315,8 +315,8 @@
       "fonte": "43",
       "ipu": "5",
       "valor_limite": "0",
-      "valor_despesa": "901779260.00",
-      "diferenca": "-901779260.00",
+      "valor_despesa": "901779262.00",
+      "diferenca": "-901779262.00",
       "status": "Divergente"
     },
     {

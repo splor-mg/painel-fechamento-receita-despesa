@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-14T17:32:23.048064+00:00",
+    "gerado_em": "2026-09-15T12:46:52.111139+00:00",
     "total_combinacoes": 436,
-    "total_ok": 234,
-    "total_divergente": 202,
-    "soma_divergencias_abs": "202040008539.00"
+    "total_ok": 236,
+    "total_divergente": 200,
+    "soma_divergencias_abs": "202040008536.00"
   },
   "registros": [
     {
@@ -143,12 +143,12 @@
       "sigla_uo": "TJMG",
       "fonte": "43",
       "nome_fonte": "CONTRIBUICAO DO SERVIDOR PARA O RPPS",
-      "valor_despesa": "901779260.00",
+      "valor_despesa": "901779262.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "901779262",
-      "diferenca": "2.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "1031",
@@ -5189,10 +5189,10 @@
       "nome_fonte": "CONTRIBUICAO DO SERVIDOR PARA O RPPS",
       "valor_despesa": "2638433255.00",
       "valor_repassado_saida": "1545977883",
-      "valor_loa": "4184411139",
+      "valor_loa": "4184411138",
       "valor_repassado_entrada": "0",
-      "diferenca": "1.00",
-      "status": "Divergente"
+      "diferenca": "0.00",
+      "status": "OK"
     },
     {
       "uo": "4711",

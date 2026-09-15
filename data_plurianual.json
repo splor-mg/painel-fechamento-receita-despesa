@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-14T17:32:23.351671+00:00",
+    "gerado_em": "2026-09-15T12:46:52.415297+00:00",
     "total_acoes": 998,
-    "total_2027_ok": 960,
-    "total_2027_divergente": 38,
+    "total_2027_ok": 961,
+    "total_2027_divergente": 37,
     "total_plurianual_zerado": 26,
-    "total_plurianual_atencao": 97,
-    "soma_divergencias_abs": "15746867125.00"
+    "total_plurianual_atencao": 99,
+    "soma_divergencias_abs": "15746271287.00"
   },
   "registros": [
     {
@@ -195,13 +195,13 @@
       "nome_uo": "TRIBUNAL DE JUSTIÇA DO ESTADO DE MINAS GERAIS",
       "acao": "7006",
       "nome_acao": "PROVENTOS DE INATIVOS CIVIS E PENSIONISTAS",
-      "valor_despesa": "3686641586.00",
+      "valor_despesa": "3686641588.00",
       "previsao_2027": "3686641586",
       "previsao_2028": "3826733966",
       "previsao_2029": "3960669655",
       "previsao_2030": "4099293093",
-      "diferenca_2027": "0.00",
-      "status_2027": "OK",
+      "diferenca_2027": "-2.00",
+      "status_2027": "Divergente",
       "status_plurianual": "OK"
     },
     {
@@ -4681,13 +4681,13 @@
       "acao": "4163",
       "nome_acao": "PROMOÇÃO DOS JOGOS DO INTERIOR DE MINAS",
       "valor_despesa": "3528247.00",
-      "previsao_2027": "3128407",
+      "previsao_2027": "3528247",
       "previsao_2028": "3261677",
       "previsao_2029": "3400624",
       "previsao_2030": "3545490",
-      "diferenca_2027": "-399840.00",
-      "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "diferenca_2027": "0.00",
+      "status_2027": "OK",
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1481",
@@ -4786,13 +4786,13 @@
       "acao": "4170",
       "nome_acao": "APOIO À REALIZAÇÃO DE AÇÕES ESPORTIVAS",
       "valor_despesa": "233671.00",
-      "previsao_2027": "37671",
+      "previsao_2027": "233671",
       "previsao_2028": "39275",
       "previsao_2029": "40948",
       "previsao_2030": "42692",
-      "diferenca_2027": "-196000.00",
-      "status_2027": "Divergente",
-      "status_plurianual": "OK"
+      "diferenca_2027": "0.00",
+      "status_2027": "OK",
+      "status_plurianual": "Atenção"
     },
     {
       "uo": "1481",
