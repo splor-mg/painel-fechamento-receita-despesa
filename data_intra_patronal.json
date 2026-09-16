@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-15T17:57:07.050750+00:00",
+    "gerado_em": "2026-09-16T12:05:40.703613+00:00",
     "total_combinacoes": 124,
     "total_ok": 89,
     "total_divergente": 35,
-    "soma_divergencias_abs": "827163043.00"
+    "soma_divergencias_abs": "827617939.00"
   },
   "registros": [
     {
@@ -433,8 +433,8 @@
       "credor": "IPSEMG",
       "uo_credor": "2011",
       "valor_projetado": "676595",
-      "valor_repassado": "680758.00",
-      "diferenca": "-4163.00",
+      "valor_repassado": "1135654.00",
+      "diferenca": "-459059.00",
       "status": "Divergente"
     },
     {
