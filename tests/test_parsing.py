@@ -15,6 +15,7 @@ from budget_lib.parsing import (
     read_limite_orcamentario,
     read_receita,
     read_repasse,
+    read_setorialistas,
 )
 
 
@@ -182,6 +183,24 @@ class TestReadAcaoExportacao(unittest.TestCase):
         self.assertEqual(r['previsao_2028'], Decimal('0'))
         self.assertEqual(r['previsao_2029'], Decimal('0'))
         self.assertEqual(r['previsao_2030'], Decimal('0'))
+
+
+class TestReadSetorialistas(unittest.TestCase):
+    def test_reads_relevant_columns(self):
+        content = (
+            'UO;UO_SIGLA;Setorialista;Dupla/Trio\n'
+            '1011;ALMG;Otto;Bárbara/Otto\n'
+            '1231;SEAPA;Juliane;Juliane/Guilherme/Henrique\n'
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'setorialistas.csv'
+            path.write_text(content, encoding='utf-8-sig')
+            rows = read_setorialistas(path)
+        self.assertEqual(rows, [
+            {'uo': '1011', 'sigla_uo': 'ALMG', 'setorialista': 'Otto', 'dupla_trio': 'Bárbara/Otto'},
+            {'uo': '1231', 'sigla_uo': 'SEAPA', 'setorialista': 'Juliane',
+             'dupla_trio': 'Juliane/Guilherme/Henrique'},
+        ])
 
 
 class TestReadDespesaDetalhada(unittest.TestCase):

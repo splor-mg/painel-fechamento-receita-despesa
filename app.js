@@ -179,10 +179,12 @@ const receitaDespesaController = createTabController({
   ],
   defaultSortKey: 'uo',
   dropdownFilters: [
+    { key: 'setorialista', el: document.getElementById('filtro-setorialista'), label: (r) => r.setorialista },
+    { key: 'dupla_trio', el: document.getElementById('filtro-dupla-trio'), label: (r) => r.dupla_trio },
     { key: 'uo', el: document.getElementById('filtro-uo'), label: (r) => (r.sigla_uo ? `${r.uo} - ${r.sigla_uo}` : r.uo) },
     { key: 'fonte', el: document.getElementById('filtro-fonte'), label: (r) => (r.nome_fonte ? `${r.fonte} - ${r.nome_fonte}` : r.fonte) },
   ],
-  searchFields: ['uo', 'nome_uo', 'sigla_uo', 'fonte', 'nome_fonte'],
+  searchFields: ['setorialista', 'dupla_trio', 'uo', 'nome_uo', 'sigla_uo', 'fonte', 'nome_fonte'],
   numericSortKeys: new Set(['valor_despesa', 'valor_repassado_saida', 'valor_loa', 'valor_repassado_entrada', 'diferenca']),
   sumFields: [
     { key: 'valor_loa', el: document.getElementById('total-loa') },
@@ -224,10 +226,12 @@ const intraPatronalController = createTabController({
   ],
   defaultSortKey: 'uo',
   dropdownFilters: [
+    { key: 'setorialista', el: document.getElementById('intra-filtro-setorialista'), label: (r) => r.setorialista },
+    { key: 'dupla_trio', el: document.getElementById('intra-filtro-dupla-trio'), label: (r) => r.dupla_trio },
     { key: 'uo', el: document.getElementById('intra-filtro-uo'), label: (r) => (r.sigla_uo ? `${r.uo} - ${r.sigla_uo}` : r.uo) },
     { key: 'credor', el: document.getElementById('intra-filtro-credor'), label: (r) => r.credor },
   ],
-  searchFields: ['uo', 'sigla_uo', 'credor'],
+  searchFields: ['setorialista', 'dupla_trio', 'uo', 'sigla_uo', 'credor'],
   numericSortKeys: new Set(['valor_projetado', 'valor_repassado', 'diferenca']),
   sumFields: [
     { key: 'valor_projetado', el: document.getElementById('intra-total-projetado') },
@@ -261,6 +265,8 @@ const despesaDetalhadaController = createTabController({
   ],
   defaultSortKey: 'uo',
   dropdownFilters: [
+    { key: 'setorialista', el: document.getElementById('detalhada-filtro-setorialista'), label: (r) => r.setorialista },
+    { key: 'dupla_trio', el: document.getElementById('detalhada-filtro-dupla-trio'), label: (r) => r.dupla_trio },
     { key: 'uo', el: document.getElementById('detalhada-filtro-uo'), label: (r) => (r.sigla_uo ? `${r.uo} - ${r.sigla_uo}` : r.uo) },
     { key: 'fonte', el: document.getElementById('detalhada-filtro-fonte'), label: (r) => r.fonte },
     { key: 'grupo', el: document.getElementById('detalhada-filtro-grupo'), label: (r) => r.grupo },
@@ -269,7 +275,7 @@ const despesaDetalhadaController = createTabController({
     { key: 'ipu', el: document.getElementById('detalhada-filtro-ipu'), label: (r) => r.ipu },
     { key: 'acao', el: document.getElementById('detalhada-filtro-acao'), label: (r) => (r.nome_acao ? `${r.acao} - ${r.nome_acao}` : r.acao) },
   ],
-  searchFields: ['uo', 'nome_uo', 'sigla_uo', 'funcao', 'acao', 'nome_acao', 'grupo', 'modalidade', 'elemento', 'item', 'fonte', 'ipu'],
+  searchFields: ['setorialista', 'dupla_trio', 'uo', 'nome_uo', 'sigla_uo', 'funcao', 'acao', 'nome_acao', 'grupo', 'modalidade', 'elemento', 'item', 'fonte', 'ipu'],
   numericSortKeys: new Set(['valor']),
   sumFields: [
     { key: 'valor', el: document.getElementById('detalhada-total-valor') },
@@ -308,13 +314,15 @@ const limiteOrcamentarioController = createTabController({
   ],
   defaultSortKey: 'uo',
   dropdownFilters: [
+    { key: 'setorialista', el: document.getElementById('limite-filtro-setorialista'), label: (r) => r.setorialista },
+    { key: 'dupla_trio', el: document.getElementById('limite-filtro-dupla-trio'), label: (r) => r.dupla_trio },
     { key: 'uo', el: document.getElementById('limite-filtro-uo'), label: (r) => (r.sigla_uo ? `${r.uo} - ${r.sigla_uo}` : r.uo) },
     { key: 'grupo', el: document.getElementById('limite-filtro-grupo'), label: (r) => r.grupo },
     { key: 'iag', el: document.getElementById('limite-filtro-iag'), label: (r) => r.iag },
     { key: 'fonte', el: document.getElementById('limite-filtro-fonte'), label: (r) => r.fonte },
     { key: 'ipu', el: document.getElementById('limite-filtro-ipu'), label: (r) => r.ipu },
   ],
-  searchFields: ['uo', 'sigla_uo', 'grupo', 'iag', 'fonte', 'ipu'],
+  searchFields: ['setorialista', 'dupla_trio', 'uo', 'sigla_uo', 'grupo', 'iag', 'fonte', 'ipu'],
   numericSortKeys: new Set(['valor_limite', 'valor_despesa', 'diferenca']),
   sumFields: [
     { key: 'valor_limite', el: document.getElementById('limite-total-limite') },
@@ -354,12 +362,14 @@ const plurianualController = createTabController({
   ],
   defaultSortKey: 'uo',
   dropdownFilters: [
+    { key: 'setorialista', el: document.getElementById('plurianual-filtro-setorialista'), label: (r) => r.setorialista },
+    { key: 'dupla_trio', el: document.getElementById('plurianual-filtro-dupla-trio'), label: (r) => r.dupla_trio },
     { key: 'uo', el: document.getElementById('plurianual-filtro-uo'), label: (r) => (r.sigla_uo ? `${r.uo} - ${r.sigla_uo}` : r.uo) },
     { key: 'acao', el: document.getElementById('plurianual-filtro-acao'), label: (r) => (r.nome_acao ? `${r.acao} - ${r.nome_acao}` : r.acao) },
     { key: 'status_2027', el: document.getElementById('plurianual-filtro-status-2027'), label: (r) => r.status_2027 },
     { key: 'status_plurianual', el: document.getElementById('plurianual-filtro-status-plurianual'), label: (r) => r.status_plurianual },
   ],
-  searchFields: ['uo', 'sigla_uo', 'nome_uo', 'acao', 'nome_acao'],
+  searchFields: ['setorialista', 'dupla_trio', 'uo', 'sigla_uo', 'nome_uo', 'acao', 'nome_acao'],
   numericSortKeys: new Set(['valor_despesa', 'previsao_2027', 'previsao_2028', 'previsao_2029', 'previsao_2030', 'diferenca_2027']),
   sumFields: [
     { key: 'valor_despesa', el: document.getElementById('plurianual-total-despesa') },

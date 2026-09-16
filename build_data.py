@@ -9,6 +9,7 @@ from budget_lib.parsing import (
     read_limite_orcamentario,
     read_receita,
     read_repasse,
+    read_setorialistas,
 )
 from budget_lib.reconcile import (
     aggregate_by_uo_fonte,
@@ -26,6 +27,7 @@ from budget_lib.plurianual import (
     build_metadata_plurianual,
     reconcile_plurianual,
 )
+from budget_lib.setorialistas import aplicar_setorialistas, build_lookup as build_setorialistas_lookup
 from budget_lib.output import build_metadata, build_metadata_simples, write_json
 
 BASE_DIR = Path(__file__).parent
@@ -37,6 +39,7 @@ PROJETADO_CSV = BASE_DIR / 'pessoal_intra_credor_patronal.csv'
 INTRA_ORCAMENTARIA_CSV = BASE_DIR / 'Despesa_Intraorcamentaria_2027.csv'
 LIMITE_CSV = BASE_DIR / 'Limite_Orcamentario.csv'
 ACAO_EXPORTACAO_CSV = BASE_DIR / 'AcaoExportacaoCsv.csv'
+SETORIALISTAS_CSV = BASE_DIR / 'setorialistas_uo.csv'
 OUTPUT_JSON = BASE_DIR / 'data.json'
 OUTPUT_INTRA_JSON = BASE_DIR / 'data_intra_patronal.json'
 OUTPUT_DESPESA_DETALHADA_JSON = BASE_DIR / 'data_despesa_detalhada.json'
@@ -49,6 +52,7 @@ def main() -> None:
     receita_rows = read_receita(RECEITA_CSV)
     repasse_rows = read_repasse(REPASSE_CSV)
     fonte_desc_rows = read_fonte_desc(FONTE_DESC_CSV)
+    setorialistas = build_setorialistas_lookup(read_setorialistas(SETORIALISTAS_CSV))
 
     despesa_totals = aggregate_by_uo_fonte(despesa_rows)
     receita_totals = aggregate_by_uo_fonte(receita_rows)
@@ -63,6 +67,7 @@ def main() -> None:
     )
     metadata = build_metadata(records)
 
+    aplicar_setorialistas(records, setorialistas)
     write_json(records, metadata, OUTPUT_JSON)
     print(
         f"Gerado {OUTPUT_JSON} com {metadata['total_combinacoes']} combinacoes UO+Fonte "
@@ -75,6 +80,7 @@ def main() -> None:
     intra_records = reconcile_intra_patronal(projetado_rows, distribuido_totais)
     intra_metadata = build_metadata(intra_records)
 
+    aplicar_setorialistas(intra_records, setorialistas)
     write_json(intra_records, intra_metadata, OUTPUT_INTRA_JSON)
     print(
         f"Gerado {OUTPUT_INTRA_JSON} com {intra_metadata['total_combinacoes']} combinacoes UO+Credor "
@@ -84,6 +90,7 @@ def main() -> None:
     despesa_detalhada_rows = read_despesa_detalhada(DESPESA_CSV)
     despesa_detalhada_metadata = build_metadata_simples(despesa_detalhada_rows, 'valor')
 
+    aplicar_setorialistas(despesa_detalhada_rows, setorialistas)
     write_json(despesa_detalhada_rows, despesa_detalhada_metadata, OUTPUT_DESPESA_DETALHADA_JSON)
     print(
         f"Gerado {OUTPUT_DESPESA_DETALHADA_JSON} com {despesa_detalhada_metadata['total_registros']} registros "
@@ -97,6 +104,7 @@ def main() -> None:
     limite_records = reconcile_limite(despesa_totais_limite, limite_totais, uo_siglas_limite)
     limite_metadata = build_metadata(limite_records)
 
+    aplicar_setorialistas(limite_records, setorialistas)
     write_json(limite_records, limite_metadata, OUTPUT_LIMITE_JSON)
     print(
         f"Gerado {OUTPUT_LIMITE_JSON} com {limite_metadata['total_combinacoes']} combinacoes "
@@ -110,6 +118,7 @@ def main() -> None:
     plurianual_records = reconcile_plurianual(previsoes, despesa_por_acao, uo_siglas_acao)
     plurianual_metadata = build_metadata_plurianual(plurianual_records)
 
+    aplicar_setorialistas(plurianual_records, setorialistas)
     write_json(plurianual_records, plurianual_metadata, OUTPUT_PLURIANUAL_JSON)
     print(
         f"Gerado {OUTPUT_PLURIANUAL_JSON} com {plurianual_metadata['total_acoes']} acoes UO+Acao "

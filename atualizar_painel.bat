@@ -19,7 +19,7 @@ if errorlevel 1 (
 
 echo.
 echo [2/4] Adicionando arquivos ao git...
-git add Despesa_Orcamentaria_Fiscal_2027.csv Orcamento_Receita.csv repasse-recurso.csv Despesa_Intraorcamentaria_2027.csv Limite_Orcamentario.csv AcaoExportacaoCsv.csv data.json data_intra_patronal.json data_despesa_detalhada.json data_limite_orcamentario.json data_plurianual.json
+git add Despesa_Orcamentaria_Fiscal_2027.csv Orcamento_Receita.csv repasse-recurso.csv Despesa_Intraorcamentaria_2027.csv Limite_Orcamentario.csv AcaoExportacaoCsv.csv setorialistas_uo.csv data.json data_intra_patronal.json data_despesa_detalhada.json data_limite_orcamentario.json data_plurianual.json
 
 git diff --cached --quiet
 if %errorlevel% equ 0 (

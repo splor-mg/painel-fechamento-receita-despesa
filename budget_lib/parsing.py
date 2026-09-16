@@ -116,6 +116,16 @@ def read_acao_exportacao(path: Path) -> list[dict]:
     } for row in rows]
 
 
+def read_setorialistas(path: Path) -> list[dict]:
+    rows = read_csv_rows(path)
+    return [{
+        'uo': row['UO'].strip(),
+        'sigla_uo': row['UO_SIGLA'].strip(),
+        'setorialista': row['Setorialista'].strip(),
+        'dupla_trio': row['Dupla/Trio'].strip(),
+    } for row in rows]
+
+
 def read_limite_orcamentario(path: Path) -> list[dict]:
     rows = read_csv_rows(path)
     return [{

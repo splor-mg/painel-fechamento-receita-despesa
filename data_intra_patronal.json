@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-16T12:05:40.703613+00:00",
+    "gerado_em": "2026-09-16T12:18:20.794771+00:00",
     "total_combinacoes": 124,
     "total_ok": 89,
     "total_divergente": 35,
@@ -15,7 +15,9 @@
       "valor_projetado": "0",
       "valor_repassado": "120000000.00",
       "diferenca": "-120000000.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1011",
@@ -25,7 +27,9 @@
       "valor_projetado": "0",
       "valor_repassado": "15037000.00",
       "diferenca": "-15037000.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1011",
@@ -35,7 +39,9 @@
       "valor_projetado": "0",
       "valor_repassado": "285000.00",
       "diferenca": "-285000.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1021",
@@ -45,7 +51,9 @@
       "valor_projetado": "0",
       "valor_repassado": "98550188.00",
       "diferenca": "-98550188.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1021",
@@ -55,7 +63,9 @@
       "valor_projetado": "0",
       "valor_repassado": "1158711.00",
       "diferenca": "-1158711.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1051",
@@ -65,7 +75,9 @@
       "valor_projetado": "0",
       "valor_repassado": "11045990.00",
       "diferenca": "-11045990.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1051",
@@ -75,7 +87,9 @@
       "valor_projetado": "0",
       "valor_repassado": "53182.00",
       "diferenca": "-53182.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1051",
@@ -85,7 +99,9 @@
       "valor_projetado": "0",
       "valor_repassado": "612865.00",
       "diferenca": "-612865.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1071",
@@ -95,7 +111,9 @@
       "valor_projetado": "431713",
       "valor_repassado": "431713.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Guilherme",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "1071",
@@ -105,7 +123,9 @@
       "valor_projetado": "65518",
       "valor_repassado": "65518.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Guilherme",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "1081",
@@ -115,7 +135,9 @@
       "valor_projetado": "111467598",
       "valor_repassado": "111467598.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Barbara",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1081",
@@ -125,7 +147,9 @@
       "valor_projetado": "310220",
       "valor_repassado": "310220.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Barbara",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1081",
@@ -135,7 +159,9 @@
       "valor_projetado": "236956",
       "valor_repassado": "236956.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Barbara",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1091",
@@ -145,7 +171,9 @@
       "valor_projetado": "0",
       "valor_repassado": "445362144.00",
       "diferenca": "-445362144.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1091",
@@ -155,7 +183,9 @@
       "valor_projetado": "0",
       "valor_repassado": "2688303.00",
       "diferenca": "-2688303.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1101",
@@ -165,7 +195,9 @@
       "valor_projetado": "4174074",
       "valor_repassado": "4174074.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Lucas",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "1101",
@@ -175,7 +207,9 @@
       "valor_projetado": "82528",
       "valor_repassado": "82528.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Lucas",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "1191",
@@ -185,7 +219,9 @@
       "valor_projetado": "429383800",
       "valor_repassado": "429383800.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Andrea",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "1191",
@@ -195,7 +231,9 @@
       "valor_projetado": "2483345",
       "valor_repassado": "2483345.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Andrea",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "1221",
@@ -205,7 +243,9 @@
       "valor_projetado": "2998277",
       "valor_repassado": "2998277.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Luciana Muller",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "1221",
@@ -215,7 +255,9 @@
       "valor_projetado": "175330",
       "valor_repassado": "175330.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Luciana Muller",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "1231",
@@ -225,7 +267,9 @@
       "valor_projetado": "3883588",
       "valor_repassado": "3883588.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Juliane",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "1231",
@@ -235,7 +279,9 @@
       "valor_projetado": "188425",
       "valor_repassado": "188425.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Juliane",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "1251",
@@ -245,7 +291,9 @@
       "valor_projetado": "24906628",
       "valor_repassado": "24906630.00",
       "diferenca": "-2.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Bruno",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "1251",
@@ -255,7 +303,9 @@
       "valor_projetado": "3551729",
       "valor_repassado": "3551729.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Bruno",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "1251",
@@ -265,7 +315,9 @@
       "valor_projetado": "2310592704",
       "valor_repassado": "2310592704.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Bruno",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "1261",
@@ -275,7 +327,9 @@
       "valor_projetado": "2342001762",
       "valor_repassado": "2342001762.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Guilherme",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "1261",
@@ -285,7 +339,9 @@
       "valor_projetado": "202563041",
       "valor_repassado": "202563041.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Guilherme",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "1271",
@@ -295,7 +351,9 @@
       "valor_projetado": "5319677",
       "valor_repassado": "5361505.00",
       "diferenca": "-41828.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Henrique",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "1271",
@@ -305,7 +363,9 @@
       "valor_projetado": "272259",
       "valor_repassado": "230431.00",
       "diferenca": "41828.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Henrique",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "1301",
@@ -315,7 +375,9 @@
       "valor_projetado": "8634359",
       "valor_repassado": "8634359.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1301",
@@ -325,7 +387,9 @@
       "valor_projetado": "272954",
       "valor_repassado": "272954.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1371",
@@ -335,7 +399,9 @@
       "valor_projetado": "33058551",
       "valor_repassado": "33058551.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Lucas",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "1371",
@@ -345,7 +411,9 @@
       "valor_projetado": "618067",
       "valor_repassado": "618067.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Lucas",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "1401",
@@ -355,7 +423,9 @@
       "valor_projetado": "39535",
       "valor_repassado": "45728.00",
       "diferenca": "-6193.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Bruno",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "1401",
@@ -365,7 +435,9 @@
       "valor_projetado": "12512",
       "valor_repassado": "11893.00",
       "diferenca": "619.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Bruno",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "1401",
@@ -375,7 +447,9 @@
       "valor_projetado": "295001047",
       "valor_repassado": "290341331.00",
       "diferenca": "4659716.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Bruno",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "1441",
@@ -385,7 +459,9 @@
       "valor_projetado": "0",
       "valor_repassado": "1353068.00",
       "diferenca": "-1353068.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1441",
@@ -395,7 +471,9 @@
       "valor_projetado": "0",
       "valor_repassado": "102729105.00",
       "diferenca": "-102729105.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1451",
@@ -405,7 +483,9 @@
       "valor_projetado": "1007806689",
       "valor_repassado": "1012278008.00",
       "diferenca": "-4471319.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Bruno",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "1451",
@@ -415,7 +495,9 @@
       "valor_projetado": "30840757",
       "valor_repassado": "26369438.00",
       "diferenca": "4471319.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Bruno",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "1481",
@@ -425,7 +507,9 @@
       "valor_projetado": "12414932",
       "valor_repassado": "12410769.00",
       "diferenca": "4163.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Luciana Muller",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "1481",
@@ -435,7 +519,9 @@
       "valor_projetado": "676595",
       "valor_repassado": "1135654.00",
       "diferenca": "-459059.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Luciana Muller",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "1491",
@@ -445,7 +531,9 @@
       "valor_projetado": "7815424",
       "valor_repassado": "7815424.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Andrea",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "1491",
@@ -455,7 +543,9 @@
       "valor_projetado": "265319",
       "valor_repassado": "265319.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Andrea",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "1501",
@@ -465,7 +555,9 @@
       "valor_projetado": "52899322",
       "valor_repassado": "52899322.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1501",
@@ -475,7 +567,9 @@
       "valor_projetado": "906708",
       "valor_repassado": "906708.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1511",
@@ -485,7 +579,9 @@
       "valor_projetado": "892245386",
       "valor_repassado": "899496044.00",
       "diferenca": "-7250658.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Bruno",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "1511",
@@ -495,7 +591,9 @@
       "valor_projetado": "15823525",
       "valor_repassado": "11556557.00",
       "diferenca": "4266968.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Bruno",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "1521",
@@ -505,7 +603,9 @@
       "valor_projetado": "19939108",
       "valor_repassado": "19939108.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Barbara",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1521",
@@ -515,7 +615,9 @@
       "valor_projetado": "158145",
       "valor_repassado": "158145.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Barbara",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1541",
@@ -525,7 +627,9 @@
       "valor_projetado": "4937904",
       "valor_repassado": "4937904.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Barbara",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1541",
@@ -535,7 +639,9 @@
       "valor_projetado": "42466",
       "valor_repassado": "42466.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Barbara",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "1631",
@@ -545,7 +651,9 @@
       "valor_projetado": "1049828",
       "valor_repassado": "1049828.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Andrea",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "1631",
@@ -555,7 +663,9 @@
       "valor_projetado": "33457",
       "valor_repassado": "33457.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Andrea",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "1711",
@@ -565,7 +675,9 @@
       "valor_projetado": "1035771",
       "valor_repassado": "1035771.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Henrique",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "1711",
@@ -575,7 +687,9 @@
       "valor_projetado": "72433",
       "valor_repassado": "72433.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Henrique",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "1721",
@@ -585,7 +699,9 @@
       "valor_projetado": "989496",
       "valor_repassado": "989496.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Andrea",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "1721",
@@ -595,7 +711,9 @@
       "valor_projetado": "25502",
       "valor_repassado": "25502.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Andrea",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "1941",
@@ -605,7 +723,9 @@
       "valor_projetado": "1692472",
       "valor_repassado": "1692472.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "2011",
@@ -615,7 +735,9 @@
       "valor_projetado": "81615008",
       "valor_repassado": "81615008.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Andrea",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "2011",
@@ -625,7 +747,9 @@
       "valor_projetado": "3430594",
       "valor_repassado": "3430594.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Andrea",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "2041",
@@ -635,7 +759,9 @@
       "valor_projetado": "503275",
       "valor_repassado": "503275.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Andrea",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "2041",
@@ -645,7 +771,9 @@
       "valor_projetado": "27831",
       "valor_repassado": "27831.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Andrea",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "2061",
@@ -655,7 +783,9 @@
       "valor_projetado": "15176185",
       "valor_repassado": "15176185.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Barbara",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "2061",
@@ -665,7 +795,9 @@
       "valor_projetado": "249704",
       "valor_repassado": "249704.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Barbara",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "2071",
@@ -675,7 +807,9 @@
       "valor_projetado": "2419908",
       "valor_repassado": "2419908.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Luciana Muller",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "2071",
@@ -685,7 +819,9 @@
       "valor_projetado": "49265",
       "valor_repassado": "49265.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Luciana Muller",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "2091",
@@ -695,7 +831,9 @@
       "valor_projetado": "14177403",
       "valor_repassado": "14179993.00",
       "diferenca": "-2590.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Lucas",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "2091",
@@ -705,7 +843,9 @@
       "valor_projetado": "262508",
       "valor_repassado": "259918.00",
       "diferenca": "2590.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Lucas",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "2101",
@@ -715,7 +855,9 @@
       "valor_projetado": "36284740",
       "valor_repassado": "36284740.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Lucas",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "2101",
@@ -725,7 +867,9 @@
       "valor_projetado": "1094930",
       "valor_repassado": "1094930.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Lucas",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "2121",
@@ -735,7 +879,9 @@
       "valor_projetado": "2926161",
       "valor_repassado": "0",
       "diferenca": "2926161",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Bruno",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "2121",
@@ -745,7 +891,9 @@
       "valor_projetado": "91011",
       "valor_repassado": "0",
       "diferenca": "91011",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Bruno",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "2151",
@@ -755,7 +903,9 @@
       "valor_projetado": "4074898",
       "valor_repassado": "4052626.00",
       "diferenca": "22272.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Guilherme",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2151",
@@ -765,7 +915,9 @@
       "valor_projetado": "469016",
       "valor_repassado": "463456.00",
       "diferenca": "5560.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Guilherme",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2161",
@@ -775,7 +927,9 @@
       "valor_projetado": "688876",
       "valor_repassado": "688876.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Guilherme",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2161",
@@ -785,7 +939,9 @@
       "valor_projetado": "31100",
       "valor_repassado": "31100.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Guilherme",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2171",
@@ -795,7 +951,9 @@
       "valor_projetado": "465296",
       "valor_repassado": "465296.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Henrique",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2171",
@@ -805,7 +963,9 @@
       "valor_projetado": "20549",
       "valor_repassado": "20549.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Henrique",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2181",
@@ -815,7 +975,9 @@
       "valor_projetado": "4964277",
       "valor_repassado": "4964277.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Henrique",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2181",
@@ -825,7 +987,9 @@
       "valor_projetado": "411378",
       "valor_repassado": "411378.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Henrique",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2201",
@@ -835,7 +999,9 @@
       "valor_projetado": "2515380",
       "valor_repassado": "2515380.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Henrique",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2201",
@@ -845,7 +1011,9 @@
       "valor_projetado": "82330",
       "valor_repassado": "82330.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Henrique",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2211",
@@ -855,7 +1023,9 @@
       "valor_projetado": "2147611",
       "valor_repassado": "2147611.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Henrique",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2211",
@@ -865,7 +1035,9 @@
       "valor_projetado": "93390",
       "valor_repassado": "93390.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Henrique",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2241",
@@ -875,7 +1047,9 @@
       "valor_projetado": "7959093",
       "valor_repassado": "7959093.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Lucas",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "2241",
@@ -885,7 +1059,9 @@
       "valor_projetado": "155758",
       "valor_repassado": "155758.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Lucas",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "2251",
@@ -895,7 +1071,9 @@
       "valor_projetado": "4070331",
       "valor_repassado": "4070331.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Andrea",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "2251",
@@ -905,7 +1083,9 @@
       "valor_projetado": "135450",
       "valor_repassado": "135450.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Andrea",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "2261",
@@ -915,7 +1095,9 @@
       "valor_projetado": "26472554",
       "valor_repassado": "26472554.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Barbara",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "2261",
@@ -925,7 +1107,9 @@
       "valor_projetado": "781763",
       "valor_repassado": "781763.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Barbara",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "2271",
@@ -935,7 +1119,9 @@
       "valor_projetado": "378338978",
       "valor_repassado": "378338978.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Guilherme",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2271",
@@ -945,7 +1131,9 @@
       "valor_projetado": "12138171",
       "valor_repassado": "12138171.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Guilherme",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2281",
@@ -955,7 +1143,9 @@
       "valor_projetado": "381340",
       "valor_repassado": "381340.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Luciana Muller",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "2281",
@@ -965,7 +1155,9 @@
       "valor_projetado": "23636",
       "valor_repassado": "23636.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Luciana Muller",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "2301",
@@ -975,7 +1167,9 @@
       "valor_projetado": "33749228",
       "valor_repassado": "33749228.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "2301",
@@ -985,7 +1179,9 @@
       "valor_projetado": "1670762",
       "valor_repassado": "1670762.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "2311",
@@ -995,7 +1191,9 @@
       "valor_projetado": "82540680",
       "valor_repassado": "82540680.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Guilherme",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2311",
@@ -1005,7 +1203,9 @@
       "valor_projetado": "3414553",
       "valor_repassado": "3414553.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Guilherme",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2321",
@@ -1015,7 +1215,9 @@
       "valor_projetado": "43466287",
       "valor_repassado": "43466287.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Barbara",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "2321",
@@ -1025,7 +1227,9 @@
       "valor_projetado": "1273971",
       "valor_repassado": "1273971.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Barbara",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "2331",
@@ -1035,7 +1239,9 @@
       "valor_projetado": "4656563",
       "valor_repassado": "4656563.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Luciana Muller",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "2331",
@@ -1045,7 +1251,9 @@
       "valor_projetado": "237416",
       "valor_repassado": "237416.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Luciana Muller",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "2351",
@@ -1055,7 +1263,9 @@
       "valor_projetado": "61297946",
       "valor_repassado": "61297946.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Guilherme",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2351",
@@ -1065,7 +1275,9 @@
       "valor_projetado": "1585031",
       "valor_repassado": "1585031.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Guilherme",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2371",
@@ -1075,7 +1287,9 @@
       "valor_projetado": "72019088",
       "valor_repassado": "72019088.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Juliane",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2371",
@@ -1085,7 +1299,9 @@
       "valor_projetado": "2550210",
       "valor_repassado": "2550210.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Juliane",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2421",
@@ -1095,7 +1311,9 @@
       "valor_projetado": "1516272",
       "valor_repassado": "1511840.00",
       "diferenca": "4432.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Luciana Muller",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "2421",
@@ -1105,7 +1323,9 @@
       "valor_projetado": "73113",
       "valor_repassado": "77545.00",
       "diferenca": "-4432.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Luciana Muller",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "2431",
@@ -1115,7 +1335,9 @@
       "valor_projetado": "412732",
       "valor_repassado": "412732.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Henrique",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2431",
@@ -1125,7 +1347,9 @@
       "valor_projetado": "9608",
       "valor_repassado": "9608.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Henrique",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2441",
@@ -1135,7 +1359,9 @@
       "valor_projetado": "4485218",
       "valor_repassado": "4485218.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Lucas",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "2441",
@@ -1145,7 +1371,9 @@
       "valor_projetado": "56163",
       "valor_repassado": "56163.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Lucas",
+      "dupla_trio": "Bruno/Lucas"
     },
     {
       "uo": "2461",
@@ -1155,7 +1383,9 @@
       "valor_projetado": "122175",
       "valor_repassado": "123584.00",
       "diferenca": "-1409.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Henrique",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2461",
@@ -1165,7 +1395,9 @@
       "valor_projetado": "7196",
       "valor_repassado": "7196.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Henrique",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
     },
     {
       "uo": "2471",
@@ -1175,7 +1407,9 @@
       "valor_projetado": "1869051",
       "valor_repassado": "1869051.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "2471",
@@ -1185,7 +1419,9 @@
       "valor_projetado": "19279",
       "valor_repassado": "19279.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "2481",
@@ -1195,7 +1431,9 @@
       "valor_projetado": "6171348",
       "valor_repassado": "6167221.00",
       "diferenca": "4127.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "2481",
@@ -1205,7 +1443,9 @@
       "valor_projetado": "211945",
       "valor_repassado": "216072.00",
       "diferenca": "-4127.00",
-      "status": "Divergente"
+      "status": "Divergente",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "4291",
@@ -1215,7 +1455,9 @@
       "valor_projetado": "100132631",
       "valor_repassado": "100132631.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Barbara",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "4291",
@@ -1225,7 +1467,9 @@
       "valor_projetado": "3346810",
       "valor_repassado": "3346810.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Barbara",
+      "dupla_trio": "Bárbara/Otto"
     },
     {
       "uo": "4711",
@@ -1235,7 +1479,9 @@
       "valor_projetado": "302342485",
       "valor_repassado": "302342485.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Andrea",
+      "dupla_trio": "Andrea/Luciana"
     },
     {
       "uo": "4711",
@@ -1245,7 +1491,9 @@
       "valor_projetado": "45860",
       "valor_repassado": "45860.00",
       "diferenca": "0.00",
-      "status": "OK"
+      "status": "OK",
+      "setorialista": "Andrea",
+      "dupla_trio": "Andrea/Luciana"
     }
   ]
 }
