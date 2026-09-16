@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-16T15:19:23.391139+00:00",
-    "total_combinacoes": 124,
+    "gerado_em": "2026-09-16T18:15:26.008190+00:00",
+    "total_combinacoes": 125,
     "total_ok": 89,
-    "total_divergente": 35,
-    "soma_divergencias_abs": "827617939.00"
+    "total_divergente": 36,
+    "soma_divergencias_abs": "827617940.00"
   },
   "registros": [
     {
@@ -63,6 +63,18 @@
       "valor_projetado": "0",
       "valor_repassado": "1158711.00",
       "diferenca": "-1158711.00",
+      "status": "Divergente",
+      "setorialista": "Otto",
+      "dupla_trio": "Bárbara/Otto"
+    },
+    {
+      "uo": "1031",
+      "sigla_uo": "TJMG",
+      "credor": "FFP",
+      "uo_credor": "4711",
+      "valor_projetado": "0",
+      "valor_repassado": "1.00",
+      "diferenca": "-1.00",
       "status": "Divergente",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"

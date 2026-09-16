@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-16T15:19:23.371886+00:00",
+    "gerado_em": "2026-09-16T18:15:25.989468+00:00",
     "total_combinacoes": 435,
-    "total_ok": 235,
-    "total_divergente": 200,
-    "soma_divergencias_abs": "203591721022.00"
+    "total_ok": 234,
+    "total_divergente": 201,
+    "soma_divergencias_abs": "205568235341.00"
   },
   "registros": [
     {
@@ -2563,11 +2563,11 @@
       "sigla_uo": "GDPE - SEF",
       "fonte": "48",
       "nome_fonte": "ALIENACAO DE BENS DO TESOURO ESTADUAL",
-      "valor_despesa": "3901898815.00",
+      "valor_despesa": "5808413134.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-3901898815.00",
+      "diferenca": "-5808413134.00",
       "status": "Divergente",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
@@ -5625,10 +5625,10 @@
       "nome_fonte": "NOTIFICACAO DE INFRACAO DE TRANSITO FUNTRANS",
       "valor_despesa": "192046027.00",
       "valor_repassado_saida": "16008000",
-      "valor_loa": "208054027",
+      "valor_loa": "278054027",
       "valor_repassado_entrada": "0",
-      "diferenca": "0.00",
-      "status": "OK",
+      "diferenca": "70000000.00",
+      "status": "Divergente",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },

@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-16T15:19:23.635247+00:00",
+    "gerado_em": "2026-09-16T18:15:26.251743+00:00",
     "total_combinacoes": 771,
-    "total_ok": 489,
-    "total_divergente": 282,
-    "soma_divergencias_abs": "26405973298.00"
+    "total_ok": 490,
+    "total_divergente": 281,
+    "soma_divergencias_abs": "24499458979.00"
   },
   "registros": [
     {
@@ -4831,9 +4831,9 @@
       "fonte": "48",
       "ipu": "1",
       "valor_limite": "1906514319",
-      "valor_despesa": "0",
-      "diferenca": "1906514319",
-      "status": "Divergente",
+      "valor_despesa": "1906514319.00",
+      "diferenca": "0.00",
+      "status": "OK",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
