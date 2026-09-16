@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-16T12:18:20.774884+00:00",
-    "total_combinacoes": 436,
-    "total_ok": 236,
+    "gerado_em": "2026-09-16T15:19:23.371886+00:00",
+    "total_combinacoes": 435,
+    "total_ok": 235,
     "total_divergente": 200,
-    "soma_divergencias_abs": "202040008536.00"
+    "soma_divergencias_abs": "203591721022.00"
   },
   "registros": [
     {
@@ -6000,10 +6000,10 @@
       "nome_fonte": "COMPENSACAO FINANCEIRA ENTRE REGIMES DE PREVIDENCIA",
       "valor_despesa": "81033031.00",
       "valor_repassado_saida": "0",
-      "valor_loa": "81033031",
+      "valor_loa": "500000000",
       "valor_repassado_entrada": "0",
-      "diferenca": "0.00",
-      "status": "OK",
+      "diferenca": "418966969.00",
+      "status": "Divergente",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -6111,21 +6111,6 @@
       "status": "Divergente",
       "setorialista": "Barbara",
       "dupla_trio": "Bárbara/Otto"
-    },
-    {
-      "uo": "4761",
-      "nome_uo": "FUNDO ESTADUAL DE SANEAMENTO BÁSICO DE MINAS GERAIS",
-      "sigla_uo": "FUNESB-MG",
-      "fonte": "48",
-      "nome_fonte": "ALIENACAO DE BENS DO TESOURO ESTADUAL",
-      "valor_despesa": "419485689.00",
-      "valor_repassado_saida": "0",
-      "valor_loa": "0",
-      "valor_repassado_entrada": "0",
-      "diferenca": "-419485689.00",
-      "status": "Divergente",
-      "setorialista": "Outros",
-      "dupla_trio": "Outros"
     },
     {
       "uo": "4761",
@@ -6465,9 +6450,9 @@
       "nome_fonte": "RECURSOS DO ACORDO DE REPACTUACAO DO RIO DOCE",
       "valor_despesa": "0",
       "valor_repassado_saida": "0",
-      "valor_loa": "778721696",
+      "valor_loa": "1019599103",
       "valor_repassado_entrada": "0",
-      "diferenca": "778721696",
+      "diferenca": "1019599103",
       "status": "Divergente",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
@@ -6525,9 +6510,9 @@
       "nome_fonte": "RECURSOS RECEBIDOS POR DANOS ADVINDOS DE DESASTRES SOCIOAMBIENTAIS",
       "valor_despesa": "0",
       "valor_repassado_saida": "0",
-      "valor_loa": "750000",
+      "valor_loa": "1312103799",
       "valor_repassado_entrada": "0",
-      "diferenca": "750000",
+      "diferenca": "1312103799",
       "status": "Divergente",
       "setorialista": "Outros",
       "dupla_trio": "Outros"

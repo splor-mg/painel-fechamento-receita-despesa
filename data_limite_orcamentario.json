@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-16T12:18:21.050251+00:00",
-    "total_combinacoes": 772,
-    "total_ok": 490,
+    "gerado_em": "2026-09-16T15:19:23.635247+00:00",
+    "total_combinacoes": 771,
+    "total_ok": 489,
     "total_divergente": 282,
     "soma_divergencias_abs": "26405973298.00"
   },
@@ -10786,20 +10786,6 @@
       "status": "OK",
       "setorialista": "Barbara",
       "dupla_trio": "Bárbara/Otto"
-    },
-    {
-      "uo": "4761",
-      "sigla_uo": "FUNESB-MG",
-      "grupo": "4",
-      "iag": "0",
-      "fonte": "48",
-      "ipu": "0",
-      "valor_limite": "419485689",
-      "valor_despesa": "419485689.00",
-      "diferenca": "0.00",
-      "status": "OK",
-      "setorialista": "Outros",
-      "dupla_trio": "Outros"
     },
     {
       "uo": "4761",
