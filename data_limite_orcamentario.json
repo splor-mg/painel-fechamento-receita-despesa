@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-17T10:50:23.520410+00:00",
+    "gerado_em": "2026-09-17T13:56:19.517717+00:00",
     "total_combinacoes": 771,
-    "total_ok": 485,
-    "total_divergente": 286,
-    "soma_divergencias_abs": "26342748943.00"
+    "total_ok": 486,
+    "total_divergente": 285,
+    "soma_divergencias_abs": "26342721111.00"
   },
   "registros": [
     {
@@ -6049,9 +6049,9 @@
       "fonte": "10",
       "ipu": "1",
       "valor_limite": "38297180",
-      "valor_despesa": "38325012.00",
-      "diferenca": "-27832.00",
-      "status": "Divergente",
+      "valor_despesa": "38297180.00",
+      "diferenca": "0.00",
+      "status": "OK",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },

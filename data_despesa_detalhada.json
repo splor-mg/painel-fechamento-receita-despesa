@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-17T10:50:23.353712+00:00",
+    "gerado_em": "2026-09-17T13:56:19.358961+00:00",
     "total_registros": 9756,
-    "valor_total": "154749200620.00"
+    "valor_total": "154749172788.00"
   },
   "registros": [
     {
@@ -2953,7 +2953,7 @@
       "iag": "0",
       "fonte": "10",
       "ipu": "1",
-      "valor": "116196154.00",
+      "valor": "116221314.00",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -3061,7 +3061,7 @@
       "iag": "0",
       "fonte": "10",
       "ipu": "1",
-      "valor": "50000.00",
+      "valor": "24840.00",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -95437,7 +95437,7 @@
       "iag": "0",
       "fonte": "10",
       "ipu": "1",
-      "valor": "4745515.00",
+      "valor": "4717683.00",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },

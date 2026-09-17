@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-17T10:50:23.258989+00:00",
+    "gerado_em": "2026-09-17T13:56:19.253684+00:00",
     "total_combinacoes": 435,
     "total_ok": 235,
     "total_divergente": 200,
-    "soma_divergencias_abs": "203927673138.00"
+    "soma_divergencias_abs": "203927645306.00"
   },
   "registros": [
     {
@@ -3283,11 +3283,11 @@
       "sigla_uo": "FHA",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "85508888.00",
+      "valor_despesa": "85481056.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-85508888.00",
+      "diferenca": "-85481056.00",
       "status": "Divergente",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
