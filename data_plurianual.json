@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-17T13:56:19.577750+00:00",
+    "gerado_em": "2026-09-17T14:00:42.706394+00:00",
     "total_acoes": 998,
-    "total_2027_ok": 960,
-    "total_2027_divergente": 38,
+    "total_2027_ok": 961,
+    "total_2027_divergente": 37,
     "total_plurianual_zerado": 19,
     "total_plurianual_atencao": 100,
-    "soma_divergencias_abs": "14439768800.00"
+    "soma_divergencias_abs": "14439740968.00"
   },
   "registros": [
     {
@@ -9247,12 +9247,12 @@
       "acao": "4078",
       "nome_acao": "ENSINO FUNDAMENTAL",
       "valor_despesa": "12278870.00",
-      "previsao_2027": "12306702",
+      "previsao_2027": "12278870",
       "previsao_2028": "12922037",
       "previsao_2029": "13568139",
       "previsao_2030": "14246546",
-      "diferenca_2027": "27832.00",
-      "status_2027": "Divergente",
+      "diferenca_2027": "0.00",
+      "status_2027": "OK",
       "status_plurianual": "OK",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
