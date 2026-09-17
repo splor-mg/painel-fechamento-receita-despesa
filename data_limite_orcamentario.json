@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-16T18:15:26.251743+00:00",
+    "gerado_em": "2026-09-17T10:50:23.520410+00:00",
     "total_combinacoes": 771,
-    "total_ok": 490,
-    "total_divergente": 281,
-    "soma_divergencias_abs": "24499458979.00"
+    "total_ok": 485,
+    "total_divergente": 286,
+    "soma_divergencias_abs": "26342748943.00"
   },
   "registros": [
     {
@@ -6049,9 +6049,9 @@
       "fonte": "10",
       "ipu": "1",
       "valor_limite": "38297180",
-      "valor_despesa": "38297180.00",
-      "diferenca": "0.00",
-      "status": "OK",
+      "valor_despesa": "38325012.00",
+      "diferenca": "-27832.00",
+      "status": "Divergente",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -10543,9 +10543,9 @@
       "fonte": "10",
       "ipu": "1",
       "valor_limite": "10606463788",
-      "valor_despesa": "10606463788.00",
-      "diferenca": "0.00",
-      "status": "OK",
+      "valor_despesa": "9384840722.00",
+      "diferenca": "1221623066.00",
+      "status": "Divergente",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -10585,9 +10585,9 @@
       "fonte": "42",
       "ipu": "1",
       "valor_limite": "5850368667",
-      "valor_despesa": "5850368667.00",
-      "diferenca": "0.00",
-      "status": "OK",
+      "valor_despesa": "5990046171.00",
+      "diferenca": "-139677504.00",
+      "status": "Divergente",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -10599,9 +10599,9 @@
       "fonte": "43",
       "ipu": "1",
       "valor_limite": "2638433255",
-      "valor_despesa": "2638433255.00",
-      "diferenca": "0.00",
-      "status": "OK",
+      "valor_despesa": "2701427848.00",
+      "diferenca": "-62994593.00",
+      "status": "Divergente",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -10613,9 +10613,9 @@
       "fonte": "44",
       "ipu": "1",
       "valor_limite": "81033031",
-      "valor_despesa": "81033031.00",
-      "diferenca": "0.00",
-      "status": "OK",
+      "valor_despesa": "500000000.00",
+      "diferenca": "-418966969.00",
+      "status": "Divergente",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
