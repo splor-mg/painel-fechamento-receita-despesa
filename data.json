@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-17T14:00:42.373697+00:00",
+    "gerado_em": "2026-09-17T17:18:00.145973+00:00",
     "total_combinacoes": 435,
     "total_ok": 235,
     "total_divergente": 200,
-    "soma_divergencias_abs": "203927645306.00"
+    "soma_divergencias_abs": "203927036486.00"
   },
   "registros": [
     {
@@ -5938,11 +5938,11 @@
       "sigla_uo": "FFP - MG",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "9418840722.00",
+      "valor_despesa": "9418509986.00",
       "valor_repassado_saida": "0",
       "valor_loa": "1000",
       "valor_repassado_entrada": "0",
-      "diferenca": "-9418839722.00",
+      "diferenca": "-9418508986.00",
       "status": "Divergente",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
@@ -6013,11 +6013,11 @@
       "sigla_uo": "FFP - MG",
       "fonte": "60",
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
-      "valor_despesa": "72888429.00",
+      "valor_despesa": "73219165.00",
       "valor_repassado_saida": "0",
       "valor_loa": "330736",
       "valor_repassado_entrada": "72862103",
-      "diferenca": "304410.00",
+      "diferenca": "-26326.00",
       "status": "Divergente",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"

@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-17T14:00:42.706394+00:00",
+    "gerado_em": "2026-09-17T17:18:00.489770+00:00",
     "total_acoes": 998,
-    "total_2027_ok": 961,
-    "total_2027_divergente": 37,
+    "total_2027_ok": 960,
+    "total_2027_divergente": 38,
     "total_plurianual_zerado": 19,
     "total_plurianual_atencao": 100,
-    "soma_divergencias_abs": "14439740968.00"
+    "soma_divergencias_abs": "14444992754.00"
   },
   "registros": [
     {
@@ -2820,8 +2820,8 @@
       "nome_uo": "SECRETARIA DE ESTADO DE EDUCAÇÃO",
       "acao": "2102",
       "nome_acao": "PROGRAMA NACIONAL DE ALIMENTAÇÃO ESCOLAR - PNAE",
-      "valor_despesa": "275000000.00",
-      "previsao_2027": "275000000",
+      "valor_despesa": "280251786.00",
+      "previsao_2027": "280251786",
       "previsao_2028": "255572492",
       "previsao_2029": "260683942",
       "previsao_2030": "265897630",
@@ -3177,13 +3177,13 @@
       "nome_uo": "SECRETARIA DE ESTADO DE EDUCAÇÃO",
       "acao": "4519",
       "nome_acao": "MÃOS À OBRA",
-      "valor_despesa": "422237114.00",
-      "previsao_2027": "422237114",
+      "valor_despesa": "416985328.00",
+      "previsao_2027": "411733542",
       "previsao_2028": "307500000",
       "previsao_2029": "315187500",
       "previsao_2030": "323067188",
-      "diferenca_2027": "0.00",
-      "status_2027": "OK",
+      "diferenca_2027": "-5251786.00",
+      "status_2027": "Divergente",
       "status_plurianual": "Atenção",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"

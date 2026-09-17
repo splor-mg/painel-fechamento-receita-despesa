@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-17T14:00:42.654100+00:00",
-    "total_combinacoes": 771,
+    "gerado_em": "2026-09-17T17:18:00.434234+00:00",
+    "total_combinacoes": 774,
     "total_ok": 486,
-    "total_divergente": 285,
-    "soma_divergencias_abs": "26342721111.00"
+    "total_divergente": 288,
+    "soma_divergencias_abs": "26343382583.00"
   },
   "registros": [
     {
@@ -2392,11 +2392,39 @@
       "sigla_uo": "SEE",
       "grupo": "4",
       "iag": "0",
+      "fonte": "3",
+      "ipu": "1",
+      "valor_limite": "0",
+      "valor_despesa": "250000.00",
+      "diferenca": "-250000.00",
+      "status": "Divergente",
+      "setorialista": "Guilherme",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
+    },
+    {
+      "uo": "1261",
+      "sigla_uo": "SEE",
+      "grupo": "4",
+      "iag": "0",
       "fonte": "36",
       "ipu": "1",
       "valor_limite": "0",
-      "valor_despesa": "650000.00",
-      "diferenca": "-650000.00",
+      "valor_despesa": "5650786.00",
+      "diferenca": "-5650786.00",
+      "status": "Divergente",
+      "setorialista": "Guilherme",
+      "dupla_trio": "Juliane/Guilherme/Henrique"
+    },
+    {
+      "uo": "1261",
+      "sigla_uo": "SEE",
+      "grupo": "4",
+      "iag": "0",
+      "fonte": "4",
+      "ipu": "1",
+      "valor_limite": "0",
+      "valor_despesa": "1000.00",
+      "diferenca": "-1000.00",
       "status": "Divergente",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
@@ -2451,8 +2479,8 @@
       "fonte": "3",
       "ipu": "1",
       "valor_limite": "0",
-      "valor_despesa": "8123427.00",
-      "diferenca": "-8123427.00",
+      "valor_despesa": "7873427.00",
+      "diferenca": "-7873427.00",
       "status": "Divergente",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
@@ -2465,8 +2493,8 @@
       "fonte": "36",
       "ipu": "1",
       "valor_limite": "0",
-      "valor_despesa": "88314939.00",
-      "diferenca": "-88314939.00",
+      "valor_despesa": "83314153.00",
+      "diferenca": "-83314153.00",
       "status": "Divergente",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
@@ -2479,8 +2507,8 @@
       "fonte": "4",
       "ipu": "1",
       "valor_limite": "0",
-      "valor_despesa": "74088748.00",
-      "diferenca": "-74088748.00",
+      "valor_despesa": "74087748.00",
+      "diferenca": "-74087748.00",
       "status": "Divergente",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
@@ -10543,8 +10571,8 @@
       "fonte": "10",
       "ipu": "1",
       "valor_limite": "10606463788",
-      "valor_despesa": "9384840722.00",
-      "diferenca": "1221623066.00",
+      "valor_despesa": "9384509986.00",
+      "diferenca": "1221953802.00",
       "status": "Divergente",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
@@ -10615,6 +10643,20 @@
       "valor_limite": "81033031",
       "valor_despesa": "500000000.00",
       "diferenca": "-418966969.00",
+      "status": "Divergente",
+      "setorialista": "Andrea",
+      "dupla_trio": "Andrea/Luciana"
+    },
+    {
+      "uo": "4711",
+      "sigla_uo": "FFP - MG",
+      "grupo": "1",
+      "iag": "0",
+      "fonte": "60",
+      "ipu": "1",
+      "valor_limite": "0",
+      "valor_despesa": "330736.00",
+      "diferenca": "-330736.00",
       "status": "Divergente",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
