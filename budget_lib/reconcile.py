@@ -1,6 +1,26 @@
 from collections import defaultdict
 from decimal import Decimal
 
+STATUS_ARRECADADA_9901 = 'Fontes Arrecadadas pela 9901'
+
+# Fontes whose revenue is collected centrally by UO 9901 (RGE): the receita
+# sits entirely on 9901 while the despesa sits on each spending UO, so the
+# two sides never match per UO. That is structural, not an error, and gets
+# its own status instead of "Divergente".
+FONTES_ARRECADADAS_9901 = frozenset({
+    '10', '11', '12', '15', '20', '23', '25', '27', '29', '30', '31', '32',
+    '33', '40', '46', '48', '51', '53', '71', '72', '75', '80', '82', '89',
+    '94', '95', '97',
+})
+
+
+def status_uo_fonte(diferenca: Decimal, fonte: str) -> str:
+    if diferenca == 0:
+        return 'OK'
+    if fonte in FONTES_ARRECADADAS_9901:
+        return STATUS_ARRECADADA_9901
+    return 'Divergente'
+
 
 def aggregate_by_uo_fonte(rows: list[dict]) -> dict:
     totals = defaultdict(lambda: Decimal('0'))
@@ -76,6 +96,6 @@ def reconcile(
             'valor_loa': valor_loa,
             'valor_repassado_entrada': valor_repassado_entrada,
             'diferenca': diferenca,
-            'status': 'OK' if diferenca == zero else 'Divergente',
+            'status': status_uo_fonte(diferenca, fonte),
         })
     return records

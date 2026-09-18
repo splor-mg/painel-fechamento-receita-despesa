@@ -1,9 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-18T12:54:42.981533+00:00",
+    "gerado_em": "2026-09-18T15:55:47.166790+00:00",
     "total_combinacoes": 775,
     "total_ok": 487,
     "total_divergente": 288,
+    "total_arrecadadas_9901": 0,
     "soma_divergencias_abs": "25130428781.00"
   },
   "registros": [

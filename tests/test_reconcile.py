@@ -40,7 +40,29 @@ class TestAggregateRepasse(unittest.TestCase):
         self.assertEqual(entrada, {('4711', '60'): Decimal('100'), ('9999', '60'): Decimal('30')})
 
 
-from budget_lib.reconcile import build_uo_names, build_uo_siglas, build_fonte_names, reconcile
+from budget_lib.reconcile import (
+    STATUS_ARRECADADA_9901,
+    build_uo_names,
+    build_uo_siglas,
+    build_fonte_names,
+    reconcile,
+    status_uo_fonte,
+)
+
+
+class TestStatusUoFonte(unittest.TestCase):
+    def test_ok_quando_nao_ha_diferenca(self):
+        self.assertEqual(status_uo_fonte(Decimal('0'), '10'), 'OK')
+
+    def test_divergente_em_fonte_fora_da_lista(self):
+        self.assertEqual(status_uo_fonte(Decimal('50'), '60'), 'Divergente')
+
+    def test_fonte_arrecadada_pela_9901_nao_e_divergente(self):
+        self.assertEqual(status_uo_fonte(Decimal('50'), '10'), STATUS_ARRECADADA_9901)
+        self.assertEqual(status_uo_fonte(Decimal('-50'), '97'), STATUS_ARRECADADA_9901)
+
+    def test_fonte_arrecadada_que_bate_continua_ok(self):
+        self.assertEqual(status_uo_fonte(Decimal('0'), '20'), 'OK')
 
 
 class TestBuildUoNames(unittest.TestCase):
@@ -138,6 +160,18 @@ class TestReconcile(unittest.TestCase):
         despesa = {('1251', '60'): Decimal('100')}
         records = reconcile(despesa, {}, {}, {}, {}, {}, {'1251': 'PMMG'})
         self.assertEqual(records[0]['sigla_uo'], 'PMMG')
+
+    def test_fonte_arrecadada_pela_9901_recebe_status_proprio(self):
+        # despesa na UO sem receita correspondente: divergencia estrutural
+        despesa = {('1231', '10'): Decimal('500')}
+        records = reconcile(despesa, {}, {}, {}, {}, {}, {})
+        self.assertEqual(records[0]['status'], STATUS_ARRECADADA_9901)
+        self.assertEqual(records[0]['diferenca'], Decimal('-500'))
+
+    def test_receita_concentrada_na_9901_tambem_recebe_o_status(self):
+        receita = {('9901', '10'): Decimal('82677917371')}
+        records = reconcile({}, receita, {}, {}, {}, {}, {})
+        self.assertEqual(records[0]['status'], STATUS_ARRECADADA_9901)
 
 
 if __name__ == '__main__':

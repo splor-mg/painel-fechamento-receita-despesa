@@ -1,10 +1,11 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-18T12:54:42.702237+00:00",
+    "gerado_em": "2026-09-18T15:55:46.782011+00:00",
     "total_combinacoes": 436,
     "total_ok": 235,
-    "total_divergente": 201,
-    "soma_divergencias_abs": "204933176868.00"
+    "total_divergente": 37,
+    "total_arrecadadas_9901": 164,
+    "soma_divergencias_abs": "1178627103.00"
   },
   "registros": [
     {
@@ -18,7 +19,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-2150092085.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -78,7 +79,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1311345780.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -138,7 +139,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-10827344944.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -198,7 +199,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-175249301.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -258,7 +259,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-39906864.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -303,7 +304,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1333961203.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Barbara",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -363,7 +364,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-3985891876.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -468,7 +469,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-22054314.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Lucas",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -483,7 +484,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-413753166.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -498,7 +499,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1629148025.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -513,7 +514,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-19800000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -528,7 +529,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-28874808.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -543,7 +544,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-11408000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -603,7 +604,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-50311061.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Luciana Muller",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -633,7 +634,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-10429362.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Luciana Muller",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -648,7 +649,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-92531731.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Luciana Muller",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -693,7 +694,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-41399147.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Juliane",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -753,7 +754,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-30253156.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Juliane",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -768,7 +769,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-32251732.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Juliane",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -813,7 +814,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-19034450068.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Bruno",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -858,7 +859,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-128236192.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Bruno",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -873,7 +874,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-204135476.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Bruno",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -993,7 +994,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-648489316.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Bruno",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -1008,7 +1009,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1214845.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Bruno",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -1023,7 +1024,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-17000000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Bruno",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -1083,7 +1084,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-5285754602.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -1113,7 +1114,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-123701965.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -1143,7 +1144,7 @@
       "valor_loa": "13986505550",
       "valor_repassado_entrada": "0",
       "diferenca": "-22429769.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -1218,7 +1219,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-156857862.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -1233,7 +1234,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-117707817.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -1263,7 +1264,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-76300845.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Henrique",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -1323,7 +1324,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-290396858.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -1353,7 +1354,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-2728583.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -1368,7 +1369,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-44010672.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -1458,7 +1459,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-549400.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Lucas",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -1473,7 +1474,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-23006127.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Lucas",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -1503,7 +1504,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-150051712.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Lucas",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -1533,7 +1534,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-21100000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Lucas",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -1563,7 +1564,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1588384.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Lucas",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -1593,7 +1594,7 @@
       "valor_loa": "8591486",
       "valor_repassado_entrada": "0",
       "diferenca": "-2382749184.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Bruno",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -1638,7 +1639,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1163508.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Bruno",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -1653,7 +1654,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-11232623.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Bruno",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -1728,7 +1729,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1082708040.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -1803,7 +1804,7 @@
       "valor_loa": "228137430",
       "valor_repassado_entrada": "0",
       "diferenca": "-4159665624.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Bruno",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -1848,7 +1849,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1116144456.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Bruno",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -1968,7 +1969,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-63801997.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Luciana Muller",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2043,7 +2044,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-134702835.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Luciana Muller",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2058,7 +2059,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-2701181.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Luciana Muller",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2088,7 +2089,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1901195338.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2103,7 +2104,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-636393318.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -2118,7 +2119,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-4866720.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -2178,7 +2179,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-8877861.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -2208,7 +2209,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-5733340.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -2223,7 +2224,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-750000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -2253,7 +2254,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-2197891598.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Bruno",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -2268,7 +2269,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1450010861.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Bruno",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -2328,7 +2329,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-21000000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Bruno",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -2358,7 +2359,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-79693164.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Barbara",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -2388,7 +2389,7 @@
       "valor_loa": "32920516",
       "valor_repassado_entrada": "0",
       "diferenca": "464385.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Barbara",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -2403,7 +2404,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-16604347.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2418,7 +2419,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-187959958.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Henrique",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -2448,7 +2449,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-10089156.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2463,7 +2464,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-987555711.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2478,7 +2479,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-881718.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2493,7 +2494,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-8000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2523,7 +2524,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-2971350382.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2538,7 +2539,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-250000000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2553,7 +2554,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-500000000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2568,7 +2569,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-5808413134.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2583,7 +2584,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-206271600.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -2613,7 +2614,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-67796414.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2628,7 +2629,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-21041398.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2643,7 +2644,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-4009139.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2658,7 +2659,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1204268408.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -2673,7 +2674,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-156475428.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2778,7 +2779,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-79489841.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Barbara",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -2838,7 +2839,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-610391237.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Luciana Muller",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -2988,7 +2989,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-55067830.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Lucas",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -3153,7 +3154,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-125095760.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Lucas",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -3198,7 +3199,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-63550000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Lucas",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -3303,7 +3304,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-85481056.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -3348,7 +3349,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-17736916.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -3363,7 +3364,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-5612129.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Henrique",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -3408,7 +3409,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-57524686.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Henrique",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -3468,7 +3469,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-22845966.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Henrique",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -3558,7 +3559,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-17834771.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Henrique",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -3663,7 +3664,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-48250741.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Lucas",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -3708,7 +3709,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-16100000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Lucas",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -3768,7 +3769,7 @@
       "valor_loa": "673588524",
       "valor_repassado_entrada": "0",
       "diferenca": "12795960.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Barbara",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -3828,7 +3829,7 @@
       "valor_loa": "2578250267",
       "valor_repassado_entrada": "0",
       "diferenca": "-141871214.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -3933,7 +3934,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-8295800.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Luciana Muller",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -3963,7 +3964,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-640566680.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -3978,7 +3979,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-10804861.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -3993,7 +3994,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-338397858.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -4008,7 +4009,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-32181539.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -4023,7 +4024,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1087506899.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -4038,7 +4039,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-87290065.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -4098,7 +4099,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-136182023.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -4113,7 +4114,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-222817234.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -4158,7 +4159,7 @@
       "valor_loa": "2038",
       "valor_repassado_entrada": "0",
       "diferenca": "-564272978.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -4248,7 +4249,7 @@
       "valor_loa": "430144099",
       "valor_repassado_entrada": "0",
       "diferenca": "-1765838.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Barbara",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -4323,7 +4324,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-250000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Luciana Muller",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -4368,7 +4369,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-525467416.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -4488,7 +4489,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-243042707.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Juliane",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -4548,7 +4549,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-8311374.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Juliane",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -4593,7 +4594,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Luciana Muller",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -4623,7 +4624,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-30144904.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Luciana Muller",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -4638,7 +4639,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-7049710.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Henrique",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -4683,7 +4684,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-5867936.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Henrique",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -4713,7 +4714,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-3794482.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Henrique",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -4743,7 +4744,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-43781982.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -4773,7 +4774,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-79420031.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -4788,7 +4789,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-267732675.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -4818,7 +4819,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-138647413.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -4848,7 +4849,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-241256573.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Juliane",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -4923,7 +4924,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-189081694.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Juliane",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -4998,7 +4999,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-31717313.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Henrique",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -5223,7 +5224,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Henrique",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -5283,7 +5284,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-179139519.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Luciana Muller",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -5298,7 +5299,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-38583449.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Luciana Muller",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -5313,7 +5314,7 @@
       "valor_loa": "35000",
       "valor_repassado_entrada": "0",
       "diferenca": "-12675414905.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Barbara",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -5328,7 +5329,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-28128988.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Barbara",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -5463,7 +5464,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-75291774.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Barbara",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -5478,7 +5479,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-14317500.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Barbara",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -5538,7 +5539,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Bruno",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -5553,7 +5554,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1568459.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Henrique",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -5583,7 +5584,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-42829904.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Lucas",
       "dupla_trio": "Bruno/Lucas"
     },
@@ -5748,7 +5749,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-44477455.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -5823,7 +5824,7 @@
       "valor_loa": "1038",
       "valor_repassado_entrada": "0",
       "diferenca": "-675884844.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -5853,7 +5854,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-322000000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -5868,7 +5869,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
     },
@@ -5883,7 +5884,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Luciana Muller",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -5898,7 +5899,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Luciana Muller",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -5928,7 +5929,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-2050000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Luciana Muller",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -5958,7 +5959,7 @@
       "valor_loa": "1000",
       "valor_repassado_entrada": "0",
       "diferenca": "-9418508986.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -5973,7 +5974,7 @@
       "valor_loa": "1000",
       "valor_repassado_entrada": "0",
       "diferenca": "-1952877323.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -6063,7 +6064,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-1000.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -6138,7 +6139,7 @@
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
       "diferenca": "-51834338.00",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6153,7 +6154,7 @@
       "valor_loa": "82677917371",
       "valor_repassado_entrada": "0",
       "diferenca": "82677917371",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6168,7 +6169,7 @@
       "valor_loa": "1700010861",
       "valor_repassado_entrada": "0",
       "diferenca": "1700010861",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6183,7 +6184,7 @@
       "valor_loa": "1000",
       "valor_repassado_entrada": "0",
       "diferenca": "1000",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6198,7 +6199,7 @@
       "valor_loa": "4501588976",
       "valor_repassado_entrada": "0",
       "diferenca": "4501588976",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6228,7 +6229,7 @@
       "valor_loa": "22429769",
       "valor_repassado_entrada": "0",
       "diferenca": "22429769",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6243,7 +6244,7 @@
       "valor_loa": "19563672",
       "valor_repassado_entrada": "0",
       "diferenca": "19563672",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6258,7 +6259,7 @@
       "valor_loa": "1275413271",
       "valor_repassado_entrada": "0",
       "diferenca": "1275413271",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6273,7 +6274,7 @@
       "valor_loa": "29424208",
       "valor_repassado_entrada": "0",
       "diferenca": "29424208",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6288,7 +6289,7 @@
       "valor_loa": "204135476",
       "valor_repassado_entrada": "0",
       "diferenca": "204135476",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6303,7 +6304,7 @@
       "valor_loa": "87761794",
       "valor_repassado_entrada": "0",
       "diferenca": "87761794",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6318,7 +6319,7 @@
       "valor_loa": "396632374",
       "valor_repassado_entrada": "0",
       "diferenca": "396632374",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6333,7 +6334,7 @@
       "valor_loa": "43343915",
       "valor_repassado_entrada": "0",
       "diferenca": "43343915",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6348,7 +6349,7 @@
       "valor_loa": "203859",
       "valor_repassado_entrada": "0",
       "diferenca": "203859",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6363,7 +6364,7 @@
       "valor_loa": "2901",
       "valor_repassado_entrada": "0",
       "diferenca": "2901",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6378,7 +6379,7 @@
       "valor_loa": "27327763",
       "valor_repassado_entrada": "0",
       "diferenca": "27327763",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6393,7 +6394,7 @@
       "valor_loa": "88171783",
       "valor_repassado_entrada": "0",
       "diferenca": "88171783",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6408,7 +6409,7 @@
       "valor_loa": "2000",
       "valor_repassado_entrada": "0",
       "diferenca": "2000",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6423,7 +6424,7 @@
       "valor_loa": "627431448",
       "valor_repassado_entrada": "0",
       "diferenca": "627431448",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6438,7 +6439,7 @@
       "valor_loa": "470959523",
       "valor_repassado_entrada": "0",
       "diferenca": "470959523",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6453,7 +6454,7 @@
       "valor_loa": "648489316",
       "valor_repassado_entrada": "0",
       "diferenca": "648489316",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6468,7 +6469,7 @@
       "valor_loa": "1019599103",
       "valor_repassado_entrada": "0",
       "diferenca": "1019599103",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6483,7 +6484,7 @@
       "valor_loa": "155647413",
       "valor_repassado_entrada": "0",
       "diferenca": "155647413",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6498,7 +6499,7 @@
       "valor_loa": "392359389",
       "valor_repassado_entrada": "0",
       "diferenca": "392359389",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6513,7 +6514,7 @@
       "valor_loa": "10873232",
       "valor_repassado_entrada": "0",
       "diferenca": "10873232",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6528,7 +6529,7 @@
       "valor_loa": "1312851799",
       "valor_repassado_entrada": "0",
       "diferenca": "1312851799",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     },
@@ -6543,7 +6544,7 @@
       "valor_loa": "4009139",
       "valor_repassado_entrada": "0",
       "diferenca": "4009139",
-      "status": "Divergente",
+      "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
     }

@@ -2,17 +2,27 @@ import json
 from datetime import datetime, timezone
 from decimal import Decimal
 
+from budget_lib.reconcile import STATUS_ARRECADADA_9901
+
 
 def build_metadata(records: list[dict]) -> dict:
+    """KPI counters for a reconciliation tab.
+
+    Statuses other than OK/Divergente (such as the fontes collected by UO
+    9901) are counted on their own and left out of both the divergence
+    count and the divergence total, matching what the table shows.
+    """
     total = len(records)
     ok = sum(1 for r in records if r['status'] == 'OK')
-    divergente = total - ok
-    soma_divergencias_abs = sum((abs(r['diferenca']) for r in records), Decimal('0'))
+    divergentes = [r for r in records if r['status'] == 'Divergente']
+    arrecadadas_9901 = sum(1 for r in records if r['status'] == STATUS_ARRECADADA_9901)
+    soma_divergencias_abs = sum((abs(r['diferenca']) for r in divergentes), Decimal('0'))
     return {
         'gerado_em': datetime.now(timezone.utc).isoformat(),
         'total_combinacoes': total,
         'total_ok': ok,
-        'total_divergente': divergente,
+        'total_divergente': len(divergentes),
+        'total_arrecadadas_9901': arrecadadas_9901,
         'soma_divergencias_abs': format(soma_divergencias_abs, 'f'),
     }
 

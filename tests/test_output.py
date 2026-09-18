@@ -27,6 +27,21 @@ class TestBuildMetadata(unittest.TestCase):
         self.assertEqual(metadata['total_divergente'], 0)
         self.assertEqual(metadata['soma_divergencias_abs'], '0')
 
+    def test_fontes_da_9901_ficam_fora_da_contagem_de_divergencias(self):
+        records = [
+            {'status': 'OK', 'diferenca': Decimal('0')},
+            {'status': 'Divergente', 'diferenca': Decimal('30')},
+            {'status': 'Fontes Arrecadadas pela 9901', 'diferenca': Decimal('-500')},
+            {'status': 'Fontes Arrecadadas pela 9901', 'diferenca': Decimal('900')},
+        ]
+        metadata = build_metadata(records)
+        self.assertEqual(metadata['total_combinacoes'], 4)
+        self.assertEqual(metadata['total_ok'], 1)
+        self.assertEqual(metadata['total_divergente'], 1)
+        self.assertEqual(metadata['total_arrecadadas_9901'], 2)
+        # os 1400 das fontes da 9901 nao entram na soma
+        self.assertEqual(metadata['soma_divergencias_abs'], '30')
+
 
 class TestBuildMetadataSimples(unittest.TestCase):
     def test_counts_and_sums_valor(self):

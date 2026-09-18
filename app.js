@@ -175,6 +175,7 @@ const receitaDespesaController = createTabController({
     { key: 'total_combinacoes', el: document.getElementById('kpi-total') },
     { key: 'total_ok', el: document.getElementById('kpi-ok') },
     { key: 'total_divergente', el: document.getElementById('kpi-divergente') },
+    { key: 'total_arrecadadas_9901', el: document.getElementById('kpi-arrecadadas-9901') },
     { key: 'soma_divergencias_abs', el: document.getElementById('kpi-soma-divergencias'), format: formatBRL },
   ],
   defaultSortKey: 'uo',
@@ -196,7 +197,8 @@ const receitaDespesaController = createTabController({
   rowTemplate: (r) => {
     const uoLabel = escapeHtml(r.uo) + (r.sigla_uo ? ` - ${escapeHtml(r.sigla_uo)}` : '');
     const fonteLabel = escapeHtml(r.fonte) + (r.nome_fonte ? ` - ${escapeHtml(r.nome_fonte)}` : '');
-    const statusClass = r.status === 'OK' ? 'status-ok' : 'status-divergente';
+    const classesStatus = { 'OK': 'status-ok', 'Divergente': 'status-divergente' };
+    const statusClass = classesStatus[r.status] || 'status-atencao';
     return `
       <td>${uoLabel}</td>
       <td>${fonteLabel}</td>

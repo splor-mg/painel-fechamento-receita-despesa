@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 *.xlsx
 desktop.ini
+
+# Base de servidores (216 MB): acima do limite de 100 MB do GitHub e
+# nao usada por nenhuma aba do painel.
+servidores_*.csv
