@@ -166,7 +166,6 @@ function createTabController(opts) {
 const receitaDespesaController = createTabController({
   els: {
     filtroBusca: document.getElementById('filtro-busca'),
-    filtroDivergentes: document.getElementById('filtro-divergentes'),
     tabelaCorpo: document.getElementById('tabela-corpo'),
     tabelaVazia: document.getElementById('tabela-vazia'),
     tabela: document.getElementById('tabela-reconciliacao'),
@@ -184,6 +183,7 @@ const receitaDespesaController = createTabController({
     { key: 'dupla_trio', el: document.getElementById('filtro-dupla-trio'), label: (r) => r.dupla_trio },
     { key: 'uo', el: document.getElementById('filtro-uo'), label: (r) => (r.sigla_uo ? `${r.uo} - ${r.sigla_uo}` : r.uo) },
     { key: 'fonte', el: document.getElementById('filtro-fonte'), label: (r) => (r.nome_fonte ? `${r.fonte} - ${r.nome_fonte}` : r.fonte) },
+    { key: 'status', el: document.getElementById('filtro-status'), label: (r) => r.status },
   ],
   searchFields: ['setorialista', 'dupla_trio', 'uo', 'nome_uo', 'sigla_uo', 'fonte', 'nome_fonte'],
   numericSortKeys: new Set(['valor_despesa', 'valor_repassado_saida', 'valor_loa', 'valor_repassado_entrada', 'diferenca']),
