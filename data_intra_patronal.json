@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-17T17:18:00.169478+00:00",
+    "gerado_em": "2026-09-18T12:54:42.722187+00:00",
     "total_combinacoes": 125,
     "total_ok": 92,
     "total_divergente": 33,
-    "soma_divergencias_abs": "827588699.00"
+    "soma_divergencias_abs": "2011485656.00"
   },
   "registros": [
     {
@@ -73,8 +73,8 @@
       "credor": "FFP",
       "uo_credor": "4711",
       "valor_projetado": "0",
-      "valor_repassado": "1.00",
-      "diferenca": "-1.00",
+      "valor_repassado": "1186551658.00",
+      "diferenca": "-1186551658.00",
       "status": "Divergente",
       "setorialista": "Otto",
       "dupla_trio": "Bárbara/Otto"
@@ -889,8 +889,8 @@
       "credor": "FFP",
       "uo_credor": "4711",
       "valor_projetado": "2926161",
-      "valor_repassado": "0",
-      "diferenca": "2926161",
+      "valor_repassado": "2572942.00",
+      "diferenca": "353219.00",
       "status": "Divergente",
       "setorialista": "Bruno",
       "dupla_trio": "Bruno/Lucas"
@@ -901,8 +901,8 @@
       "credor": "IPSEMG",
       "uo_credor": "2011",
       "valor_projetado": "91011",
-      "valor_repassado": "0",
-      "diferenca": "91011",
+      "valor_repassado": "81758.00",
+      "diferenca": "9253.00",
       "status": "Divergente",
       "setorialista": "Bruno",
       "dupla_trio": "Bruno/Lucas"
