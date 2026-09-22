@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-22T13:42:23.262681+00:00",
+    "gerado_em": "2026-09-22T13:48:54.582168+00:00",
     "total_acoes": 992,
-    "total_2027_ok": 956,
-    "total_2027_divergente": 36,
+    "total_2027_ok": 957,
+    "total_2027_divergente": 35,
     "total_plurianual_zerado": 13,
     "total_plurianual_atencao": 100,
-    "soma_divergencias_abs": "10787977950.00"
+    "soma_divergencias_abs": "10634362950.00"
   },
   "registros": [
     {
@@ -2583,12 +2583,12 @@
       "acao": "2085",
       "nome_acao": "ENSINO FUNDAMENTAL - PROFISSIONAIS DO MAGISTÉRIO",
       "valor_despesa": "5959987986.00",
-      "previsao_2027": "6113602986",
+      "previsao_2027": "5959987986",
       "previsao_2028": "6265220339",
       "previsao_2029": "6420597804",
       "previsao_2030": "6579828630",
-      "diferenca_2027": "153615000.00",
-      "status_2027": "Divergente",
+      "diferenca_2027": "0.00",
+      "status_2027": "OK",
       "status_plurianual": "OK",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
