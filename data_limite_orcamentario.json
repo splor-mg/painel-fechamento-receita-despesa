@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-23T17:24:39.980847+00:00",
+    "gerado_em": "2026-09-23T17:54:36.419292+00:00",
     "total_combinacoes": 790,
-    "total_ok": 494,
-    "total_divergente": 296,
+    "total_ok": 492,
+    "total_divergente": 298,
     "total_arrecadadas_9901": 0,
-    "soma_divergencias_abs": "20205716232.00"
+    "soma_divergencias_abs": "20205773496.00"
   },
   "registros": [
     {
@@ -6260,9 +6260,9 @@
       "fonte": "10",
       "ipu": "1",
       "valor_limite": "38297180",
-      "valor_despesa": "38297180.00",
-      "diferenca": "0.00",
-      "status": "OK",
+      "valor_despesa": "38268548.00",
+      "diferenca": "28632.00",
+      "status": "Divergente",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -6330,9 +6330,9 @@
       "fonte": "10",
       "ipu": "1",
       "valor_limite": "7574933",
-      "valor_despesa": "7574933.00",
-      "diferenca": "0.00",
-      "status": "OK",
+      "valor_despesa": "7603565.00",
+      "diferenca": "-28632.00",
+      "status": "Divergente",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },

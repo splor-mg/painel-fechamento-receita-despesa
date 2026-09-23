@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-23T17:24:39.749531+00:00",
+    "gerado_em": "2026-09-23T17:54:36.177995+00:00",
     "total_combinacoes": 125,
-    "total_ok": 87,
-    "total_divergente": 38,
+    "total_ok": 88,
+    "total_divergente": 37,
     "total_arrecadadas_9901": 0,
-    "soma_divergencias_abs": "2470412920.00"
+    "soma_divergencias_abs": "2470432837.00"
   },
   "registros": [
     {
@@ -350,9 +350,9 @@
       "credor": "IPSEMG",
       "uo_credor": "2011",
       "valor_projetado": "202563041",
-      "valor_repassado": "202563041.00",
-      "diferenca": "0.00",
-      "status": "OK",
+      "valor_repassado": "202611590.00",
+      "diferenca": "-48549.00",
+      "status": "Divergente",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -914,9 +914,9 @@
       "credor": "FFP",
       "uo_credor": "4711",
       "valor_projetado": "4074898",
-      "valor_repassado": "4097170.00",
-      "diferenca": "-22272.00",
-      "status": "Divergente",
+      "valor_repassado": "4074898.00",
+      "diferenca": "0.00",
+      "status": "OK",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
@@ -926,9 +926,9 @@
       "credor": "IPSEMG",
       "uo_credor": "2011",
       "valor_projetado": "469016",
-      "valor_repassado": "475376.00",
-      "diferenca": "-6360.00",
-      "status": "Divergente",
+      "valor_repassado": "469016.00",
+      "diferenca": "0.00",
+      "status": "OK",
       "setorialista": "Guilherme",
       "dupla_trio": "Juliane/Guilherme/Henrique"
     },
