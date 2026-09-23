@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-23T11:02:38.096859+00:00",
+    "gerado_em": "2026-09-23T17:24:39.980847+00:00",
     "total_combinacoes": 790,
-    "total_ok": 492,
-    "total_divergente": 298,
+    "total_ok": 494,
+    "total_divergente": 296,
     "total_arrecadadas_9901": 0,
-    "soma_divergencias_abs": "21349624824.00"
+    "soma_divergencias_abs": "20205716232.00"
   },
   "registros": [
     {
@@ -5042,9 +5042,9 @@
       "fonte": "10",
       "ipu": "1",
       "valor_limite": "1463855475",
-      "valor_despesa": "2035809771.00",
-      "diferenca": "-571954296.00",
-      "status": "Divergente",
+      "valor_despesa": "1463855475.00",
+      "diferenca": "0.00",
+      "status": "OK",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },
@@ -5070,9 +5070,9 @@
       "fonte": "48",
       "ipu": "1",
       "valor_limite": "4473853111",
-      "valor_despesa": "3901898815.00",
-      "diferenca": "571954296.00",
-      "status": "Divergente",
+      "valor_despesa": "4473853111.00",
+      "diferenca": "0.00",
+      "status": "OK",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
     },

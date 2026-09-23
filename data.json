@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "gerado_em": "2026-09-23T11:02:37.841306+00:00",
+    "gerado_em": "2026-09-23T17:24:39.729113+00:00",
     "total_combinacoes": 438,
     "total_ok": 239,
     "total_divergente": 38,
     "total_arrecadadas_9901": 161,
-    "soma_divergencias_abs": "2744540164.00"
+    "soma_divergencias_abs": "2745748229.00"
   },
   "registros": [
     {
@@ -2534,11 +2534,11 @@
       "sigla_uo": "GDPE - SEF",
       "fonte": "10",
       "nome_fonte": "RECURSOS ORDINARIOS - RECURSOS NAO VINCULADOS DE IMPOSTOS",
-      "valor_despesa": "2971350382.00",
+      "valor_despesa": "2399396086.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-2971350382.00",
+      "diferenca": "-2399396086.00",
       "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
@@ -2579,11 +2579,11 @@
       "sigla_uo": "GDPE - SEF",
       "fonte": "48",
       "nome_fonte": "ALIENACAO DE BENS DO TESOURO ESTADUAL",
-      "valor_despesa": "5808413134.00",
+      "valor_despesa": "6380367430.00",
       "valor_repassado_saida": "0",
       "valor_loa": "0",
       "valor_repassado_entrada": "0",
-      "diferenca": "-5808413134.00",
+      "diferenca": "-6380367430.00",
       "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Andrea",
       "dupla_trio": "Andrea/Luciana"
@@ -4336,9 +4336,9 @@
       "nome_fonte": "RECURSOS DIRETAMENTE ARRECADADOS",
       "valor_despesa": "3328417.00",
       "valor_repassado_saida": "31836274",
-      "valor_loa": "82665892",
+      "valor_loa": "83873957",
       "valor_repassado_entrada": "0",
-      "diferenca": "47501201.00",
+      "diferenca": "48709266.00",
       "status": "Divergente",
       "setorialista": "Barbara",
       "dupla_trio": "Bárbara/Otto"
@@ -6406,9 +6406,9 @@
       "nome_fonte": "ALIENACAO DE BENS DO TESOURO ESTADUAL",
       "valor_despesa": "0",
       "valor_repassado_saida": "0",
-      "valor_loa": "346055526",
+      "valor_loa": "327327763",
       "valor_repassado_entrada": "0",
-      "diferenca": "346055526",
+      "diferenca": "327327763",
       "status": "Fontes Arrecadadas pela 9901",
       "setorialista": "Outros",
       "dupla_trio": "Outros"
